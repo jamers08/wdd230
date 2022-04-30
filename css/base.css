@@ -24,7 +24,6 @@ header {
     display: grid;
     grid-template-columns: 200px 2fr;
     align-items: center;
-    justify-content: center;
 }
 
 header img {
@@ -39,10 +38,12 @@ h1 {
 
 main {
     align-items: center;
+    text-align: center;
 }
 
 ul {
-    margin-left: 50px;
+    align-items: center;
+    display: inline-block;
 }
 footer {
     font-size: 20px;
