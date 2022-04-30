@@ -16,4 +16,8 @@
         border-radius: 50px 50px 50px 50px;
         float: right;
     }
+
+    ul {
+        margin-left: 200px;
+    }
 }
