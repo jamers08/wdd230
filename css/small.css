@@ -41,17 +41,17 @@ h1 {
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 main {
     align-items: center;
-    text-align: center;
 }
 
 ul {
-    align-items: center;
     display: inline-block;
+    text-align: left;
 }
 footer {
     font-size: 20px;
