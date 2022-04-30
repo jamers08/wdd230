@@ -16,26 +16,32 @@ header, main, footer {
     padding: 1rem;
 }
 
-header {
+header, footer {
     margin: 1rem auto;
     border: 1px solid rgb(0, 15, 24);
-    border-radius: 50px 50px 50px 50px;
-    padding: 1rem;
     background-color: rgb(128, 194, 239);
-    display: grid;
-    grid-template-columns: 200px 2fr;
+    display: block;
     align-items: center;
+}
+
+header {
+    padding: 1rem; 
+    grid-template-columns: 200px 2fr;
 }
 
 header img {
     width: 100%;
     height: auto;
-    border-radius: 50px 50px 50px 50px;
     border: 1px solid rgb(0, 15, 24);
 }
 
 h1 {
     text-align: center;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 main {
@@ -50,10 +56,4 @@ ul {
 footer {
     font-size: 20px;
     justify-items: center;
-    align-items: center;
-    margin: 1rem auto;
-    border: 1px solid rgb(0, 15, 24);
-    border-radius: 50px 50px 50px 50px;
-    background-color: rgb(128, 194, 239);
-    display: grid;
 }
