@@ -26,7 +26,7 @@
         width: 100%;
     }
 
-    .home picture {
+    .home section.picture {
         grid-column: 2;
         grid-row: span 2;
     }
@@ -48,7 +48,7 @@
         margin-top: 20px;
     }
 
-    .color picture {
+    .color section.picture {
         grid-column: span 3;
     }
 

@@ -106,14 +106,14 @@ main section {
     background-color: #E8EBED;   
 }
 
-main picture {
+main section.picture {
     margin: 1rem;
     border: 1px solid #114B5F;
     padding: 1rem;
     background-color: #E8EBED; 
 }
 
-main picture img {
+main section img {
     width: 100%;
     height: auto;
 }

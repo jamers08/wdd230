@@ -19,7 +19,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .home picture {
+    .home section.picture {
         grid-column: Span 2;
     }
 
@@ -35,7 +35,7 @@
         grid-column: span 2;
     }
 
-    .color picture {
+    .color section.picture {
         grid-column: span 2;
     }
 
