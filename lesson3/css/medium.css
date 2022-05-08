@@ -1,0 +1,31 @@
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
+    
+    nav a {
+        font-size: 1rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home picture {
+        grid-column: Span 2;
+    }
+
+    .home section:nth-child(4) {
+        grid-column: Span 2;
+    }
+
+
+}
