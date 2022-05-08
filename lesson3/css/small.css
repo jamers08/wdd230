@@ -38,7 +38,6 @@ header, footer {
 header, main, footer {
     max-width: 767px;
     margin: 0 auto;
-
 }
 
 h1 {
@@ -116,12 +115,14 @@ main section.picture {
 main section img {
     width: 100%;
     height: auto;
+    border: 1px solid #114B5F;
 }
 
 .image {
     float: left;
     width: 50%;
     padding: 5px;
+    
 }
 
 .image:after {
