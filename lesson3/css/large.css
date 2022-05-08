@@ -47,4 +47,16 @@
         padding: 10px;
         margin-top: 20px;
     }
+
+    .color picture {
+        grid-column: span 3;
+    }
+
+    .color section:nth-child(4) {
+        grid-column: span 1;
+    }
+
+    .type section:nth-child(1) {
+        grid-column: span 3;
+    }
 }
