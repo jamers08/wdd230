@@ -27,5 +27,11 @@
         grid-column: Span 2;
     }
 
+    .target section:nth-child(1) {
+        grid-column: span 2;
+    }
 
+    .target section:nth-child(4) {
+        grid-column: span 2;
+    }
 }

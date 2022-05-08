@@ -111,6 +111,15 @@ main picture img {
     clear:both;
 }
 
+main section ul li {
+    margin-left: 25px;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+}
+
 footer p {
     padding: .5rem;
 }

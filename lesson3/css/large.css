@@ -34,4 +34,17 @@
         grid-column: 3;
         grid-row: span 2;
     }
+
+    .target section:nth-child(1) {
+        grid-column: span 3;
+    }
+   
+    .target section:nth-child(4) {
+        grid-column: 3;
+    }
+
+    .target .scenarios ul li{
+        padding: 10px;
+        margin-top: 20px;
+    }
 }
