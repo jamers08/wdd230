@@ -24,9 +24,10 @@
 }
 
 #spot {
-    height: 300px;
+    height: 200px;
 }
 .spotlight {
+    height: 700px;
     display: grid;
     grid-column: 3/4;
     grid-row: 1/4;
