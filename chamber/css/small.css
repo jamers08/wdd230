@@ -184,7 +184,6 @@ main section {
 /* placeholder boxes gen rule*/
 
 #hero, #news, #event, #weather, #join {
-    height: 200px;
     margin-top: .5rem;
     margin-left: .5rem;
     margin-right: .5rem;
@@ -216,7 +215,6 @@ main section {
 .spotlight {
     display: flex;
     flex-direction: column;
-    height: 200px;
     margin: .5rem;
     padding: 1rem;
     background-color: #E8EBED;
