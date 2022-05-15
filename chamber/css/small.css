@@ -185,10 +185,28 @@ main section {
 
 #hero, #news, #event, #weather, #join {
     height: 200px;
-    margin: 1rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
     padding: 1rem;
     background-color: #E8EBED;
     border: 1px solid #114B5F;
+}
+
+ #hero {
+     grid-row: 1;
+ }
+
+ #event {
+    grid-row: 2;
+}
+
+#weather {
+    grid-row: 3;
+}
+
+#news {
+    grid-row: 4;
 }
 
 #join {
@@ -198,7 +216,8 @@ main section {
 .spotlight {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    height: 200px;
+    margin: .5rem;
     padding: 1rem;
     background-color: #E8EBED;
     border: 1px solid #114B5F;
@@ -208,10 +227,9 @@ main section {
     width: 100%;
     background-color: #E8EBED;
     border: 1px solid #114B5F;
-    margin-right: 1rem;
     padding: 1rem;
-    height: 200px;
 }
+
 #spot:nth-child(3){
     display: none;
 }
@@ -235,6 +253,10 @@ footer #contact p {
 
 footer #contact p:nth-child(3){
     padding-bottom: 30px;
+}
+
+footer #location {
+    text-decoration: none;
 }
 
 #footer-span {

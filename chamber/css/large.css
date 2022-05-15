@@ -1,0 +1,55 @@
+@media only screen and (min-width: 60em) {
+
+    main{
+        grid-template-columns: 200px 1fr 200px;
+        grid-gap: .5rem;
+
+    }
+
+    #event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-bottom: 0;
+    }
+    
+    
+#hero {
+    height: 450px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#spot:nth-child(3){
+    display: grid;
+}
+
+#spot {
+    height: 300px;
+}
+.spotlight {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    padding: 20px;
+}
+
+#weather {
+    grid-column: 1/2;
+    grid-row: 2;
+    margin-left: .5rem;
+}
+
+#join {
+    grid-column: 1;
+    grid-row: 3/4;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+#news {
+    grid-column: 2;
+    grid-row: 3/4;
+    margin-bottom: .5rem;
+ }
+
+}
