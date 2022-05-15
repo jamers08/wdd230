@@ -3,7 +3,6 @@
     main{
         grid-template-columns: 200px 1fr 200px;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: none;
         margin: 10px;
 
     }

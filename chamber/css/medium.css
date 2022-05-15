@@ -46,8 +46,9 @@
 }
 
 footer {
-    display: flexbox;
+    display: grid;
     grid-template-columns: 200px 1fr 1fr;
+    grid-row: 1fr 1fr;
 }
 
 footer img {
@@ -62,7 +63,6 @@ footer #contact p {
 footer div #contact {
     grid-row: 1;
     grid-column: 2;
-    align-content: left;
 }
 
 footer #location {
