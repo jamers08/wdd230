@@ -39,14 +39,14 @@
     margin-bottom: .5rem;
 }
 
-#spot:nth-child(3){
+.spot:nth-child(3){
     display: grid;
 }
 
-#spot {
+.spot {
     height: 200px;
 }
-.spotlight {
+#spotlight {
 
     display: grid;
     grid-column: 3/4;

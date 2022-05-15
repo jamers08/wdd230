@@ -212,7 +212,7 @@ main section {
     display: none;
 }
 
-.spotlight {
+#spotlight {
     display: flex;
     flex-direction: column;
     margin: .5rem;
@@ -221,14 +221,14 @@ main section {
     border: 1px solid #114B5F;
 }
 
-.spotlight #spot {
+#spotlight .spot {
     width: 100%;
     background-color: #E8EBED;
     border: 1px solid #114B5F;
     padding: 1rem;
 }
 
-#spot:nth-child(3){
+.spot:nth-child(3){
     display: none;
 }
 
