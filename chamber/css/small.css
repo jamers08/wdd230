@@ -1,0 +1,244 @@
+/*
+primary-color: #E8EBED; Grey;
+secondary-color: #114B5F; Blue;
+accent1-color: #15795B; Green;
+accent2-color: #710928; Red;
+accent3-color: #FFFFFF; White;
+accent4-color: #000000; Black;
+
+font-family: 'Sansita', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+
+header, footer {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    color: #114B5F;
+    border: 1px solid #114B5F;
+    background-color: #E8EBED;
+}
+
+header {
+    grid-template-columns: 90px 1fr 1fr 1fr;
+}
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #114B5F;
+    font-family: 'Sansita', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 8px;
+    color: #E8EBED;
+    background-color: #15795B;
+    font-family: 'Sansita', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.logo img {
+    border-radius: 10px;
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.name {
+    display: block;
+    text-align: left;
+    padding-left: 5px;
+    grid-column: 2;
+    margin-left: 10px;
+}
+
+#header-span {
+    display: block;
+    font-size: .8rem;
+}
+
+.social img {
+    float: right;
+    width: 50%;
+    padding: 3px;
+    min-width: 45px;
+    border-radius: 10px;
+}
+.social {
+    display: flex;
+    margin-right: 0;
+    grid-column: 3;
+}
+
+/* Navigation header*/
+
+nav button {
+    margin: .5rem 2vw;
+    min-width: 48px;
+    min-height: 48px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #E8EBED;
+}
+
+nav {
+    background-color: #114B5F;
+    max-width: 780px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #E8EBED;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.active {
+    background-color: #710928;
+    color: #E8EBED;
+}
+
+nav ul li a:hover {
+    background-color: #15795B;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamButton span:nth-child(1) {display: block;}
+
+#hamButton span:nth-child(2) {display: none;}
+
+#hamButton.open span:nth-child(1) {display: none;}
+
+#hamButton.open span:nth-child(2) {display: block;}
+
+/* End of Nav*/
+
+.currentDate {
+    grid-column: 1/5;
+    text-align: center;
+    background-color: #114B5F;
+    color: #E8EBED;
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    margin: 1rem;
+    border: 1px solid #114B5F;
+    padding: 1rem; 
+    background-color: #E8EBED;   
+}
+
+/* placeholder boxes gen rule*/
+
+#hero, #news, #event, #weather, #join {
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #E8EBED;
+    border: 1px solid #114B5F;
+}
+
+#join {
+    display: none;
+}
+
+.spotlight {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #E8EBED;
+    border: 1px solid #114B5F;
+}
+
+.spotlight #spot {
+    width: 100%;
+    background-color: #E8EBED;
+    border: 1px solid #114B5F;
+    margin-right: 1rem;
+    padding: 1rem;
+    height: 200px;
+}
+#spot:nth-child(3){
+    display: none;
+}
+
+/* footer*/
+
+footer img {
+    width: 200px;
+    border: 1px solid #114B5F;
+    border-radius: 10px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+}
+
+footer #contact p {
+    padding-top: 30px;
+}
+
+footer #contact p:nth-child(3){
+    padding-bottom: 30px;
+}
+
+#footer-span {
+    display: block;
+    font-family: 'Sansita', sans-serif;
+    font-size: 1.5rem;
+}
