@@ -47,17 +47,21 @@
 
 footer {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100px 1fr 1fr;
 }
 
 footer img {
     grid-column: 1;
     grid-row: 1;
+    width: 100px;
 }
 
 footer #contact p {
     padding: 0;
+}
+
+footer #contact p:nth-child(3){
+    padding-top: 15px;
 }
 
 footer div #contact {
@@ -70,7 +74,6 @@ footer #location {
 }
 
 footer #last {
-    grid-row: 2;
-    grid-column: 1/4;
+    grid-column: span 3;
 }
 }

@@ -98,12 +98,12 @@ h2 {
 /* Navigation header*/
 
 nav button {
-    margin: .5rem 2vw;
+    margin: .75rem 2vw;
     min-width: 48px;
     min-height: 48px;
     background: transparent;
     border: none;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #E8EBED;
 }
 
@@ -111,6 +111,9 @@ nav {
     background-color: #114B5F;
     max-width: 780px;
     border-radius: 10px;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
 }
 
 nav ul {
@@ -118,6 +121,11 @@ nav ul {
     overflow: hidden;
     padding: 0;
     margin: 0;
+
+}
+
+nav ul li {
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 nav ul li a {
@@ -152,9 +160,14 @@ nav ul.open {
 
 #hamButton span:nth-child(2) {display: none;}
 
+#hamButton span:nth-child(3) {display: none;}
+
 #hamButton.open span:nth-child(1) {display: none;}
 
 #hamButton.open span:nth-child(2) {display: block;}
+
+#hamButton.open span:nth-child(3) {display: inline-block;
+border: 1px solid #E8EBED;}
 
 /* End of Nav*/
 
@@ -249,9 +262,6 @@ footer #contact p {
     padding-top: 30px;
 }
 
-footer #contact p:nth-child(3){
-    padding-bottom: 30px;
-}
 
 footer #location {
     text-decoration: none;
@@ -261,4 +271,8 @@ footer #location {
     display: block;
     font-family: 'Sansita', sans-serif;
     font-size: 1.5rem;
+}
+
+footer #last {
+    margin: 15px;
 }
