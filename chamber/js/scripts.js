@@ -19,8 +19,8 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK",
 
 datefieldUK.innerHTML = `${fulldateUK}`;
 
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modified: ${document.lastModified}`;
+//footer
+
+document.querySelector("#lastModified").textContent = `Last Modified: ${document.lastModified}`;
 
 document.getElementById("copyright").innerHTML = new Date().getFullYear();
