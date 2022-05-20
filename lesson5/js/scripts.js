@@ -3,6 +3,7 @@ const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
 button.addEventListener('click', function() {
+    //if (input.value != null) {}
  const listAdd = input.value;
  input.value = '';
  
@@ -10,7 +11,7 @@ button.addEventListener('click', function() {
  const listDelete = document.createElement('button');
 
  listItem.textContent = listAdd;
- listDelete.textContent = ❌;
+ listDelete.textContent = '&#10060;';
 
  listItem.appendChild(listDelete);
  list
