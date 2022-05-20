@@ -2,20 +2,27 @@ const input = document.querySelector('input');
 const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
-button.addEventListener('click', function() {
-    //if (input.value != null) {}
- const listAdd = input.value;
- input.value = '';
- 
- const listItem = document.createElement('li');
- const listDelete = document.createElement('button');
+button.addEventListener('click', () => {
+    if (input.value != '') {
+        const listAdd = input.value;
+        input.value = '';
+        
+        const listItem = document.createElement('li');
+        const listDelete = document.createElement('button');
+        const listText = document.createElement('span');
+        
+        listItem.appendChild(listText);
+        listText.textContent = listAdd;
+        listItem.appendChild(listDelete);
+        listDelete.textContent = '❌';
+        list.appendChild(listItem);
 
- listItem.textContent = listAdd;
- listDelete.textContent = '&#10060;';
-
- listItem.appendChild(listDelete);
- list
-
+        listDelete.addEventListener('click', () => {
+            list.removeChild(listItem);
+        });
+        
+        input.focus();
+    }
 });
 
 //footer
