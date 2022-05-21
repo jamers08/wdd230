@@ -55,6 +55,14 @@ h2 {
     font-family: 'Sansita', sans-serif;
 }
 
+h3 {
+    font-size: 1.5rem;
+    padding: 8px;
+    color: #E8EBED;
+    background-color: #710928;
+    font-family: 'Sansita', sans-serif;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -90,8 +98,7 @@ h2 {
     border-radius: 10px;
 }
 .social {
-    display: flex;
-    margin-right: 0;
+    margin-right: 20px;
     grid-column: 3;
 }
 
@@ -111,6 +118,7 @@ nav {
     background-color: #114B5F;
     max-width: 780px;
     border-radius: 10px;
+    margin-top: 1rem;
     position: absolute;
     top: 1rem;
     right: 2rem;
@@ -205,16 +213,55 @@ main section {
     border: 1px solid #114B5F;
 }
 
- #hero {
+#hero {
      grid-row: 1;
- }
- #hero img {
+     position: relative;
+}
+#hero img {
      width: 100%;
      border-radius: 10px;
      border: 1px solid #114B5F;
- }
+}
 
- #event {
+.heroName {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+}
+
+.heroName p {
+    border-radius: 10px;
+    color: #710928;
+    text-shadow: 3px 3px 5px darkslategray, 0 0 1rem white, 0 0 .2em white;
+    font-family: 'Sansita', sans-serif;
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.heroButton {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: darkslategray 0 0 30px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.heroButton a {
+    text-decoration: none;
+}
+
+.joinButton {
+    border-radius: 10px;
+    padding: 10px 20px 15px 20px;
+}
+
+#event {
     grid-row: 2;
 }
 
