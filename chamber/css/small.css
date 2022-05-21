@@ -208,6 +208,11 @@ main section {
  #hero {
      grid-row: 1;
  }
+ #hero img {
+     width: 100%;
+     border-radius: 10px;
+     border: 1px solid #114B5F;
+ }
 
  #event {
     grid-row: 2;
