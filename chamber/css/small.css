@@ -81,7 +81,9 @@ h3 {
     border-radius: 10px;
 }
 
-
+#banner p {
+    padding-top: 10px;
+}
 
 #banner button {
     float: left;
@@ -92,15 +94,6 @@ h3 {
     padding: 10px 15px 10px 15px;
     margin: 10px 40px 10px 10px;
 }
-
-/*.closeBanner {
-    background-color: #710928;
-    color: #E8EBED;
-    border: 3px solid #E8EBED;
-    border-radius: 10px;
-    padding: 10px 15px 10px 15px;
-    margin: 10px 40px 10px 10px;
-}*/
 
 /* header */
 .logo {
@@ -265,10 +258,9 @@ main p {
 
 }
 #hero img {
-     width: 100%;
-     border-radius: 10px;
-     border: 1px solid #114B5F;
-     opacity: 85%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #114B5F;
 }
 
 .heroName {
@@ -310,10 +302,52 @@ main p {
 
 #event {
     grid-row: 2;
+    text-align: center;
+}
+
+#eventInfo {
+    border: none;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+#eventInfo p {
+    padding: 0 auto;
 }
 
 #weather {
     grid-row: 3;
+    background-color: #114B5F;
+    color: #E8EBED;
+}
+
+#weather1, #weather2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #114B5F;
+    color: #E8EBED;
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#weather1 p {
+    font-size: 3rem;
+}
+
+#weatherBreak p {
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+#weatherBreak {
+    background-color: #114B5F;
+    color: #E8EBED;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#weather2 p {
+    font-size: .8rem;
 }
 
 #news {
@@ -324,6 +358,10 @@ main p {
     display: none;
 }
 
+#join p {
+    padding-top: 10px;
+}
+
 #spotlight {
     display: flex;
     flex-direction: column;
@@ -331,6 +369,7 @@ main p {
     padding: 1rem;
     background-color: #E8EBED;
     border: 1px solid #114B5F;
+    text-align: center
 }
 
 #spotlight .spot {
@@ -338,6 +377,7 @@ main p {
     background-color: #E8EBED;
     border: 1px solid #114B5F;
     padding: 1rem;
+    align-items: center;
 }
 
 .spot:nth-child(3){
