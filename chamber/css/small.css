@@ -53,16 +53,57 @@ h2 {
     color: #E8EBED;
     background-color: #15795B;
     font-family: 'Sansita', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    box-shadow: darkslategray 0 0 20px;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 8px;
     color: #E8EBED;
     background-color: #710928;
     font-family: 'Sansita', sans-serif;
+    border-radius: 10px;
 }
 
+/* banner*/
+#banner {
+    display: none;
+    align-items:
+    position: absolute;
+    padding: 1rem;
+    color: #E8EBED;
+    background-color: #710928;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+
+#banner button {
+    float: left;
+    background-color: #710928;
+    color: #E8EBED;
+    border: 3px solid #E8EBED;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 40px 10px 10px;
+}
+
+/*.closeBanner {
+    background-color: #710928;
+    color: #E8EBED;
+    border: 3px solid #E8EBED;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 40px 10px 10px;
+}*/
+
+/* header */
 .logo {
     display: flex;
     align-items: center;
@@ -122,6 +163,7 @@ nav {
     position: absolute;
     top: 1rem;
     right: 2rem;
+    z-index: 10;
 }
 
 nav ul {
@@ -129,11 +171,11 @@ nav ul {
     overflow: hidden;
     padding: 0;
     margin: 0;
-
 }
 
 nav ul li {
     border: 1px solid rgba(0, 0, 0, 0.5);
+            z-index: 10;
 }
 
 nav ul li a {
@@ -158,6 +200,7 @@ nav ul li a:hover {
 
 nav ul {
     display: none;
+        z-index: 10;
 }
 
 nav ul.open {
@@ -202,6 +245,9 @@ main section {
     background-color: #E8EBED;   
 }
 
+main p {
+    padding: 10px;
+}
 /* placeholder boxes gen rule*/
 
 #hero, #news, #event, #weather, #join {
@@ -216,11 +262,14 @@ main section {
 #hero {
      grid-row: 1;
      position: relative;
+     z-index: -1;
+
 }
 #hero img {
      width: 100%;
      border-radius: 10px;
      border: 1px solid #114B5F;
+     opacity: 85%;
 }
 
 .heroName {
@@ -257,7 +306,6 @@ main section {
 }
 
 .joinButton {
-    border-radius: 10px;
     padding: 10px 20px 15px 20px;
 }
 
@@ -303,6 +351,7 @@ footer img {
     width: 200px;
     border: 1px solid #114B5F;
     border-radius: 10px;
+    margin: 1rem;
 }
 
 footer {
