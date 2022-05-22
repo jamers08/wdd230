@@ -28,8 +28,7 @@
     }
 
     .social {
-        display: flex;
-        margin-right: 1rem;
+        margin: 0 auto;
     }
 
     #event {
@@ -42,6 +41,11 @@
     grid-column: 2/3;
     grid-row: 1/3;
     margin-bottom: .5rem;
+}
+
+.heroName p {
+    font-size: 4vw;
+    font-weight: 400;
 }
 
 .spot:nth-child(3){

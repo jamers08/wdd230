@@ -1,4 +1,4 @@
-@media only screen and (min-width: 435px) {
+@media only screen and (min-width: 37.5em) {
 
     nav {
         margin-top: unset;
@@ -51,7 +51,7 @@
 
 footer {
     display: grid;
-    grid-template-columns: 100px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer img {

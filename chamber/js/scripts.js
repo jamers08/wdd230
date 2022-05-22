@@ -19,6 +19,22 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK",
 
 datefieldUK.innerHTML = `${fulldateUK}`;
 
+//banner
+//only display banner on Mondays and Tuesdays
+let d = new Date().getDay();
+
+const banner = document.getElementById("banner");
+if (d === 1 || d === 6) {
+    banner.style.display = "block";
+}
+
+const close = document.querySelector("#close");
+
+close.addEventListener('click', () => {
+    banner.style.display = "none";
+});
+
+
 //footer
 
 document.querySelector("#lastModified").textContent = `Last Modified: ${document.lastModified}`;
