@@ -68,6 +68,12 @@ h3 {
     border-radius: 10px;
 }
 
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* banner*/
 #banner {
     display: none;
@@ -149,7 +155,6 @@ nav button {
 
 nav {
     background-color: #114B5F;
-    max-width: 780px;
     border-radius: 10px;
     margin-top: 1rem;
     position: absolute;
@@ -167,7 +172,7 @@ nav ul {
 
 nav ul li {
     border: 1px solid rgba(0, 0, 0, 0.5);
-            z-index: 10;
+    z-index: 10;
 }
 
 nav ul li a {
@@ -192,11 +197,12 @@ nav ul li a:hover {
 
 nav ul {
     display: none;
-        z-index: 10;
+    z-index: 10;
 }
 
 nav ul.open {
     display: block;
+    width: 250px;
 }
 
 #hamButton span:nth-child(1) {display: block;}
@@ -273,7 +279,7 @@ main p {
     padding: 5px;
 }
 
-.heroName p {
+.heroName h5 {
     border-radius: 10px;
     color: #710928;
     text-shadow: 3px 3px 5px darkslategray, 0 0 1rem white, 0 0 .2em white;
@@ -312,7 +318,7 @@ main p {
 }
 
 #eventInfo p {
-    padding: 0 auto;
+    padding: 10px;
 }
 
 #weather {
@@ -331,11 +337,11 @@ main p {
     margin: 0 auto;
 }
 
-#weather1 p {
+#weather1 h4 {
     font-size: 3rem;
 }
 
-#weatherBreak p {
+#weatherBreak h4 {
     text-align: right;
     font-size: 1.1rem;
 }
@@ -347,7 +353,7 @@ main p {
     margin: 0 auto;
 }
 
-#weather2 p {
+#weather2 p, h4 {
     font-size: .8rem;
 }
 
