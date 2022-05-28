@@ -21,7 +21,7 @@
             <p> Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
             <picture class="logo">
-                <img src="images/logo-dark.jpg" alt="Logo">
+                <img src="images/logo-dark.webp" alt="Logo">
             </picture>
             <h1 class="name">COLA City <span id="header-span">Chamber of Commerce</span></h1>    
         <div class="social">
@@ -44,8 +44,11 @@
 
     <main>
         <div id="hero">
-            <picture>
-                <img src="images/town.jpg" alt="Lake Carolina Suburb">
+            <picture class="heroPhoto">
+                <!--<img src="images/town.jpg" alt="Lake Carolina Suburb">-->
+                <source media="(max-width: 400px)" srcset="images/wdd230-400.jpg">
+                <source media="(max-width: 800px)" srcset="images/wdd230-800.jpg">
+                <img src="images/wdd230-1200.jpg" alt="Meeting">
             </picture>
             <section class="heroName">
                 <h5>Welcome to COLA City!</h5>
@@ -103,7 +106,7 @@
 
     <footer>
         <picture>
-            <img src="images/logo-light.jpg" alt="Logo">
+            <img src="images/logo-light.webp" alt="Logo">
         </picture>
                 <div id="address">
                 <p><span id="footer-span">COLA City Chamber of Commerce</span></p>
