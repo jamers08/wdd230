@@ -57,6 +57,7 @@ h2 {
     text-align: center;
     width: 100%;
     box-shadow: darkslategray 0 0 20px;
+    align-items: center;
 }
 
 h3 {
@@ -317,11 +318,21 @@ main p {
 
 #eventInfo {
     border: none;
-    padding: 3rem 1rem 1rem 1rem;
+    padding: .5rem;
 }
 
 #eventInfo p {
-    padding: 10px;
+    padding: 5px;
+    font-size: .9rem;
+}
+
+#eventInfo h4 {
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+
+#eventInfo p:nth-child(2) {
+    display: none;
 }
 
 #weather {
@@ -330,14 +341,20 @@ main p {
     color: #E8EBED;
 }
 
+#weatherGrid img {
+    max-width: 100px;
+    text-align: center;
+}
+
 #weather1, #weather2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #114B5F;
     color: #E8EBED;
     border: none;
-    padding: 10px;
+    padding: 5px;
     margin: 0 auto;
+    align-items: center;
 }
 
 #weather1 h4 {
@@ -352,12 +369,12 @@ main p {
 #weatherBreak {
     background-color: #114B5F;
     color: #E8EBED;
-    padding: 10px;
+    padding: 5px;
     margin: 0 auto;
 }
 
 #weather2 p, h4 {
-    font-size: .8rem;
+    padding: 5px;
 }
 
 #news {

@@ -1,44 +1,64 @@
 @media only screen and (min-width: 60em) {
 
-    main{
-        grid-template-columns: 1fr 3fr 1fr;
-        margin: 10px;
-    }
+main{
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 10px;
+}
 
-    nav {
-        margin-top: .5rem;
-    }
+nav {
+    margin-top: .5rem;
+}
 
-    nav button {
-        display: none;
-    }
+nav button {
+    display: none;
+}
     
-    nav ul {
-        display: flex;
-        border-radius: 10px;
-    }
+nav ul {
+    display: flex;
+    border-radius: 10px;
+}
 
-    nav ul li {
-        border: none;
-    }
+nav ul li {
+    border: none;
+}
 
-    .social img {
-        float: unset;
-        width: unset;  
-    }
+.social img {
+    float: unset;
+    width: unset;  
+}
 
-    .social {
-        margin-left: 0;
-    }
+.social {
+    margin-left: 0;
+}
 
-    #event {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
+#event {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-items: center;
+}
     
-    #eventInfo {
-        padding-top: 1rem;
-    }
+#eventInfo {
+    padding-top: 1rem;
+}
+
+#eventInfo p {
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+#eventInfo p:nth-child(2) {
+    display: block;
+    font-size: 1.2rem;
+}
+    
+#eventInfo h4 {
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+    
+#eventInfo span {
+    display: none;
+}
     
 #hero {
     grid-column: 2/3;
@@ -67,6 +87,23 @@
     grid-column: 1/2;
     grid-row: 2;
     margin-left: .5rem;
+    padding-bottom: 0;
+}
+
+#weatherGrid img {
+    margin: 15px 0 0 15px;
+}
+
+#weather1, #weather2 {
+    padding: 5px;
+}
+
+#weather1 h4 {
+    font-size: 2rem;
+}
+
+#weather2 p, h4 {
+    font-size: .9rem;
 }
 
 #join {
@@ -74,6 +111,10 @@
     grid-row: 3/4;
     margin-top: .5rem;
     margin-bottom: .5rem;
+}
+
+#join p {
+    padding: 1rem .5rem 1rem .5rem;
 }
 
 #news {
