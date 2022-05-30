@@ -80,7 +80,7 @@
                     <picture>
                         <img src="images/weather.png" alt="">
                     </picture>
-                    <h4>33&deg;</h4>
+                    <h4><span id="temp">33</span> &deg;F</h4>
                 </section>
                 <section id="weatherBreak">
                     <h4>Partly Cloudy</h4>
@@ -88,9 +88,9 @@
                 </section>
                 <section id="weather2">
                    <h4>Wind Speed:</h4>
-                   <p>2.5 km/h</p>
+                   <p><span id="speed">15</span> m/h</p>
                    <h4>Wind Chill:</h4>
-                   <hp>N/A</p>
+                   <hp><span id="chill"></span></p>
                 </section>
             </div>
         </div>
@@ -128,5 +128,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
