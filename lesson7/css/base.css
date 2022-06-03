@@ -1,0 +1,14 @@
+main {
+    display: flex;
+}
+picture {
+    padding: 15px;
+}
+  
+img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+img[data-src] {
+    filter: blur(0.5em);
+}
