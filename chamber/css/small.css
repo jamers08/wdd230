@@ -449,3 +449,21 @@ footer #location {
 footer #last {
     margin: 15px;
 }
+
+/* Discover images*/
+main.discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+  
+.discover img[data-src] {
+    filter: blur(0.3em);
+}
+
+.discover img {
+    filter: blur(0em);
+    transition: filter 2s;
+}
