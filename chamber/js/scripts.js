@@ -42,6 +42,7 @@ document.querySelector("#lastModified").textContent = `Last Modified: ${document
 
 document.getElementById("copyright").innerHTML = new Date().getFullYear();
 
+
 // get all images with data-src attribute
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
