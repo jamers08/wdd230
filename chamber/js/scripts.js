@@ -35,13 +35,7 @@ close.addEventListener('click', () => {
     banner.style.display = "none";
 });
 
-
-//footer
-
-document.querySelector("#lastModified").textContent = `Last Modified: ${document.lastModified}`;
-
-document.getElementById("copyright").innerHTML = new Date().getFullYear();
-
+// Lazy loading
 
 // get all images with data-src attribute
 const imagesToLoad = document.querySelectorAll("img[data-src]");
@@ -74,3 +68,11 @@ if('IntersectionObserver' in window) {
         loadImages(img);
     });
 }
+
+
+//footer
+
+document.querySelector("#lastModified").textContent = `Last Modified: ${document.lastModified}`;
+
+document.getElementById("copyright").innerHTML = new Date().getFullYear();
+

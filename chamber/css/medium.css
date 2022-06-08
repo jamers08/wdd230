@@ -81,6 +81,114 @@
     font-size: .9rem;
 }
 
+/**************DISCOVER PAGE****************/
+
+.discover img {
+    filter: blur(0em);
+    transition: filter 2s;
+    border: none;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.photo-gallery {
+    width: 100%;
+}
+
+.photo-gallery h3{
+    border-radius: 10px;
+}
+
+#zoo, #library, #sesqui, #capital, #archives {
+    overflow: hidden;
+}
+
+#zoo img:hover {
+    filter: drop-shadow(5px 5px 5px #114B5F);
+}
+
+
+#zoo p {
+    text-align: left;
+    vertical-align: middle;
+    padding: 20% 0;
+}
+
+#zoo img{
+    width: 50vw;
+    margin: 15px;
+    float: left;    
+}
+
+#library img:hover {
+    filter: drop-shadow(-5px 5px 5px #114B5F);
+}
+
+#library p {
+    text-align: right;
+    vertical-align: middle;
+    padding: 20% 0;
+}
+
+#library img {
+    width: 50vw;
+    margin: 15px;
+    float: right;
+}
+
+#sesqui img:hover {
+    filter: drop-shadow(5px 5px 5px #114B5F);
+}
+
+#sesqui p {
+    text-align: left;
+    vertical-align: middle;
+    padding: 20% 0;
+}
+
+#sesqui img{
+    width: 50vw;
+    margin: 15px;
+    float: left;    
+}
+
+#capital img:hover {
+    filter: drop-shadow(-5px 5px 5px #114B5F);
+}
+
+#capital p {
+    text-align: right;
+    vertical-align: middle;
+    padding: 20% 0;
+}
+
+#capital img {
+    width: 50vw;
+    margin: 15px;
+    float: right;
+}
+
+#archives img:hover {
+    filter: drop-shadow(5px 5px 5px #114B5F);
+}
+
+#archives p {
+    text-align: left;
+    vertical-align: middle;
+    padding: 20% 0;
+}
+
+#archives img{
+    width: 50vw;
+    margin: 15px;
+    float: left;    
+}
+
+.demographics section {
+    min-height: 480px;
+}
+
+/****************FOOTER*******************/
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

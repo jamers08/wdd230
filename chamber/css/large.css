@@ -139,4 +139,100 @@ nav ul li {
     margin-bottom: .5rem;
 }
 
+
+/*******DISCOVER PAGE *****************/
+
+#zoo, #library, #sesqui, #capital, #archives {
+    overflow: unset;
+    margin: 0;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    grid-gap: 1rem;
+    margin: 0 auto;
+}
+
+.discover h3 {
+    width: 100%;
+}
+
+.discover section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    padding: 10px;
+}
+
+#zoo img {
+    width: auto;
+    max-width: 325px;
+    height: 325px;
+    float: unset;
+}
+
+#zoo p {
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+
+#library img {
+    width: auto;
+    max-width: 325px;
+    height: 325px;
+    float: unset;
+}
+
+#library p {
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+
+#sesqui img {
+    width: auto;
+    max-width: 325px;
+    height: 325px;
+    float: unset;
+}
+
+#sesqui p {
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+
+#capital img {
+    width: auto;
+    max-width: 325px;
+    height: 325px;
+    float: unset;
+}
+
+#capital p {
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+
+#archives img {
+    width: auto;
+    max-width: 325px;
+    height: 325px;
+    float: unset;
+}
+
+#archives p {
+    padding: 10px;
+    text-align: center;
+    min-height: 150px;
+}
+
+.info {
+
+}
 }

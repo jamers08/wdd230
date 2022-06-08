@@ -43,22 +43,121 @@
     </header>
     <main class="discover">
         <h1>Discover COLA City!</h1>
-        <picture>
-            <img src="images/placeholder600.jpg" data-src="images/capital.jpg" alt="South Carolina State Capital">
-        </picture>
-        <picture>
-            <img src="images/placeholder600.jpg" data-src="images/archives.jpg" alt="State Archives">
-        </picture>
-        <picture>
-            <img src="images/placeholder600.jpg" data-src="images/zoo.jpg" alt="Riverbanks Zoo & Gardens">
-        </picture>
-        <picture>
-            <img src="images/placeholder600.jpg" data-src="images/library.jpg" alt="Main Richland County Library">
-        </picture>
-        <picture>
-            <img src="images/placeholder600.jpg" data-src="images/sesqui.jpg" alt="Sesquicentennial Park">
-        </picture>
+        <div class="photo-gallery">
+            <section id="zoo">
+                <h3>Riverbanks Zoo & Gardens</h3>
+                <img src="images/placeholder600.jpg" data-src="images/zoo.jpg" alt="Riverbanks Zoo & Gardens">
+                <p>
+                    Riverbanks Zoo & Garden is home to more than 2,000 beautiful animals and one of the nation's most stunning botanical gardens.
+                    The 170-acre site is full of natural habitat exhibits, scenic river views, spectacular valley overlooks and significant historic landmarks.
+                </p>
+            </section>
+
+            <section id="library">
+                <h3>Richland Library</h3>
+                <img src="images/placeholder600.jpg" data-src="images/library.jpg" alt="Main Richland County Library">
+                <p>
+                    Richland Library offers state-of-the-art technology and a variety of literary and cultural programs, resources, and information. 
+                    There are 13 facilities located throughout Richland County, so find your closest branch today!
+                </p>
+            </section>
+
+            <section id="sesqui">
+                <h3>State and Local Parks</h3>
+                <img src="images/placeholder600.jpg" data-src="images/sesqui.jpg" alt="Sesquicentennial Park">
+                <p>
+                    Columbia offers a variety of state and local parks for community enjoyment. If you want a nature hike, a picnic lunch, 
+                    or a stroll along the river, you have plenty of options to find beauty, history, and fun in the great outdoors!
+                </p>
+            </section>
+
+            <section id="capital">
+                <h3>South Carolina State Capital</h3>
+                <img src="images/placeholder600.jpg" data-src="images/capital.jpg" alt="South Carolina State Capital">
+                <p>
+                    Located at the heart of Downtown Columbia, the State House offers both guided and self-guided tours 
+                    to learn about the history and architecture of this amazing building. 
+                </p>
+            </section>
+
+            <section id="archives">
+                <h3>South Carolina Department of Archives and History</h3>
+                <img src="images/placeholder600.jpg" data-src="images/archives.jpg" alt="State Archives">
+                <p>
+                    If history is your thing, Columbia has it in spades. Government records going back to the 
+                    colony's beginning in 1670 can be found at the State Department of Archives and History.
+                </p>
+            </section>
+
+            <section class="demographics">
+                <h3>Demographics</h3>
+                <br>
+                <section class="info">
+                    <h5>Population</h5>
+                    <p>
+                        133,000
+                        <br>
+                        Median Age: 28.5
+                    </p>
+                    <h5>Households</h5>
+                    <p>
+                        Median Household Income: $47,286
+                        <br>
+                        Median Property Value: $181,000
+                        <br>
+                        Homeownership Rate: 46%
+                        <br>
+                        Average Commute Time: 15.3 minutes
+                    </p>
+                    <h5>Employment</h5>
+                    <p>
+                        Employed Population: 60,171
+                        <br>
+                        Largest Industry: Educational Services
+                        <br>
+                        Highest Paying Industry: Professional, Scientific, & Technical Services
+                        <br>
+                        Poverty Rate: 21.8%
+                    </p>
+                    <h5>Education</h5>
+                    <p>
+                        Largest University: University of South Carolina-Columbia
+                        <br>
+                        Most Popular Major: General Finance
+                        <br>
+                        Median Private College Tuition: $14,600
+                        <br>
+                        Median Public In-State Tuition: $12,288
+                    </p>
+                </section>
+            </section>
+        </div>
+        
     </main>
+    <footer>
+        <picture>
+            <img src="images/logo-light.webp" alt="Logo">
+        </picture>
+                <div id="address">
+                <p><span id="footer-span">COLA City Chamber of Commerce</span></p>
+                <p>123 Alphabet Lane</p>
+                <p>Columbia, South Carolina 12345</p>
+                </div>
+            <div id="contact">
+                <p>info@colacity.org</p>
+                <p>+(123) 456-7890</p>
+                <P><a href="#" id="location">&#9830; Location Map</a></P>
+            </div>
+  
+        <div id="last">
+            <hr/>
+            <p>&copy; <span id= "copyright"></span> COLA City Chamber -:|:- Jamie Stott -:|:- WDD 230 Project</p>
+            <p id="lastModified"></p>
+            <p>Number of Visits to Page: <span class="visits"></span></p>
+            <p>Days since last visit: <span class="today"></span></p>
+        </div>
+    </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/lastvisit.js"></script>
 </body>
 </html>
