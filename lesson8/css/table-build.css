@@ -1,0 +1,61 @@
+:root {
+--back: #50ADB8;
+--back2: #3E768D;
+--foredark: black;
+--forelight: #DFDFDF;
+--border: #C4C4C4;
+--shadow: #3E768D;
+--zebra: #ABF4E2;
+--zebra2: #DFDFDF;
+}
+
+* {
+    font-family: Ubuntu, sans-serif;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 30px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--foredark);
+    font-size: 1rem;
+}
+
+tr:first-child th {
+    background-color: var(--back);
+    color: var(--foredark);
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+th {
+    background-color: var(--back2);
+    color: var(--forelight);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra2);
+}
+
+tbody tr#blackFriday td:first-child{
+    font-style: italic;
+}
+
+tbody tr#november td:last-child{
+    background-color: var(--back2);
+    color: var(--forelight);
+}
