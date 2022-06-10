@@ -32,6 +32,10 @@ tr:first-child th {
     color: var(--foredark);
 }
 
+thead tr:first-child {
+    font-size: 2rem;
+}
+
 th, td {
     padding: 7px 15px;
     border: 1px solid var(--border);
@@ -58,4 +62,8 @@ tbody tr#blackFriday td:first-child{
 tbody tr#november td:last-child{
     background-color: var(--back2);
     color: var(--forelight);
+}
+
+tfoot {
+    font-size: .7rem;
 }
