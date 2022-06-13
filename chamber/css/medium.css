@@ -188,6 +188,47 @@
     min-height: 480px;
 }
 
+/***********JOIN PAGE*************/
+
+main.join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.join h1 {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.radio p {
+    display: none;
+}
+
+form label.radio {
+    padding: 1rem 0;
+}
+
+.membership-levels {
+    display: block;
+    padding: .5rem;
+}
+
+.membership-levels div:first-child {
+    border: none;
+}
+.membership-levels div {
+    padding: .5rem;
+    border: 1px solid #114B5F;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.membership-levels h3 {
+    width: ;
+}
+
 /****************FOOTER*******************/
 footer {
     display: grid;
@@ -221,3 +262,4 @@ footer #last {
     grid-column: span 3;
 }
 }
+
