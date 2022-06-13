@@ -592,6 +592,10 @@ input[type="radio"] {
     text-align: center;
 }
 
+.thankyou p {
+    text-align: center;
+}
+
 /******************* footer*/
 
 footer img {
