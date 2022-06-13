@@ -194,6 +194,7 @@ main.join {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+    color: #114B5F;
 }
 
 .join h1 {
@@ -206,27 +207,59 @@ main.join {
     display: none;
 }
 
-form label.radio {
-    padding: 1rem 0;
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: .5rem;
+    vertical-align: middle;
 }
 
 .membership-levels {
     display: block;
     padding: .5rem;
+    width: 100%;
 }
 
 .membership-levels div:first-child {
     border: none;
+    box-shadow: none;
 }
-.membership-levels div {
+
+.membership-levels div, .membership-levels ul {
     padding: .5rem;
     border: 1px solid #114B5F;
     border-radius: 10px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 3px 3px 5px #114B5F;
+}
+
+.membership-levels li {
+    margin-left: 2rem;
+    padding: 10px;
 }
 
 .membership-levels h3 {
-    width: ;
+    margin: -1.5rem .5rem 0 1rem;
+    width: fit-content;
+    font-weight: 400;
+}
+
+.radio span {
+    display: none;
+}
+
+.price {
+    text-align: left;
+    margin: 0 0 0 2rem;
+}
+
+.np p:nth-child(4){
+    font-size: .7rem;
+    padding: 10px 10px 0 10px;
+}
+
+.triangle {
+    color: #114B5F;
 }
 
 /****************FOOTER*******************/

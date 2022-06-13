@@ -66,25 +66,36 @@
             <fieldset>
                 <legend>Membership Levels</legend>
                 <label class="radio">
-                    <input type="radio" name="membership" value="nonprofit"> NP Membership
-                    <span class="npPrice">FREE</span>
-                <p>**Only available for organizations with 501c3 status.** <br> Your organization and contact information will be listed on the Chamber's online directory.</p>
+                    <input type="radio" name="membership" value="nonprofit" required> NP Membership <span>- FREE</span>
+                    <p class="npstatus">**Only available for organizations with 501c3 status.**</p>
+                    <ul>
+                        <li>Organization name and contact information listed on the Chamber's online directory.</li>  
+                    </ul>
                 </label>
                 <label class="radio">
-                    <input type="radio" name="membership" value="bronze"> Bronze Membership
-                    <span class="bronzePrice">$500</span>
-                    <p>Your organization and contact information will be listed on the Chamber's online directory.</p>    
+                    <input type="radio" name="membership" value="bronze"> Bronze Membership <span>- $500</span>
+                    <ul>
+                        <li>Organization name and contact information listed on the Chamber's online directory.</li>
+                    </ul>
                 </label>
                 <label class="radio">
-                    <input type="radio" name="membership" value="silver"> Silver Membership
-                    <span class="silverPrice">$1,000</span>
-                    <p>Your organization and contact information will be given an enhanced listing on the Chamber's online directory, golf team sponsorships, annual banquet tickets, newletter advertisement.</p>    
+                    <input type="radio" name="membership" value="silver"> Silver Membership <span>- $1,000</span>
+                    <ul>
+                        <li>Organization name and contact information given enhanced listing on the Chamber's online directory</li>
+                        <li>Golf team sponsorships</li>
+                        <li>Annual Chamber Banquet tickets</li> 
+                        <li>Newletter advertisement.</li>        
+                    </ul>
                 </label>
                 <label class="radio">
-                    <input type="radio" name="membership" value="gold"> Gold Membership
-                    <span class="goldPrice">$2,500</span>
-                    <p>Includes Silver Membership benefits, plus a business expo booth, business expo sponsorship, featured business in newsletter and email.</p>
-                    </label>
+                    <input type="radio" name="membership" value="gold"> Gold Membership <span>- $2,500</span>
+                    <ul>
+                        <li>All Silver Membership benefits</li>
+                        <li>Business Expo booth</li>
+                        <li>Business Expo sponsorship status</li>
+                        <li>Featured Business in newsletter and email.</li>
+                    </ul>
+                </label>
             </fieldset>
             <input type="submit" value="Join The Chamber" class="submitBtn">
         </form>
@@ -92,26 +103,33 @@
             <div>
                 <h2>Membership Levels</h2>
             </div>
-            <div class="np">
+            <ul class="np">
                 <h3>Nonprofit</h3>
-                <span class="npPrice">FREE</span>
-                <p>**Only available for organizations with 501c3 status.** <br> Your organization and contact information will be listed on the Chamber's online directory.</p>
-            </div>
-            <div class="bronze">
+                <p class="price"><span class="triangle">&#9654;</span> FREE</p>
+                <li>Organization name and contact information listed on the Chamber's online directory.</li>
+                <p>**Only available for organizations with 501c3 status.**</p>
+            </ul>
+            <ul class="bronze">
                 <h3>Bronze</h3>
-                <span class="bronzePrice">$500</span>
-                <p>Your organization and contact information will be listed on the Chamber's online directory.</p>
-            </div>
-            <div class="silver">
+                <p class="price"><span class="triangle">&#9654;</span> $500</p>
+                <li>Organization name and contact information listed on the Chamber's online directory.</li>
+            </ul>
+            <ul class="silver">
                 <h3>Silver</h3>
-                <span class="silverPrice">$1,000</span>
-                <p>Your organization and contact information will be given an enhanced listing on the Chamber's online directory, golf team sponsorships, annual banquet tickets, newletter advertisement.</p>
-            </div>
-            <div class="gold">
+                <p class="price"><span class="triangle">&#9654;</span> $1,000</p>
+                <li>Organization name and contact information given enhanced listing on the Chamber's online directory</li>
+                <li>Golf team sponsorships</li>
+                <li>Annual Chamber Banquet tickets</li> 
+                <li>Newletter advertisement.</li>
+            </ul>
+            <ul class="gold">
                 <h3>Gold</h3>
-                <span class="goldPrice">$2,500</span>
-                <p>Includes Silver Membership benefits, plus a business expo booth, business expo sponsorship, featured business in newsletter and email.</p>
-            </div>
+                <p class="price"><span class="triangle">&#9654;</span> $2,500</p>
+                <li>All Silver Membership benefits</li>
+                <li>Business Expo booth</li>
+                <li>Business Expo sponsorship status</li>
+                <li>Featured Business in newsletter and email.</li>
+            </ul>
         </div>
     </main>
     <footer>
