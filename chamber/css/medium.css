@@ -203,7 +203,11 @@ main.join {
     font-size: 2rem;
 }
 
-.radio p {
+.radio ul {
+    display: none;
+}
+
+.radio p:nth-child(3) {
     display: none;
 }
 
