@@ -567,8 +567,8 @@ form label.top input:required:valid {
     padding: 3px;
 }
 
-.radio p {
-    margin-left: 2%;
+.radio .perks {
+    margin-left: 10%;
 }
 
 .radio .npstatus {
