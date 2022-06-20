@@ -5,7 +5,7 @@ fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
-    .then(function(jsonObject) {
+    .then(function (jsonObject) {
         console.table(jsonObject);
         
         const members = jsonObject['members'];
@@ -13,24 +13,24 @@ fetch(requestURL)
         members.forEach(member => {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let h3 = document.createElement('h3');
+            let name = document.createElement('p');
             let logo = document.createElement.apply('img');
             let phone = document.createElement('p');
             let url = document.createElement('p');
             let address = document.createElement('p');
 
             h2.textContent = `${member.level}`;
+            name.textContent = `${member.name}`;
             phone.textContent = `${member.phone}`;
             url.textContent = `${member.url}`;
             address.textContent = `${member.address}`;
-            h3.textContent = `${member.name}`;
             
             logo.setAttribute('src', member.logo);
             logo.setAttribute('alt', `${member.name} Logo`);
             logo.setAttribute('loading', 'lazy');
 
             card.appendChild(h2);
-            card.appendChild(h3);
+            card.appendChild(name);
             card.appendChild(phone);
             card.appendChild(website);
             card.appendChild(address);
