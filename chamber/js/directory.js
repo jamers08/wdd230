@@ -23,8 +23,22 @@ function buildBusinessCards(data) {
     let logo = document.createElement('img');
 
     h3.textContent = `${member.level}`;
+    name.textContent = `${member.name}`;
+    phone.textContent = `${member.phone}`;
+    website.textContent = "Go to Website";
+    website.setAttribute('href', member.website);
+    address.textContent = `${member.address}`;
+    
+    logo.setAttribute('src', member.logo);
+    logo.setAttribute('alt', `Logo for ${member.name}`);
+    logo.setAttribute('loading', 'lazy');
 
     card.append(h3);
+    card.appendChild(logo);
+    card.appendChild(name);
+    card.appendChild(phone);
+    card.appendChild(website);
+    card.appendChild(address);
     
    cards.append(card) ;
   });

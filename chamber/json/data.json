@@ -2,7 +2,7 @@
     "members": [
         
         {
-            "logo": "images/redcross.png",
+            "logo": ".images/redcross.png",
             "name": "American Red Cross",
             "phone": "(803) 540-1240",
             "website": "http://www.redcross.org",
@@ -10,7 +10,7 @@
             "level": "Non Profit"
         },
         {
-            "logo": "images/harvesthope.jpg",
+            "logo": ".images/harvesthope.jpg",
             "name": "Harvest Hope Food Bank, Inc.",
             "phone": "(803) 254-4432",
             "website": "http://www.harvesthope.org",
@@ -18,7 +18,7 @@
             "level": "Non Profit"
         },
         {
-            "logo": "images/barnhillteam.png",
+            "logo": ".images/barnhillteam.png",
             "name": "Barnhill Team at Exp Realty",
             "phone": "(803) 219-8288",
             "website": "http://www.barnhillteam.com",
@@ -26,7 +26,7 @@
             "level": "Gold"
         },
         {
-            "logo": "images/fireflies.jpg",
+            "logo": ".images/fireflies.jpg",
             "name": "Columbia Fireflies",
             "phone": "(803) 726-4487",
             "website": "http://www.columbiafireflies.com",
@@ -34,7 +34,7 @@
             "level": "Gold"
         },
         {
-            "logo": "images/edventure.png",
+            "logo": ".images/edventure.png",
             "name": "EdVenture Children's Museum",
             "phone": "(803) 779-3100",
             "website": "http://www.edventure.org",
@@ -42,7 +42,7 @@
             "level": "Non Profit"
         },
         {
-            "logo": "images/escapology.png",
+            "logo": ".images/escapology.png",
             "name": "Escapology",
             "phone": "(803) 900-4144",
             "website": "http://www.escapology.com/Columbia-SC",
@@ -50,7 +50,7 @@
             "level": "Silver"
         },
         {
-            "logo": "images/riverbanks.jpg",
+            "logo": ".images/riverbanks.jpg",
             "name": "Riverbanks Zoo & Garden",
             "phone": "(803) 779-8717",
             "website": "http://www.riverbanks.org",
@@ -58,7 +58,7 @@
             "level": "Silver"
         },
         {
-            "logo": "images/kendrascott.jpg",
+            "logo": ".images/kendrascott.jpeg",
             "name": "Kendra Scott",
             "phone": "(803) 594-8550",
             "website": "http://www.kendrascott.com",
