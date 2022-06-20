@@ -18,7 +18,7 @@ function buildBusinessCards(data) {
     let h3 = document.createElement('h3');
     let name = document.createElement('p');
     let phone = document.createElement('p');
-    let website = document.createElement('p');
+    let website = document.createElement('a');
     let address = document.createElement('p');
     let logo = document.createElement('img');
 
@@ -37,8 +37,8 @@ function buildBusinessCards(data) {
     card.appendChild(logo);
     card.appendChild(name);
     card.appendChild(phone);
-    card.appendChild(website);
     card.appendChild(address);
+    card.appendChild(website);
     
    cards.append(card) ;
   });
