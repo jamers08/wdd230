@@ -1,40 +1,42 @@
-const requestURL = "https://jamers08.github.io/wdd230/chamber/json/data.json";
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        console.table(jsonObject);
-        
-        const members = jsonObject['members'];
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-        members.forEach(member => {
-            let card = document.createElement('section');
-            let h2 = document.createElement('h2');
-            let name = document.createElement('p');
-            let logo = document.createElement.apply('img');
-            let phone = document.createElement('p');
-            let url = document.createElement('p');
-            let address = document.createElement('p');
+    const prophets = jsonObject['prophets'];
+    
+    prophets.forEach(prophet => {
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
+        let logo = document.createElement('img');
+        let name = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('p');
+        let address = document.createElement('p'):
 
-            h2.textContent = `${member.level}`;
-            name.textContent = `${member.name}`;
-            phone.textContent = `${member.phone}`;
-            url.textContent = `${member.url}`;
-            address.textContent = `${member.address}`;
-            
-            logo.setAttribute('src', member.logo);
-            logo.setAttribute('alt', `${member.name} Logo`);
-            logo.setAttribute('loading', 'lazy');
+        h2.textContent = `${prophet.level}`;
+        name.textContent = `${prophet.name}`;
+        phone.textContent = `${prophet.phone}`;
+        website.textContent = `${prophet.website}`;
+        address.textContent = `${prophet.address}`;
 
-            card.appendChild(h2);
-            card.appendChild(name);
-            card.appendChild(phone);
-            card.appendChild(website);
-            card.appendChild(address);
 
-            document.querySelector('div.cards').appendChild(card);
-        });
+        logo.setAttribute('src', prophet.logo);
+        logo.setAttribute('alt', `Logo for ${prophet.name}`);
+        logo.setAttribute('loading', 'lazy');
+
+        card.appendChild(h2);
+        card.appendChild(logo);
+        card.appendChild(name);
+        card.appendChild(phone);
+        card.appendChild(website);
+        card.appendChild(address);
+
+        document.querySelector('div.cards').appendChild(card);
     });
+  });
