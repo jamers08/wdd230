@@ -1,0 +1,69 @@
+{
+    "members": [
+        
+        {
+            "logo": "images/members/redcross.png",
+            "name": "American Red Cross",
+            "phone": "(803) 540-1240",
+            "url": "http://www.redcross.org",
+            "address": "2751 Bull St, Columbia, SC 29201",
+            "level": "Non Profit"
+        },
+        {
+            "logo": "images/members/harvesthope.jpg",
+            "name": "Harvest Hope Food Bank, Inc.",
+            "phone": "(803) 254-4432",
+            "url": "http://www.harvesthope.org",
+            "address": "2220 Shop Rd, Columbia, SC 29201",
+            "level": "Non Profit"
+        },
+        {
+            "logo": "images/members/barnhillteam.png",
+            "name": "Barnhill Team at Exp Realty",
+            "phone": "(803) 219-8288",
+            "url": "http://www.barnhillteam.com",
+            "address": "7891 Broad River Rd, Columbia, SC 29063",
+            "level": "Gold"
+        },
+        {
+            "logo": "images/members/fireflies.jpg",
+            "name": "Columbia Fireflies",
+            "phone": "(803) 726-4487",
+            "url": "http://www.columbiafireflies.com",
+            "address": "1640 Freed St, Columbia, SC 29201",
+            "level": "Gold"
+        },
+        {
+            "logo": "images/members/edventure.png",
+            "name": "EdVenture Children's Museum",
+            "phone": "(803) 779-3100",
+            "url": "http://www.edventure.org",
+            "address": "211 Gervais St, Columbia, SC 29201",
+            "level": "Non Profit"
+        },
+        {
+            "logo": "images/members/escapology.png",
+            "name": "Escapology",
+            "phone": "(803) 900-4144",
+            "url": "http://www.escapology.com/Columbia-SC",
+            "address": "717 Lady St, Suite D, Columbia, SC 29201",
+            "level": "Silver"
+        },
+        {
+            "logo": "images/members/riverbanks.jpg",
+            "name": "Riverbanks Zoo & Garden",
+            "phone": "(803) 779-8717",
+            "url": "http://www.riverbanks.org",
+            "address": "500 Wildlife Pkwy, Columbia, SC 29210",
+            "level": "Silver"
+        },
+        {
+            "logo": "images/members/kendrascott.jpg",
+            "name": "Kendra Scott",
+            "phone": "(803) 594-8550",
+            "url": "http://www.kendrascott.com",
+            "address": "4840 Forest Dr, Suite 6-A, Columbia, SC 29206",
+            "level": "Bronze"
+        }
+    ]
+}
