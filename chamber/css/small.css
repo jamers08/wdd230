@@ -643,6 +643,7 @@ input[type="radio"] {
 
 .directory p:nth-child(3){
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .directory img {
