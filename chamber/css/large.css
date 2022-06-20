@@ -31,6 +31,10 @@ nav ul li {
     margin-left: 0;
 }
 
+#mediumfooter {
+    display: none;
+}
+
 #event {
     grid-column: 1/2;
     grid-row: 1/2;

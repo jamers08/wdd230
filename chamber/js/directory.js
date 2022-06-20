@@ -31,7 +31,6 @@ function buildBusinessCards(data) {
     
     logo.setAttribute('src', member.logo);
     logo.setAttribute('alt', `Logo for ${member.name}`);
-    logo.setAttribute('loading', 'lazy');
 
     card.append(h3);
     card.appendChild(logo);
