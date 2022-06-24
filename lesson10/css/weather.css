@@ -1,0 +1,50 @@
+:root {
+    --back: #b7e3cc;
+    --text: #353B3C;  
+    --accent: #33845A; 
+}
+
+* {
+    background-color: var(--back);
+    text-align: center;
+    color: var(--text);
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+}
+
+body {
+    max-width: fit-content; 
+    border: 3px solid var(--accent);
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px black;
+}
+main {
+    display: block;
+    border: 3px solid var(--accent);
+    box-shadow: 0 0 15px black;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+}
+
+figcaption {
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+p {
+    font-size: .8rem;
+    padding: 10px;
+}
+
+p span {
+    font-size: 1rem;
+    padding: 0 auto;
+}
