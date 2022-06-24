@@ -221,18 +221,31 @@ nav ul.open {
     width: 250px;
 }
 
-#hamButton span:nth-child(1) {display: block;}
+#hamButton span:nth-child(1) {
+    display: block;
+}
 
-#hamButton span:nth-child(2) {display: none;}
+#hamButton span:nth-child(2) {
+    display: none;
+}
 
-#hamButton span:nth-child(3) {display: none;}
+#hamButton span:nth-child(3) {
+    display: none;
+}
 
-#hamButton.open span:nth-child(1) {display: none;}
+#hamButton.open span:nth-child(1) {
+    display: none;
+}
 
-#hamButton.open span:nth-child(2) {display: block;}
+#hamButton.open span:nth-child(2) {
+    display: block;
+    padding-left: 20px;
+}
 
-#hamButton.open span:nth-child(3) {display: inline-block;
-border: 1px solid #E8EBED;}
+#hamButton.open span:nth-child(3) {
+    display: inline-block;
+    border: 1px solid #E8EBED;
+}
 
 /* End of Nav*/
 
