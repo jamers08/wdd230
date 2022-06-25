@@ -1,11 +1,13 @@
 /*
-primary-color: #E8EBED; Grey;
-background-color: #98A5AE; Dark Grey;
-secondary-color: #114B5F; Blue;
-accent1-color: #15795B; Green;
-accent2-color: #710928; Red;
-accent3-color: #FFFFFF; White;
-accent4-color: #000000; Black;
+:root {
+    --primary-color: #E8EBED; Grey;
+    --background-color: #98A5AE; Dark Grey;
+    --secondary-color: #114B5F; Blue;
+    --accent1-color: #15795B; Green;
+    --accent2-color: #710928; Red;
+    --accent3-color: #53131E; dark red;
+    --accent4-color: #F4F5F6; lighter grey;
+}
 
 font-family: 'Sansita', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -62,7 +64,7 @@ h2 {
     border-radius: 10px;
     text-align: center;
     width: 100%;
-    box-shadow: darkslategray 0 0 20px;
+    box-shadow: black 0 0 10px;
     align-items: center;
 }
 
@@ -83,6 +85,12 @@ h4 {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
 }
 
 /* banner*/
@@ -158,7 +166,8 @@ h4 {
 
 nav button {
     min-width: 48px;
-    min-height: 48px;
+    min-height: 70px;
+    padding: 10px;
     background: transparent;
     border: none;
     font-size: 1rem;
@@ -254,7 +263,7 @@ nav ul.open {
     text-align: center;
     background-color: #114B5F;
     color: #E8EBED;
-    padding: 20px;
+    padding: 10px;
     margin: 1rem;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -298,9 +307,10 @@ main p {
 }
 
 .heroPhoto img {
-    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 0 15px #114B5F;
+    box-shadow: 0 0 15px black;
 }
 
 .heroName {
@@ -474,6 +484,11 @@ main p {
     color: #710928;
     font-family: 'Sansita', sans-serif;
     font-size: 1.3rem;
+}
+
+.discover h3 {
+    width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -711,8 +726,4 @@ footer #location {
     display: block;
     font-family: 'Sansita', sans-serif;
     font-size: 1.5rem;
-}
-
-footer #last {
-    margin-top: 15px;
 }

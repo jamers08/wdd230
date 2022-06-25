@@ -91,6 +91,10 @@ nav ul li {
     font-weight: 400;
 }
 
+.spot {
+    display: grid;
+}
+
 .spot:nth-child(3){
     display: grid;
 }

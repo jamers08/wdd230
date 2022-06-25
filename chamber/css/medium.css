@@ -8,6 +8,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .social {
+        max-width: max-content;
+    }
     #hero, #news, #event, #weather, #join {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
@@ -62,6 +65,10 @@
     grid-row: 5;
     margin-bottom: .5rem;
     margin-left: 0;
+}
+
+#weatherGrid {
+    padding: 25px 0 0 0;
 }
 
 #weatherGrid img {
