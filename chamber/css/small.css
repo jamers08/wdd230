@@ -53,6 +53,7 @@ h1 {
     font-size: 1.5rem;
     color: #114B5F;
     font-family: 'Sansita', sans-serif;
+    text-shadow: 3px 3px 5px white;
 }
 
 h2 {
@@ -91,6 +92,10 @@ img {
     width: 100%;
     height: auto;
 
+}
+
+section {
+    box-shadow: 3px 3px 5px #114B5F;
 }
 
 /* banner*/
@@ -276,11 +281,16 @@ main {
     grid-template-columns: 1fr;
 }
 
+main div{
+    box-shadow: 3px 3px 5px #114B5F;
+}
+
 main section {
     margin: 1rem;
     border: 1px solid #114B5F;
     padding: 1rem; 
-    background-color: #E8EBED;   
+    background-color: #E8EBED; 
+    box-shadow: none;  
 }
 
 main p {
@@ -376,20 +386,20 @@ main p {
 
 #weather {
     grid-row: 3;
-    background-color: #114B5F;
-    color: #E8EBED;
+}
+
+#weatherGrid {
+    box-shadow: none;
 }
 
 #weatherGrid img {
-    max-width: 100px;
+    width: 75px;
     text-align: center;
 }
 
 #weather1, #weather2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #114B5F;
-    color: #E8EBED;
     border: none;
     padding: 5px;
     margin: 0 auto;
@@ -397,17 +407,18 @@ main p {
 }
 
 #weather1 h4 {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-top: 30px;
 }
 
 #weatherBreak h4 {
-    text-align: right;
+    margin: 0 0 0 4rem;
+    text-align: left;
     font-size: 1.1rem;
 }
 
 #weatherBreak {
-    background-color: #114B5F;
-    color: #E8EBED;
+    border: none;
     padding: 5px;
     margin: 0 auto;
 }
@@ -504,6 +515,9 @@ main p {
     border-radius: 10px 10px 0px 0px;
 }
 
+.photo-gallery section {
+    border-radius: 10px;
+}
 .discover {
     display: block;
     align-items: center;
@@ -519,7 +533,7 @@ main p {
 .discover img {
     filter: blur(0em);
     transition: filter 2s;
-    border: 1px solid #114B5F;
+    box-shadow: 3px 3px 5px #114B5F;
     width: 100%;
     border-radius: 0px 0px 10px 10px;
 }
@@ -533,12 +547,21 @@ main.join {
     min-height: 20rem;
 }
 
+.join h1 {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 10 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
 form fieldset {
     margin: 2rem 0;
     background-color: #E8EBED;
     border-radius: 10px;
     padding: 0.35em 0.75em 0.625em;
     box-shadow: 3px 3px 5px #114B5F;
+    border: none;
 }
 
 form legend {
@@ -585,9 +608,8 @@ form input.submitBtn {
     color: #E8EBED;
     border-radius: 15px;
     padding: 1rem;
-    margin: 0 0 2rem 2%;
     width: 96%;
-    max-width: 20rem;
+    margin: 0 0 2rem 2%;
 }
 
 form label.top input:required {
@@ -599,20 +621,61 @@ form label.top input:required:valid {
 }
 
 .membership-levels {
+    display: block;
+    padding: .5rem;
+    width: 100%;
+    background-color: #E8EBED;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #114B5F;
+    margin-bottom: 1rem;
+}
+
+.membership-levels div:first-child {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.membership-levels div, .membership-levels ul {
+    padding: .5rem;
+    border: 1px solid #114B5F;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 3px 3px 5px #114B5F;
+    background-color: #E8EBED;
+}
+
+.membership-levels ul:last-child {
+    margin-bottom: .5rem;
+}
+
+.membership-levels li {
+    margin-left: 2rem;
+    padding: 10px;
+}
+
+.membership-levels h3 {
+    margin: -1.5rem .5rem 0 1rem;
+    width: fit-content;
+    font-weight: 400;
+}
+
+.radio span {
     display: none;
 }
 
-.radio li {
-    margin-left: 3rem;
-    padding: 3px;
+.price {
+    text-align: left;
+    margin: 0 0 0 2rem;
 }
 
-.radio .perks {
-    margin-left: 10%;
+.np p:nth-child(4){
+    font-size: .7rem;
+    padding: 10px 10px 0 10px;
 }
 
-.radio .npstatus {
-    font-size: .8rem;
+.triangle {
+    color: #114B5F;
 }
 
 input[type="radio"] {
@@ -642,6 +705,8 @@ input[type="radio"] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: .5rem;
+    width: 95%;
+
 }
 
 .directory {
@@ -650,9 +715,9 @@ input[type="radio"] {
     display: block;
 }
 
+
 .directory h1{
-    font-size: 3rem;
-    background-color: #E8EBED;
+    font-size: 2rem;
     padding: 15px;
     width: fit-content;
     margin: 0 auto;
@@ -666,6 +731,7 @@ input[type="radio"] {
     padding-bottom: 2rem;
     border: 2px solid darkgrey;
     margin: 10px auto;
+    box-shadow: 3px 3px 5px #114B5F;
 }
 
 .directory h3 {

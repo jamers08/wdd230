@@ -173,6 +173,7 @@ nav ul li {
     align-items: center;
     margin: 0%;
     padding: 10px;
+    box-shadow: 3px 3px 5px #114B5F;
 }
 
 #zoo img {
@@ -240,4 +241,7 @@ nav ul li {
     min-height: 150px;
 }
 
+.demographics section {
+    box-shadow: none;
+}
 }

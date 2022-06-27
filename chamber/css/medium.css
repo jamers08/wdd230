@@ -67,6 +67,11 @@
     margin-left: 0;
 }
 
+#weatherBreak h4 {
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+}
 #weatherGrid {
     padding: 25px 0 0 0;
 }
@@ -110,85 +115,36 @@
     overflow: hidden;
 }
 
-#zoo img:hover {
+#zoo img:hover, #sesqui img:hover, #archives img:hover {
     filter: drop-shadow(5px 5px 5px #114B5F);
 }
 
-
-#zoo p {
+#zoo p, #sesqui p, #archives p {
     text-align: left;
     vertical-align: middle;
     padding: 20% 0;
 }
 
-#zoo img{
+#zoo img, #sesqui img, #archives img {
     width: 50vw;
     margin: 15px;
     float: left;    
 }
 
-#library img:hover {
+#library img:hover, #capital img:hover {
     filter: drop-shadow(-5px 5px 5px #114B5F);
 }
 
-#library p {
+#library p, #capital p {
     text-align: right;
     vertical-align: middle;
     padding: 20% 0;
 }
 
-#library img {
+#library img, #capital img {
     width: 50vw;
     margin: 15px;
     float: right;
-}
-
-#sesqui img:hover {
-    filter: drop-shadow(5px 5px 5px #114B5F);
-}
-
-#sesqui p {
-    text-align: left;
-    vertical-align: middle;
-    padding: 20% 0;
-}
-
-#sesqui img{
-    width: 50vw;
-    margin: 15px;
-    float: left;    
-}
-
-#capital img:hover {
-    filter: drop-shadow(-5px 5px 5px #114B5F);
-}
-
-#capital p {
-    text-align: right;
-    vertical-align: middle;
-    padding: 20% 0;
-}
-
-#capital img {
-    width: 50vw;
-    margin: 15px;
-    float: right;
-}
-
-#archives img:hover {
-    filter: drop-shadow(5px 5px 5px #114B5F);
-}
-
-#archives p {
-    text-align: left;
-    vertical-align: middle;
-    padding: 20% 0;
-}
-
-#archives img{
-    width: 50vw;
-    margin: 15px;
-    float: left;    
 }
 
 .demographics section {
@@ -210,14 +166,6 @@ main.join {
     font-size: 2rem;
 }
 
-.radio ul {
-    display: none;
-}
-
-.radio p:nth-child(3) {
-    display: none;
-}
-
 input[type="radio"] {
     width: 20px;
     height: 20px;
@@ -225,53 +173,14 @@ input[type="radio"] {
     vertical-align: middle;
 }
 
-.membership-levels {
-    display: block;
-    padding: .5rem;
-    width: 100%;
+form input.submitBtn {
+    display: grid;
+    grid-column: span 2;
 }
 
-.membership-levels div:first-child {
-    border: none;
-    box-shadow: none;
-}
 
-.membership-levels div, .membership-levels ul {
-    padding: .5rem;
-    border: 1px solid #114B5F;
-    border-radius: 10px;
-    margin-bottom: 3rem;
-    box-shadow: 3px 3px 5px #114B5F;
-}
+/************DIRECTORY****************/
 
-.membership-levels li {
-    margin-left: 2rem;
-    padding: 10px;
-}
-
-.membership-levels h3 {
-    margin: -1.5rem .5rem 0 1rem;
-    width: fit-content;
-    font-weight: 400;
-}
-
-.radio span {
-    display: none;
-}
-
-.price {
-    text-align: left;
-    margin: 0 0 0 2rem;
-}
-
-.np p:nth-child(4){
-    font-size: .7rem;
-    padding: 10px 10px 0 10px;
-}
-
-.triangle {
-    color: #114B5F;
-}
 
 /****************FOOTER*******************/
 footer {
