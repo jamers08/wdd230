@@ -368,6 +368,8 @@ main p {
 #eventInfo {
     border: none;
     padding: .5rem;
+    box-shadow: none;
+    background: transparent;
 }
 
 #eventInfo p {
@@ -405,6 +407,11 @@ main p {
     padding: 5px;
     margin: 0 auto;
     align-items: center;
+    box-shadow: none;
+}
+
+#weather1 {
+    margin-top: 10px;
 }
 
 #weather-temp {
@@ -423,7 +430,11 @@ main p {
     margin: 0 auto;
 }
 
-#weather2 p, h4 {
+#weatherBreak figcaption {
+    padding: 5px 5px 5px 15%;
+}
+
+#weather2 p {
     padding: 5px;
 }
 
