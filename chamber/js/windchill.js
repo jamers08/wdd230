@@ -13,7 +13,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        //console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -34,13 +34,13 @@ function displayResults(weatherData) {
     captionDesc.textContent = desc;
 }
 
-let t = currentTemp;
-let s = windSpeed;
-let output = document.getElementById('chill');
+let t = currentTemp.textContent;
+let s = windSpeed.textContent;
 
 if (t <= 50 && s > 3) {
-    let windChill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
-    output.textContent = Math.round(windChill);
+    const windChill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
+    document.querySelector('#chill').innerHTML = windChill;
 } else {
-    output.textContent = "N/A"
+    const windChill = "N/A";
+    document.querySelector('#chill').innerHTML = windChill;
 }

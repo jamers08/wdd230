@@ -375,7 +375,7 @@ main p {
     font-size: .9rem;
 }
 
-#eventInfo h4 {
+#eventName {
     font-size: 1rem;
     padding-bottom: 15px;
 }
@@ -399,6 +399,7 @@ main p {
 
 #weather1, #weather2 {
     display: grid;
+    background: transparent;
     grid-template-columns: 1fr 1fr;
     border: none;
     padding: 5px;
@@ -406,9 +407,8 @@ main p {
     align-items: center;
 }
 
-#weather1 h4 {
-    font-size: 2rem;
-    margin-top: 30px;
+#weather-temp {
+    font-size: 1.5rem;
 }
 
 #weatherBreak h4 {
