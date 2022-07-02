@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('#wind-speed');
-const feelsLike = document.querySelector('#chill');
+const feelsLike = document.querySelector('#feels');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Columbia&units=imperial&appid=b8aa599bead2268ad5027f753b37e704';
 
@@ -34,7 +34,7 @@ function displayResults(weatherData) {
     captionDesc.textContent = desc;
 }
 
-/*let t = currentTemp;
+let t = currentTemp;
 let s = windSpeed;
 let output = document.getElementById('chill');
 
@@ -43,4 +43,4 @@ if (t <= 50 && s > 3) {
     output.textContent = Math.round(windChill);
 } else {
     output.textContent = "N/A"
-}*/
+}
