@@ -341,7 +341,7 @@ main p {
     font-weight: 700;
 }
 
-.heroButton {
+.heroButton a {
     position: absolute;
     border: none;
     background-color: #710928;
@@ -353,10 +353,6 @@ main p {
     padding: .5rem;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #114B5F;
-}
-
-.heroButton a {
-    color: #E8EBED;
     text-decoration: none;
 }
 
@@ -426,6 +422,7 @@ main p {
 
 #weatherBreak {
     border: none;
+    box-shadow: none;
     padding: 5px;
     margin: 0 auto;
 }
