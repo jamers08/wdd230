@@ -41,7 +41,18 @@
         <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m." <button id="close"> X </button></p>
     </aside>
     <main class="contact">
-
+        <h1>Contact the Chamber</h1>
+        
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Not finding what you need?</legend>
+                <label class="top">First and Last Name* <input type="text" name="fname" placeholder="Alex Smith" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="user@email.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Suggestions, Questions, and/or Comments* <textarea rows="5" name="commentBox" placeholder="How can we help you today?" required></textarea></label>
+            </fieldset>
+            <input type="submit" value="Contact the Chamber" class="submitBtn">
+        </form>
     </main>
     <footer>
         <picture>

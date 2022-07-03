@@ -24,7 +24,7 @@ localStorage.setItem("visits-ls", numVisits);
 // if the number of milliseconds does not = 0
 if (numMills !== 0) {  
 	// then do this math equation and round to a whole number which will now = (NumDays)
-    numDays = Math.round((Date.now() - numMills) / 86400000); 
+    let numDays = Math.round((Date.now() - numMills) / 86400000); 
 	// now go to the todayDisplay and retrieve tod0ays date and diplay a "text" number we 
 	// will call numDays 
 	todayDisplay.textContent = numDays;

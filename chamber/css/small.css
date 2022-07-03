@@ -648,7 +648,7 @@ form label.top input:required:valid {
     margin-bottom: .5rem;
 }
 
-.membership-levels li {
+.membership-levels p {
     margin-left: 2rem;
     padding: 10px;
 }
@@ -659,21 +659,16 @@ form label.top input:required:valid {
     font-weight: 400;
 }
 
-.radio span {
-    display: none;
-}
-
-.price {
-    text-align: left;
-    margin: 0 0 0 2rem;
-}
-
 .np p:nth-child(4){
     font-size: .7rem;
     padding: 10px 10px 0 10px;
 }
 
 .triangle {
+    color: #114B5F;
+}
+
+.triangle2 {
     color: #114B5F;
 }
 
@@ -756,6 +751,30 @@ input[type="radio"] {
     margin: 15px auto 15px auto;
     filter: blur(0em);
     transition: filter 2s;
+}
+
+/********************************CONTACT PAGE***************/
+
+main.contact {
+    display: block;
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form label.top textarea:required {
+    border-left: 5px solid #710928;
+}
+
+form label.top textarea:required:valid {
+    border-left: 5px solid #15795B;
 }
 
 /******************* footer*/

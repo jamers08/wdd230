@@ -175,6 +175,10 @@ form input.submitBtn {
     grid-column: span 2;
 }
 
+.membership-levels {
+    margin-top: 50px;
+}
+
 
 /************DIRECTORY****************/
 
