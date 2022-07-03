@@ -211,7 +211,7 @@ main.contact {
 
 .contact div.operationHours{
     padding-top: 2rem;
-    margin-bottom: none;
+    margin-bottom: unset;
 }
 }
 /****************FOOTER*******************/
