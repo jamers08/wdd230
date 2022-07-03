@@ -1,8 +1,8 @@
-let d = new Date();
+let day = new Date();
 
-document.getElementById("date").value = d.toDateString();
+document.getElementById("date").value = day.toDateString();
 
-let hours = d.getHours();
-let mins = d.getMinutes();
-let seconds = d.getSeconds();
+let hours = day.getHours();
+let mins = day.getMinutes();
+let seconds = day.getSeconds();
 document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
