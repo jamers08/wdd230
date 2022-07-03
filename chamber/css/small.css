@@ -800,10 +800,11 @@ form label.top textarea:required:valid {
 }
 
 .contact div.boardcards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     border: none;
     box-shadow: none;
+    width: 100%;
+    background: transparent;
 }
 
 .contact div.boardcards p {
