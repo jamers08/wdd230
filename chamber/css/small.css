@@ -777,6 +777,65 @@ form label.top textarea:required:valid {
     border-left: 5px solid #15795B;
 }
 
+.contact div {
+    padding: .5rem;
+    border: 1px solid #114B5F;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 3px 3px 5px #114B5F;
+    background-color: #E8EBED;
+    text-align: center;
+}
+
+.contact h3 {
+    margin: -1.5rem .5rem 0 1rem;
+    width: fit-content;
+    font-weight: 400;
+}
+
+.contact div.boardcards, .contact div.pres, .contact div.vp, .contact div.tres, .contact div.sec {
+    border: none;
+    box-shadow: none;
+    margin-bottom: .5rem;
+}
+
+.contact div.boardcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    box-shadow: none;
+}
+
+.contact div.boardcards p {
+    padding: 3px;
+}
+
+.contact div.boardcards img {
+    box-shadow: 3px 3px 5px #114B5F;
+    border-radius: 10px;
+}
+
+.contact .bodname {
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact .title {
+    font-size: .8rem;
+}
+
+.contact .mail {
+    font-size: .8rem;
+}
+
+.contact .boardCards {
+    border: none;
+}
+
+.contact img {
+    height: 100px;
+    width: auto;
+}
 /******************* footer*/
 
 footer img {
