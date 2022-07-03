@@ -344,9 +344,9 @@ main p {
     background-color: #710928;
     color: #E8EBED;
     font-family: 'Sansita', sans-serif;
-    font-size: 1rem;
-    bottom: 10px;
-    right: 10px;
+    font-size: 1.5rem;
+    bottom: 20px;
+    right: 20px;
     padding: .5rem;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #114B5F;
@@ -403,18 +403,14 @@ main p {
     box-shadow: none;
 }
 
-#weather1 {
-    margin-top: 10px;
+#weather1 figcaption {
+    font-size: .8rem;
+    text-align: center;
+    padding: 0px 5px;
 }
 
 #weather-temp {
     font-size: 1.5rem;
-}
-
-#weatherBreak h4 {
-    margin: 0 0 0 4rem;
-    text-align: left;
-    font-size: 1.1rem;
 }
 
 #weatherBreak {
@@ -422,10 +418,6 @@ main p {
     box-shadow: none;
     padding: 5px;
     margin: 0 auto;
-}
-
-#weatherBreak figcaption {
-    padding: 5px 5px 5px 15%;
 }
 
 #weather2 p {
