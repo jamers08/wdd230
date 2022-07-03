@@ -58,10 +58,8 @@
                 <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
                 <label class="top">Business Description <textarea rows="5" name="busDesc" placeholder="Tell us about your business."></textarea></label>
                 <!--Hidden fields-->
-                <input type="hidden" id="date" name="date">
-                <input type="hidden" id="time" name="time">
-            </fieldset>
-
+                <input type="hidden" id="date" name="date" value="CurrentTime">
+                <input type="hidden" id="time" name="time" value="CurrentDate">
             <fieldset>
                 <legend>Membership Levels</legend>
                 <label class="radio">
@@ -133,6 +131,7 @@
             <p id="lastModified"></p>
         </div>
     </footer>
+    <script src="js/join.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/lastvisit.js"></script>
 </body>
