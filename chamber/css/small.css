@@ -635,7 +635,7 @@ form label.top input:required:valid {
     background-color: transparent;
 }
 
-.membership-levels div, .membership-levels ul {
+.membership-levels div {
     padding: .5rem;
     border: 1px solid #114B5F;
     border-radius: 10px;
@@ -644,7 +644,7 @@ form label.top input:required:valid {
     background-color: #E8EBED;
 }
 
-.membership-levels ul:last-child {
+.membership-levels div:last-child {
     margin-bottom: .5rem;
 }
 
