@@ -72,9 +72,7 @@
     text-align: left;
     font-size: 1.1rem;
 }
-#weatherGrid {
-    padding: 25px 0 0 0;
-}
+
 
 #weatherGrid img {
     max-width: 75%;
