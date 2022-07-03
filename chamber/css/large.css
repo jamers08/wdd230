@@ -55,7 +55,7 @@ nav ul li {
     font-size: 1.2rem;
 }
     
-#eventInfo h4 {
+#eventInfo #eventName {
     font-size: 1.6rem;
     padding: .5rem;
 }

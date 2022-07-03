@@ -370,7 +370,7 @@ main p {
     font-size: .9rem;
 }
 
-#eventName {
+#eventInfo #eventName {
     font-size: 1rem;
     padding-bottom: 15px;
 }
