@@ -25,7 +25,7 @@ function buildBusinessCards(data) {
  
     name.innerHTML = `${member.name}`;
     phone.innerHTML = `${member.phone}`;
-    website.innerHTML = "Go to Website";
+    website.textContent = "Go to Website";
     website.setAttribute('href', member.website);
     address.innerHTML = `${member.address}`;
     
