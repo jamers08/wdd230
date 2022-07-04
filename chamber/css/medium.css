@@ -177,7 +177,11 @@ form input.submitBtn {
 .membership-levels {
     margin-top: 50px;
 }
-
+/*******************directory***********/
+.list section img {
+    display: block;
+    max-width: 75px;
+}
 
 /************contact****************/
 main.contact {

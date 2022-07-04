@@ -189,7 +189,7 @@ nav {
     z-index: 10;
 }
 
-nav button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -695,12 +695,33 @@ input[type="radio"] {
 
 /********************************DIRECTORY****************************/
 
-.directory .cards {
+.directory .view {
+    font-size: .9rem;
+    padding: 3px;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 2rem;
+    border: 2px solid darkgrey;
+    box-shadow: 3px 3px 5px #114B5F;
+    border-radius: 10px;
+    background-color: #E8EBED;
+}
+
+.directory .view button {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #114B5F;
+    box-shadow: 3px 3px 5px black;
+    color: #E8EBED;
+    box-shadow: 3px 3px 5px #114B5F;
+    margin: 10px;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: .5rem;
-    width: 95%;
-
 }
 
 .directory {
@@ -751,6 +772,47 @@ input[type="radio"] {
     margin: 15px auto 15px auto;
     filter: blur(0em);
     transition: filter 2s;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+    width: 95%;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; 
+}
+
+.directory .list p, .directory .list h3, .directory .list a {
+    font-size: .7rem;
+    margin: 0 auto;
+    padding: .5rem;
 }
 
 /********************************CONTACT PAGE***************/

@@ -7,6 +7,7 @@
             "phone": "(803) 540-1240",
             "website": "http://www.redcross.org",
             "address": "2751 Bull St, Columbia, SC 29201",
+            "message": "Donate blood, save lives.",
             "level": "Non Profit"
         },
         {
@@ -15,6 +16,7 @@
             "phone": "(803) 254-4432",
             "website": "http://www.harvesthope.org",
             "address": "2220 Shop Rd, Columbia, SC 29201",
+            "message": "Building a hunger-free tomorrow.",
             "level": "Non Profit"
         },
         {
@@ -23,6 +25,7 @@
             "phone": "(803) 219-8288",
             "website": "http://www.barnhillteam.com",
             "address": "7891 Broad River Rd, Columbia, SC 29063",
+            "message": "Let's bring you home in the Midlands.",
             "level": "Gold"
         },
         {
@@ -31,6 +34,7 @@
             "phone": "(803) 726-4487",
             "website": "http://www.columbiafireflies.com",
             "address": "1640 Freed St, Columbia, SC 29201",
+            "message": "Take me out to the ballgame!",
             "level": "Gold"
         },
         {
@@ -39,6 +43,7 @@
             "phone": "(803) 779-3100",
             "website": "http://www.edventure.org",
             "address": "211 Gervais St, Columbia, SC 29201",
+            "message": "Building a love of learning.",
             "level": "Non Profit"
         },
         {
@@ -47,6 +52,7 @@
             "phone": "(803) 900-4144",
             "website": "http://www.escapology.com/Columbia-SC",
             "address": "717 Lady St, Suite D, Columbia, SC 29201",
+            "message": "Choose your team, Choose your room, Make your escape!",
             "level": "Silver"
         },
         {
@@ -55,6 +61,7 @@
             "phone": "(803) 779-8717",
             "website": "http://www.riverbanks.org",
             "address": "500 Wildlife Pkwy, Columbia, SC 29210",
+            "message": "Inspiring education and conservation.",
             "level": "Silver"
         },
         {
@@ -63,6 +70,7 @@
             "phone": "(803) 594-8550",
             "website": "http://www.kendrascott.com",
             "address": "4840 Forest Dr, Suite 6-A, Columbia, SC 29206",
+            "message": "Make a statement and a difference.",
             "level": "Bronze"
         }
     ]

@@ -1,20 +1,25 @@
 const URL = 'https://jamers08.github.io/wdd230/chamber/json/data.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('#spotlight');
 
-async function getMembers() {
-  let response = await fetch(URL);
-  if (response.ok) {
-    let data = await response.json();
-    //console.log(data);
-    buildBusinessCards(data);
-  } else {
-    throw Error(response.statusText);
-  }
-}
+fetch(URL)
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(jsonObject) {
+    const members = jsonObject['members'];
+    let statusCheck = members.filter(members => (members.level == 'Gold' || members.level == 'Silver'));
+    //try array.map
+    for (let i = 0; i < 3; i++) {
+      shuffle = Math.floor(Math.random() * statusCheck.length);
+      buildSpotlightCards(statusCheck[shuffle]);
+      members = members.filter(members => (members.name != statusCheck[shuffle].name));
+    }
+  });
 
-function buildBusinessCards(data) {
-  data.members.forEach(member => {
-    let card = document.createElement('section');
+
+function buildSpotlightCards(data) {
+  members.forEach(member => {
+    let card = document.createElement('div');
     let h3 = document.createElement('h3');
     let name = document.createElement('p');
     let phone = document.createElement('p');
