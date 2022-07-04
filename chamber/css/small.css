@@ -59,7 +59,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     padding: 8px;
-    color: #E8EBED;
+    color: white;
     background-color: #15795B;
     font-family: 'Sansita', sans-serif;
     border-radius: 10px;
@@ -71,7 +71,6 @@ h2 {
 
 h3 {
     font-size: 1rem;
-
     color: #E8EBED;
     background-color: #710928;
     font-family: 'Sansita', sans-serif;
@@ -296,7 +295,7 @@ main p {
 
 /***********************Boxes*/
 
-#hero, #news, #event, #weather, #join {
+#hero, #news, #event, #weather, #joinDiv {
     margin-top: .5rem;
     margin-left: .5rem;
     margin-right: .5rem;
@@ -428,7 +427,7 @@ main p {
     grid-row: 4;
 }
 
-#join {
+#joinDiv {
     display: none;
 }
 

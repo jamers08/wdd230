@@ -1,205 +1,205 @@
 @media only screen and (min-width: 60em) {
-
-main{
-    grid-template-columns: 1fr 3fr 1fr;
-    margin: 10px;
-}
-
-nav {
-    margin-top: .5rem;
-}
-
-nav button {
-    display: none;
-}
+    main{
+        grid-template-columns: 1fr 3fr 1fr;
+        margin: 10px;
+    }
     
-nav ul {
-    display: flex;
-    border-radius: 10px;
-}
-
-nav ul li {
-    border: none;
-}
-
-.social img {
-    float: unset;
-    width: unset;  
-}
-
-.social {
-    margin-left: 0;
-}
-
-#mediumfooter {
-    display: none;
-}
-
-#event {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-items: center;
-}
+    nav {
+        margin-top: .5rem;
+    }
     
-#eventInfo {
-    padding-top: 1rem;
-}
-
-#eventInfo p {
-    padding: .5rem;
-    font-size: .8rem;
-}
-
-#eventInfo p:nth-child(2) {
-    display: block;
-    font-size: 1.2rem;
-}
+    nav button {
+        display: none;
+    }
+        
+    nav ul {
+        display: flex;
+        border-radius: 10px;
+    }
     
-#eventInfo #eventName {
-    font-size: 1.6rem;
-    padding: .5rem;
-}
+    nav ul li {
+        border: none;
+    }
     
-#eventInfo span {
-    display: none;
-}
+    .social img {
+        float: unset;
+        width: unset;  
+    }
     
-#hero {
-    grid-column: 2/3;
-    grid-row: 1/3;
-    margin-bottom: .5rem;
-}
-
-#hero .responsive{
-    max-width:100%;
-    max-height:100%;
-  }
- 
-#hero .center{
-   position: absolute;
-   top: 50%;
-   left: 50%; 
-   transform: translate(-50%, -50%);
- }
- 
- .heroPhoto{
-   position: relative;
- }
-
-.heroName p {
-    font-size: 4vw;
-    font-weight: 400;
-}
-
-.spot {
-    display: grid;
-    max-height: min-content;
-}
-
-.spot p, .spot a {
-    font-size: .7rem;
-}
-
-
-.spot:nth-child(3){
-    display: grid;
-}
-
-#spotlight {
-
-    display: grid;
-    grid-column: 3/4;
-    grid-row: 1/4;
-    padding: 20px;
-}
-
-#weather {
-    grid-column: 1/2;
-    grid-row: 2;
-    margin-left: .5rem;
-    padding-bottom: .5rem;
-}
-
-#weatherGrid img {
-    margin: 0px 10px;
-}
-
-#weather1, #weather2 {
-    padding: 5px;
-}
-
-#weather1 h4 {
-    font-size: 2rem;
-}
-
-#weather2 p, h4 {
-    font-size: .9rem;
-}
-
-#join {
-    grid-column: 1;
-    grid-row: 3/4;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-}
-
-#join p {
-    padding: 1rem .5rem 1rem .5rem;
-}
-
-#news {
-    grid-column: 2;
-    grid-row: 3/4;
-    margin-bottom: .5rem;
-}
-
-
-/*******DISCOVER PAGE *****************/
-
-#zoo, #library, #sesqui, #capital, #archives {
-    overflow: unset;
-    margin: 0;
-}
-
-.discover {
-    margin: 1rem;
-}
-
-.photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    align-items: center;
-    grid-gap: 1rem;
-    margin: 0 auto;
-}
-
-.discover h3 {
-    width: 100%;
-}
-
-.discover section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0%;
-    padding: 10px;
-    box-shadow: 3px 3px 5px #114B5F;
-}
-
-#zoo img, #library img, #sesqui img, #capital img, #archives img {
-    width: auto;
-    max-width: 325px;
-    height: 325px;
-    float: unset;
-}
-
-#zoo p, #library p, #sesqui p, #capital p, #archives p {
-    padding: 10px;
-    text-align: center;
-    min-height: 150px;
-}
-
-.demographics section {
-    box-shadow: none;
-}
+    .social {
+        margin-left: 0;
+    }
+    
+    #mediumfooter {
+        display: none;
+    }
+    
+    #event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-items: center;
+    }
+        
+    #eventInfo {
+        padding-top: 1rem;
+    }
+    
+    #eventInfo p {
+        padding: .5rem;
+        font-size: .8rem;
+    }
+    
+    #eventInfo p:nth-child(2) {
+        display: block;
+        font-size: 1.2rem;
+    }
+        
+    #eventInfo #eventName {
+        font-size: 1.6rem;
+        padding: .5rem;
+    }
+        
+    #eventInfo span {
+        display: none;
+    }
+        
+    #hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin-bottom: .5rem;
+    }
+    
+    #hero .responsive{
+        max-width:100%;
+        max-height:100%;
+      }
+     
+    #hero .center{
+       position: absolute;
+       top: 50%;
+       left: 50%; 
+       transform: translate(-50%, -50%);
+     }
+     
+     .heroPhoto{
+       position: relative;
+     }
+    
+    .heroName p {
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    
+    .spot {
+        display: grid;
+        max-height: min-content;
+    }
+    
+    
+    .spot p, .spot a {
+        font-size: .7rem;
+    }
+    
+    
+    .spot:nth-child(3){
+        display: grid;
+    }
+    
+    #spotlight {
+    
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        padding: 20px;
+    }
+    
+    #weather {
+        grid-column: 1/2;
+        grid-row: 2;
+        margin-left: .5rem;
+        padding-bottom: .5rem;
+    }
+    
+    #weatherGrid img {
+        margin: 0px 10px;
+    }
+    
+    #weather1, #weather2 {
+        padding: 5px;
+    }
+    
+    #weather1 h4 {
+        font-size: 2rem;
+    }
+    
+    #weather2 p, h4 {
+        font-size: .9rem;
+    }
+    
+    #joinDiv {
+        grid-column: 1;
+        grid-row: 3/4;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    
+    #joinDiv p {
+        padding: 1rem .5rem 1rem .5rem;
+    }
+    
+    #news {
+        grid-column: 2;
+        grid-row: 3/4;
+        margin-bottom: .5rem;
+    }
+    
+    
+    /*******DISCOVER PAGE *****************/
+    
+    #zoo, #library, #sesqui, #capital, #archives {
+        overflow: unset;
+        margin: 0;
+    }
+    
+    .discover {
+        margin: 1rem;
+    }
+    
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        align-items: center;
+        grid-gap: 1rem;
+        margin: 0 auto;
+    }
+    
+    .discover h3 {
+        width: 100%;
+    }
+    
+    .discover section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        padding: 10px;
+        box-shadow: 3px 3px 5px #114B5F;
+    }
+    
+    #zoo img, #library img, #sesqui img, #capital img, #archives img {
+        width: auto;
+        max-width: 325px;
+        height: 325px;
+        float: unset;
+    }
+    
+    #zoo p, #library p, #sesqui p, #capital p, #archives p {
+        padding: 10px;
+        text-align: center;
+        min-height: 150px;
+    }
+    
+    .demographics section {
+        box-shadow: none;
+    }
 }
