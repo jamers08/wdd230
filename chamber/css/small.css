@@ -742,7 +742,7 @@ input[type="radio"] {
     border-radius: 10px;
 }
 
-.directory section {
+.directory article {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -779,7 +779,7 @@ input[type="radio"] {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .list {
