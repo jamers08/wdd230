@@ -696,6 +696,14 @@ input[type="radio"] {
     text-align: center;
 }
 
+.thankyou div {
+    padding: .5rem;
+    border: 1px solid #114B5F;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 5px #114B5F;
+    background-color: #E8EBED;
+}
 /********************************DIRECTORY****************************/
 
 .directory .view {
@@ -884,11 +892,7 @@ form label.top textarea:required:valid {
     text-align: center;
 }
 
-.contact .title {
-    font-size: .8rem;
-}
-
-.contact .mail {
+.contact .title, .contact .mail {
     font-size: .8rem;
 }
 
@@ -899,6 +903,9 @@ form label.top textarea:required:valid {
 .contact img {
     height: 100px;
     width: auto;
+}
+.contact div.operationHours p:nth-child(2) {
+    padding-top: 2rem;
 }
 /******************* footer*/
 
