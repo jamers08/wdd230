@@ -464,6 +464,9 @@ main p {
 
 #spotlight img {
     border-radius: 10px;
+    background: transparent;
+    margin: 10px;
+    width: 80%;
 }
 
 /********************** Discover Page****/
