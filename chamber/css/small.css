@@ -742,10 +742,8 @@ input[type="radio"] {
     border-radius: 10px;
 }
 
-.directory article {
+.directory section {
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     padding-bottom: 2rem;
     border: 2px solid darkgrey;
     margin: 10px auto;
