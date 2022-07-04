@@ -19,7 +19,7 @@ fetch(URL)
 function displaySpotlightCard(members) {
   //create elements from json--remember to look back and double check!!
   let card = document.createElement('div');
-  let name = document.createElement('h2');
+  let name = document.createElement('h3');
   let logo = document.createElement('img');
   let message = document.createElement('p');
   let website = document.createElement('a');
