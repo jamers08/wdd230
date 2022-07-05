@@ -10,7 +10,7 @@
     .social {
         max-width: max-content;
     }
-    #hero, #news, #event, #weather, #join {
+    #hero, #news, #event, #weather, #joinDiv {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
@@ -148,14 +148,14 @@
     
     /***********JOIN PAGE*************/
     
-    main.join {
+    main.join, main.contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
         color: #114B5F;
     }
     
-    .join h1 {
+    .join h1, .contact h1 {
         grid-column: span 2;
         text-align: center;
         font-size: 2rem;
@@ -183,18 +183,6 @@
     }
     
     /************contact****************/
-    main.contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-        color: #114B5F;
-    }
-    
-    .contact h1 {
-        grid-column: span 2;
-        text-align: center;
-        font-size: 2rem;
-    }
     
     .contact div.board {
         grid-column: span 2;
