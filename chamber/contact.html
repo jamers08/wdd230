@@ -74,23 +74,28 @@
         <div class="operationHours">
             <h3>Hours of Operation</h3>
             <p>Feel free to come down and see us!</p>
-            <br>
-            <p>We are located at:</p>
-            <p>1225 Lady St Suite 100</p>
-            <p>Columbia, South Carolina 29201</p>
-            <br>
-            <p>Our office hours are:</p>
-            <p>Monday thru Friday: 8:00am - 5:00pm</p>
-            <p>Saturday: 10:00am - 3:00pm</p>
-            <p>Closed Sundays</p>
+            <div class="opGrid">
+                <div class="hours1">
+                    <p>We are located at:</p>
+                    <p>1225 Lady St Suite 100</p>
+                    <p>Columbia, South Carolina 29201</p>
+                </div>
+                <div class="hours2">
+                    <p>Our office hours are:</p>
+                    <p>Monday thru Friday: 8:00am - 5:00pm</p>
+                    <p>Saturday: 10:00am - 3:00pm</p>
+                    <p>Closed Sundays</p>
+                </div>
+            </div>
         </div>
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Not finding what you need?</legend>
-                <label class="top">First and Last Name* <input type="text" name="fname" placeholder="Alex Smith" required></label>
+                <label class="top">First Name* <input type="text" name="fname" placeholder="Alex" required></label>
+                <label class="top">Last Name* <input type="text" name="fname" placeholder="Smith" required></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="user@email.com" required></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Suggestions, Questions, and/or Comments* <textarea rows="5" name="commentBox" placeholder="How can we help you today?" required></textarea></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>   
+                <label class="top2">Suggestions, Questions, and/or Comments* <textarea rows="5" name="commentBox" placeholder="How can we help you today?" required></textarea></label>
             </fieldset>
             <input type="submit" value="Contact the Chamber" class="submitBtn">
         </form>

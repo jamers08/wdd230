@@ -198,6 +198,10 @@
     .contact form fieldset {
         margin-top: .5rem;
     }
+
+    .contact form {
+        margin-top: -25px;
+    }
     
     /****************FOOTER*******************/
     footer {
