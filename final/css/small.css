@@ -1,0 +1,139 @@
+:root {
+    --back: #FFFFFF; /*white*/
+    --font: #01161E; /*Rich Black FOGRA 29*/
+    --accent1: #124559; /*Midnight Green Eagle Green*/
+    --accent2: #EDE2AB; /*Medium Champagne*/
+    --accent3: #DAE3E7; /*Gainsboro*/
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer, header {
+    background-color: var(--accent1);
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: var(--accent3);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--font);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--font);
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    color: var(--back);
+    /*background-color: var(--accent2);*/
+    text-shadow: 3px 3px 5px var(--font);
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+    color: var(--font);
+    background-color: var(--accent2);
+    opacity: calc(80%);
+    font-weight: 400;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font);
+    padding: 10px;
+}
+
+/************HEADER************/
+
+.logo img {
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    margin: 10px;
+    border: 5px solid var(--accent1);
+    outline: 5px solid var(--accent2);
+}
+
+/***********NAVIGATION***********/
+
+nav button{
+    width: 100%;
+    background-color: var(--accent1);
+    color: var(--back);
+    padding: 1rem;
+    border: none;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--accent1);
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    color: var(--back);
+}
+
+.active, .active a {
+    background-color: var(--accent3);
+    color: var(--font);
+}
+
+nav ul li a:hover {
+    background-color: var(--accent2);
+    color: var(--font);
+}
+
+nav ul.open {
+    display: block;
+    width: 100%;
+}
+
+#hamButton span:nth-child(1) {
+    display: block;
+}
+
+#hamButton span:nth-child(2) {
+    display: none;
+}
+#hamButton span:nth-child(3) {
+    display: none;
+}
+
+#hamButton.open span:nth-child(1) {
+    display: none;
+}
+
+#hamButton.open span:nth-child(2) {
+    display: block;
+}
+
+#hamButton.open span:nth-child(3) {
+    display: inline-block;
+}
+
+/***********HOME PAGE*********/
+
+/************FOOTER***************/
+
+footer p, footer a {
+    color: var(--back);
+    font-size: .7rem;
+}
