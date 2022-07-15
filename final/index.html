@@ -18,6 +18,7 @@
         <div class="logo">
             <a href="index.html"><img src="images/logo.png" alt="Temple Inn & Suites Logo"></a>
             <h1>"You are never lost when you can see the temple."</h1>
+            <p>Elder Gary E. Stevenson</p>
         </div>
     </header>
     <main>
@@ -48,21 +49,72 @@
         </div>
         <div class="temple-summary">
         <!--Summary Information about a temple of your choosing-->
-        
+
         </div>
         <div class="weather">
         <!--Current Weather card that summarizes the conditions
             current temp, curr condition desc, humidity.
             Weather alerts if available from the govmnt as a closeable message at page top
             Display and label three day forecast of the Day temps using the current date.-->
+            <h2>Weather Forecast</h2>
+            <div id="weatherGrid">
+                <div id="current">
+                    <h4 id="currentDate"></h4>
+                    <section>
+                        <img src="" alt="" id="current-icon">
+                        <p id="current-desc"></p>
+                    </section>
+                    <p class="weather"><span id="current-temp"></span> </p>
+                    <p class="weather"><span id="current-humidity"></span></p>
+                    <p class="weather"><span id="current-feel"></span></p>
+                </div>
+                <div id="weatherBreak">
+                    <hr>
+                </div>
+                <div id="forecastContainer">
+                    <h4>3-day Forecast</h4>
+                    <section class="forecast">
+                        <h4 id="day1"></h4>
+                        <img src="" alt="" class="icons" id="icon1">
+                        <p id="day1Desc"></p>
+                        <p id="day1Temp"></p>
+                    </section>
+                    <section class="forecast">
+                        <h4 id="day2"></h4>
+                        <img src="" alt="" class="icons" id="icon2">
+                        <p id="day2Desc"></p>
+                        <p id="day2Temp"></p>
+                    </section>
+                    <section class="forecast">
+                        <h4 id="day3"></h4>
+                        <img src="" alt="" class="icons" id="icon3">
+                        <p id="day3Desc"></p>
+                        <p id="day3Temp"></p>
+                    </section>
+                </div>
         </div>
     </main>
     <footer>
         <div>
-            <p>*Quote by Elder Gary E. Stevenson</p>
+            <p>Randomized Temple Quote</p>
+
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+
             <a href="references.html">References</a>
+        </div>
+        <div class="social">
+            <a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="http://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="http://www.twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="http://www.youtube.com"><img src="images/youtube.png" alt="YouTube"></a>
+        </div>
+        <div id="last">
+            <hr/>
+            <p>&copy; <span id= "copyright"></span> Temple Inn & Suites -:|:- Jamie Stott -:|:- WDD 230 Project</p>
+            <p id="lastModified"></p>
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

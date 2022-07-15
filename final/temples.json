@@ -2,16 +2,22 @@
     "temple": [
 
         {
-            "name": "",
-            "pic": "",
+            "name": "Moses Lake Washington Temple",
+            "pic": "images/moseslake.jpg",
+            "label1": "Address",
             "address": "",
+            "label2": "Phone Number",
             "phone": "",
+            "label3": "Email",
             "email": "",
+            "label4": "Services",
             "services": "",
-            "history": "",
+            "announcement": "",
+            "groundbreaking": "",
+            "dedication": "",
             "ordinance": "",
             "session": "",
-            "closure": ""
+            "closure": "Temple Closed During Construction"
         },
         {
             "name": "",
