@@ -6,6 +6,7 @@ const currentFeel = document.querySelector('#current-feel');
 const date = "";
 
 const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.95&lon=-80.89&exclude=minutely,hourly&units=imperial&appid=b8aa599bead2268ad5027f753b37e704';
+const test = 
 
 apiFetch();
 
@@ -64,3 +65,6 @@ function displayCurrent(weatherData) {
         currentDate.innerHTML = `${fullCurrentDay}`;
         }
 
+function alert() {
+    const alert = window.confirm(`${weatherData.alert.}`)
+}
