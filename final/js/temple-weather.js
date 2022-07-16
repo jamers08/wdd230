@@ -2,18 +2,24 @@
 const templeURL = 'https://jamers08.github.io/wdd230/final/temples.json';
 const spotlight = document.querySelector('#temple-summary')
 
+getTemples();
 async function getTemples() {
     let response = await fetch(templeURL);
     if (response.ok) {
       let data = await response.json();
       console.log(data);
-      //buildBusinessCards(data);
+      //buildTempleCards(data);
+      //randomize(data);
     } else {
       throw Error(response.statusText);
     }
   }
 
-getTemples();
+function buildTempleCards(data){
+    data.temples.forEach(temple => {
+
+    })
+};
 
 //*****************************WEATHER JS */
 const currentTemp = document.querySelector('#current-temp');
@@ -32,7 +38,7 @@ async function apiFetch() {
     const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        //console.log(data); // this is for testing the call
         displayCurrent(data);
         buildAlert(data);
       } else {
@@ -61,7 +67,7 @@ fetch(url)
     for(i=0;i<3;i++) {
         document.getElementById(`day${i+1}Temp`).innerHTML = `${weatherData.daily[i+1].temp.day.toFixed(1)} &deg;F`;
     }
-})
+});
 
 function displayCurrent(weatherData) {
     //Current date - Day 0
