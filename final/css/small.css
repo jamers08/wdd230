@@ -51,6 +51,11 @@ h2{
     padding: 10px;
 }
 
+hr {
+    color: var(--back);
+    box-shadow: 3px 3px 5px var(--font);
+}
+
 a {
     text-decoration: none;
     color: var(--font);

@@ -33,7 +33,9 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        
+        <div class="warning">
+            <div id="alert"></div>
+        </div>
         <picture>
 
         </picture>
@@ -49,9 +51,11 @@
         </div>
         <div class="temple-summary">
         <!--Summary Information about a temple of your choosing-->
+            <h2>Temple Summary</h2>
 
         </div>
         <div class="weather">
+            <div id="alert"></div>
         <!--Current Weather card that summarizes the conditions
             current temp, curr condition desc, humidity.
             Weather alerts if available from the govmnt as a closeable message at page top
@@ -68,9 +72,9 @@
                     <p class="weather"><span id="current-humidity"></span></p>
                     <p class="weather"><span id="current-feel"></span></p>
                 </div>
-                <div id="weatherBreak">
+                <!--<div id="weatherBreak">
                     <hr>
-                </div>
+                </div>-->
                 <div id="forecastContainer">
                     <h4>3-day Forecast</h4>
                     <section class="forecast">
@@ -98,9 +102,14 @@
         <div>
             <p>Randomized Temple Quote</p>
 
-            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-
             <a href="references.html">References</a>
+        </div>
+        <div id="contact">
+            <h3>Temple Inn & Suites</h3>
+            <p>info@templeinn.com</p>
+            <p>(123) 456-7890</p>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <P><a href="https://goo.gl/maps/HwvUNYo3Xr2WNvpW7" id="location">&#9830; Location Map</a></P>
         </div>
         <div class="social">
             <a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
@@ -115,6 +124,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/weather.js"></script>
+    <script src="js/temple-weather.js"></script>
 </body>
 </html>

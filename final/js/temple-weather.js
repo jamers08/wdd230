@@ -1,3 +1,21 @@
+//******************************TEMPLE JS */
+const templeURL = 'https://jamers08.github.io/wdd230/final/temples.json';
+const spotlight = document.querySelector('#temple-summary')
+
+async function getTemples() {
+    let response = await fetch(templeURL);
+    if (response.ok) {
+      let data = await response.json();
+      console.log(data);
+      //buildBusinessCards(data);
+    } else {
+      throw Error(response.statusText);
+    }
+  }
+
+getTemples();
+
+//*****************************WEATHER JS */
 const currentTemp = document.querySelector('#current-temp');
 const currentIcon = document.querySelector('#current-icon');
 const currentDesc = document.querySelector('#current-desc');
@@ -5,22 +23,21 @@ const currentHumid = document.querySelector('#current-humidity');
 const currentFeel = document.querySelector('#current-feel');
 const date = "";
 
-const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.95&lon=-80.89&exclude=minutely,hourly&units=imperial&appid=b8aa599bead2268ad5027f753b37e704';
-const test = 
+//const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.95&lon=-80.89&exclude=minutely,hourly&units=imperial&appid=b8aa599bead2268ad5027f753b37e704';
+const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.611600&lon=-111.758023&exclude=minutely,hourly&units=imperial&appid=b8aa599bead2268ad5027f753b37e704';
 
 apiFetch();
 
 async function apiFetch() {
-
-      const response = await fetch(url);
+    const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
         console.log(data); // this is for testing the call
         displayCurrent(data);
+        buildAlert(data);
       } else {
           throw Error(await response.text());
       }
-
 }
 
 fetch(url)
@@ -41,7 +58,7 @@ fetch(url)
     for(i=0;i<3;i++){
         document.getElementById(`day${i+1}Desc`).innerHTML = `${weatherData.daily[i+1].weather[0].description}`;
     }
-    for(i=0;i<3;i++){
+    for(i=0;i<3;i++) {
         document.getElementById(`day${i+1}Temp`).innerHTML = `${weatherData.daily[i+1].temp.day.toFixed(1)} &deg;F`;
     }
 })
@@ -63,8 +80,25 @@ function displayCurrent(weatherData) {
                 dateStyle: "full"
             }).format(currentMills);
         currentDate.innerHTML = `${fullCurrentDay}`;
+
+        
         }
 
-function alert() {
-    const alert = window.confirm(`${weatherData.alert.}`)
+const alerts = document.querySelector('#alert');
+let i = 0;
+function buildAlert(weatherData) {
+    weatherData.alerts.forEach(alert => {
+        let card = document.createElement('section');
+        let event = document.createElement('p');
+
+        event.textContent = `${weatherData.alerts[i].event}`;
+
+        card.appendChild(event);
+
+        alerts.appendChild(card);
+        i++
+    });
 }
+
+    
+
