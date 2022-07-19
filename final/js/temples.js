@@ -1,5 +1,6 @@
 const templeURL = 'https://jamers08.github.io/wdd230/final/temples.json';
 const cards = document.querySelector('.templeGrid');
+let i =0;
 
 async function getTemples() {
     let response = await fetch(templeURL);
@@ -19,55 +20,106 @@ function buildTempleCards(data) {
         let name = document.createElement('h2');
         let pic = document.createElement('img');
         let addressLabel = document.createElement('h3');
-        //let address = document.createElement('section');
+        let address = document.createElement('section');
+        let addressLine = document.createElement('p');
         let phoneLabel = document.createElement('h3');
         let phone = document.createElement('p');
         let emailLabel = document.createElement('h3');
         let email = document.createElement('p');
         let servicesLabel = document.createElement('h3');
-        let services = document.createElement('p');
+        let services = document.createElement('section');
+        let servicesLine = document.createElement('p');
         let historyLabel = document.createElement('h3');
-        let history = document.createElement('p');
+        let history = document.createElement('section');
+        let historyLine = document.createElement('p');
         let ordinanceLabel = document.createElement('h3');
         let ordinances = document.createElement('p');
         let sessionLabel = document.createElement('h3');
-        let sessions = document.createElement('p');
+        let sessions = document.createElement('section');
+        let sessionLine = document.createElement('p');
         let closureLabel = document.createElement('h3');
         let closures = document.createElement('p');
 
         name.textContent = `${temple.name}`;
         addressLabel.textContent = `${temple.addressLabel}:`;
-        
-
+        phoneLabel.textContent = `${temple.phoneLabel}:`;
+        phone.textContent = `${temple.phone}`;
+        emailLabel.textContent = `${temple.emailLabel}:`;
+        email.textContent = `${temple.email}`;
+        servicesLabel.textContent = `${temple.servicesLabel}:`;
+        historyLabel.textContent = `${temple.historyLabel}:`;
+        ordinanceLabel.textContent = `${temple.ordinanceLabel}`;
+        ordinances.textContent = `${temple.ordinances}`;
+        sessionLabel.textContent = `${temple.sessionLabel}`;
 
         pic.setAttribute('src', temple.pic);
         pic.setAttribute('alt', `Picture of ${temple.name}`);
         pic.setAttribute("loading", "lazy");
 
-        //address.setAttribute('class', address);
+        address.textContent = `${temple.address}`;
+        address.setAttribute('class', 'address');
+        addressLine.textContent =`${temple.address[i].line}`;
+        services.textContent = `${temple.services}`;
+        services.setAttribute('class', 'services');
+        servicesLine.textContent = `${temple.services[i].line}`;
+
+        history.textContent = `${temple.history}`;
+        history.setAttribute('class', 'history');
+        historyLine.textContent = `${temple.history[i].historySub} ${temple.history[i].historyDate}`;
+
+
+     
+
 
         card.append(name);
         card.appendChild(pic);
         card.appendChild(addressLabel);
+        card.appendChild(address);
+        card.appendChild(addressLine);
+        card.appendChild(phoneLabel);
+        card.appendChild(phone);
+        card.appendChild(emailLabel);
+        card.appendChild(email);
+        card.appendChild(servicesLabel);
+        card.appendChild(services);
+        card.appendChild(servicesLine);
+        card.appendChild(historyLabel);
+        card.appendChild(history);
+        card.appendChild(historyLine);
+        card.appendChild(ordinanceLabel);
+        card.appendChild(ordinances);
+        card.appendChild(sessionLabel);
 
         cards.append(card);
         
     });
 }
-/*
-const address = document.querySelector('.address');
-let i = 0;
 
-function getAddress(data) {
-    data.temple.forEach(temple => {
+/*fetch(templeURL)
+.then(response => response.json())
+.then(data => {
+    for(i=0;i<3;i++){
+        document.getElementById(`temple${i+1}name`).innerHTML = `${data.temple[i+1].name}`;
+    }
+    for(i=0;i<3;i++) {
+        document.getElementById(`day${i+1}Temp`).innerHTML = `${weatherData.daily[i+1].temp.day.toFixed(1)} &deg;F`;
+    }
+});*/
+
+/*const address = document.querySelector('.address');
+
+function getAddress() {
+    for(i=0;i<temple.address.length;i++) {
         let card = document.createElement('section');
         let fullAddress = document.createElement('p');
 
         fullAddress.textContent = `${temple.address[i].line}`;
-    
-            card.appendChild(fullAddress);
-            i++
-    });
+        i++;
+
+        card.appendChild(fullAddress);
+
+        address.appendChild(card);
+    };
 }*/
 
 getTemples();

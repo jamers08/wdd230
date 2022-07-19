@@ -327,6 +327,7 @@
             ],
             "ordinanceLabel": "Ordinances:",
             "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "sessionLabel":"Sessions:",
             "sessions": [
                 {
                     "day": "Monday",
