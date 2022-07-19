@@ -38,7 +38,8 @@ function buildTempleCards(data) {
         let sessions = document.createElement('section');
         let sessionLine = document.createElement('p');
         let closureLabel = document.createElement('h3');
-        let closures = document.createElement('p');
+        let closures = document.createElement('section');
+        let closureLine = document.createElement('p');
 
         name.textContent = `${temple.name}`;
         addressLabel.textContent = `${temple.addressLabel}:`;
@@ -51,6 +52,7 @@ function buildTempleCards(data) {
         ordinanceLabel.textContent = `${temple.ordinanceLabel}`;
         ordinances.textContent = `${temple.ordinances}`;
         sessionLabel.textContent = `${temple.sessionLabel}`;
+        closureLabel.textContent = `${temple.closureLabel}`;
 
         pic.setAttribute('src', temple.pic);
         pic.setAttribute('alt', `Picture of ${temple.name}`);
@@ -59,6 +61,7 @@ function buildTempleCards(data) {
         address.textContent = `${temple.address}`;
         address.setAttribute('class', 'address');
         addressLine.textContent =`${temple.address[i].line}`;
+        
         services.textContent = `${temple.services}`;
         services.setAttribute('class', 'services');
         servicesLine.textContent = `${temple.services[i].line}`;
@@ -67,9 +70,13 @@ function buildTempleCards(data) {
         history.setAttribute('class', 'history');
         historyLine.textContent = `${temple.history[i].historySub} ${temple.history[i].historyDate}`;
 
-
+        sessions.textContent = `${temple.sessions}`;
+        sessions.setAttribute('class', 'sessions');
+        sessionLine.textContent = `${temple.sessions[i].day} ${temple.sessions[i].time}`;
      
-
+        closures.textContent = `${temple.closures}`;
+        closures.setAttribute('class', 'closures');
+        closureLine.textContent = `${temple.closures[i].line}`;
 
         card.append(name);
         card.appendChild(pic);
@@ -89,6 +96,11 @@ function buildTempleCards(data) {
         card.appendChild(ordinanceLabel);
         card.appendChild(ordinances);
         card.appendChild(sessionLabel);
+        //card.appendChild(sessions);
+        card.appendChild(sessionLine);
+        card.appendChild(closureLabel);
+        //card.appendChild(closures);
+        card.appendChild(closureLine);
 
         cards.append(card);
         
