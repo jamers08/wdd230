@@ -189,6 +189,7 @@
         {
             "name": "Columbia South Carolina Temple",
             "pic": "images/columbia.jpeg",
+            "addressLabel": "Address",
             "address": [
                 {
                     "line": "2905 Trotter Rd"

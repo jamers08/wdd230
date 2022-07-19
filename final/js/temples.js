@@ -1,6 +1,5 @@
 const templeURL = 'https://jamers08.github.io/wdd230/final/temples.json';
 const cards = document.querySelector('.templeGrid');
-let i = 0;
 
 async function getTemples() {
     let response = await fetch(templeURL);
@@ -8,7 +7,7 @@ async function getTemples() {
         let data = await response.json();
         console.log(data);
         buildTempleCards(data);
-        getAddress(data);
+        //getAddress(data);
     } else {
         throw Error(response.statusText);
     }
@@ -20,7 +19,7 @@ function buildTempleCards(data) {
         let name = document.createElement('h2');
         let pic = document.createElement('img');
         let addressLabel = document.createElement('h3');
-        let address = document.createElement('section');
+        //let address = document.createElement('section');
         let phoneLabel = document.createElement('h3');
         let phone = document.createElement('p');
         let emailLabel = document.createElement('h3');
@@ -37,7 +36,7 @@ function buildTempleCards(data) {
         let closures = document.createElement('p');
 
         name.textContent = `${temple.name}`;
-        addressLabel.textContent = `${temple.addressLabel}`;
+        addressLabel.textContent = `${temple.addressLabel}:`;
         
 
 
@@ -45,18 +44,20 @@ function buildTempleCards(data) {
         pic.setAttribute('alt', `Picture of ${temple.name}`);
         pic.setAttribute("loading", "lazy");
 
-        address.setAttribute('class', address);
+        //address.setAttribute('class', address);
 
         card.append(name);
         card.appendChild(pic);
-        card.appendChild(address);
+        card.appendChild(addressLabel);
 
         cards.append(card);
         
     });
 }
-
+/*
 const address = document.querySelector('.address');
+let i = 0;
+
 function getAddress(data) {
     data.temple.forEach(temple => {
         let card = document.createElement('section');
@@ -65,10 +66,8 @@ function getAddress(data) {
         fullAddress.textContent = `${temple.address[i].line}`;
     
             card.appendChild(fullAddress);
-            
-            address.appendChild(card);
             i++
     });
-}
+}*/
 
 getTemples();
