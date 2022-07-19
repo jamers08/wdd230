@@ -26,7 +26,7 @@ async function getMembers() {
   let response = await fetch(URL);
   if (response.ok) {
     let data = await response.json();
-    //console.log(data);
+    console.log(data);
     buildBusinessCards(data);
   } else {
     throw Error(response.statusText);

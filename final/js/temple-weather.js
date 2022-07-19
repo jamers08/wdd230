@@ -38,7 +38,7 @@ async function apiFetch() {
     const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        //console.log(data); // this is for testing the call
+        console.log(data); // this is for testing the call
         displayCurrent(data);
         buildAlert(data);
       } else {
@@ -90,21 +90,24 @@ function displayCurrent(weatherData) {
         
         }
 
-const alerts = document.querySelector('#alert');
+const alerts = document.querySelector('.alert');
 let i = 0;
-function buildAlert(weatherData) {
-    weatherData.alerts.forEach(alert => {
-        let card = document.createElement('section');
-        let event = document.createElement('p');
+//if (`${weatherData.alerts}`) {
+    function buildAlert(weatherData) {
+        weatherData.alerts.forEach(alert => {
+            let card = document.createElement('section');
+            let event = document.createElement('p');
+    
+            event.textContent = `${weatherData.alerts[i].event}`;
+    
+            card.appendChild(event);
+    
+            alerts.appendChild(card);
+            i++
+        });
+    } 
+//}
 
-        event.textContent = `${weatherData.alerts[i].event}`;
-
-        card.appendChild(event);
-
-        alerts.appendChild(card);
-        i++
-    });
-}
 
     
 

@@ -34,7 +34,7 @@
             </ul>
         </nav>
         <div class="warning">
-            <div id="alert"></div>
+            <div class="alert"></div>
         </div>
         <picture>
 
@@ -62,7 +62,9 @@
             <h2>Weather Forecast</h2>
             <div id="weatherGrid">
                 <div id="current">
-                    <h4 id="currentDate"></h4>
+                    <div class="weatherHeader">
+                        <h4 id="currentDate"></h4>
+                    </div>
                     <section>
                         <img src="" alt="" id="current-icon">
                         <p id="current-desc"></p>
@@ -71,11 +73,10 @@
                     <p class="weather"><span id="current-humidity"></span></p>
                     <p class="weather"><span id="current-feel"></span></p>
                 </div>
-                <!--<div id="weatherBreak">
-                    <hr>
-                </div>-->
-                <div id="forecastContainer">
+                <div class="weatherHeader">
                     <h4>3-day Forecast</h4>
+                </div>
+                <div id="forecastContainer">
                     <section class="forecast">
                         <h4 id="day1"></h4>
                         <img src="" alt="" class="icons" id="icon1">
@@ -102,7 +103,7 @@
         <div>
             <p>Randomized Temple Quote</p>
 
-            <a href="references.html">References</a>
+            <a href="resources.html">Resources</a>
         </div>
         <div id="contact">
             <h3>Temple Inn & Suites</h3>

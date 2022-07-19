@@ -7,6 +7,8 @@ function toggleMenu() {
 const x = document.getElementById('hamButton')
 x.onclick = toggleMenu;
 
+//random quote generator
+
 
 //footer copyright and last updated
 

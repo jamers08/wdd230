@@ -4,114 +4,600 @@
         {
             "name": "Moses Lake Washington Temple",
             "pic": "images/moseslake.jpeg",
-            "label1": "Address",
-            "address": "To Be Determined, Moses Lake, WA 98837",
-            "label2": "Phone Number",
+            "addressLabel": "Address",
+            "address": [
+                {
+                    "line": "To Be Determined"
+                },
+                {
+                    "line": "Moses Lake, WA"
+                },
+                {
+                    "line": "98837"
+                }
+            ],
+            "location": "Moses Lake, Washington",
+            "phoneLabel": "Phone Number",
             "phone": "None available during construction.",
-            "label3": "Email",
+            "emailLabel": "Email",
             "email": "MOSLK-OFF@ChurchofJesusChrist.org",
-            "label4": "Services",
+            "servicesLabel": "Services",
             "services": "None available during construction.",
-            "label5": "History",
-            "history": "Announced on 7 April 2019. Groundbreaking took place 10 October 2020.",
-            "ordinance": "None available during construction.",
-            "session": "None available during construction.",
-            "closure": "Temple Closed During Construction",
+            "historyLabel": "History",
+            "history": [
+                {
+                    "historySub": "Announced:",
+                    "historyDate": "7 April 2019"
+                },
+                {
+                    "historySub": "Groundbreaking:",
+                    "historyDate": "10 October 2020"
+                }
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances": "None available during construction.",
+            "sessionLabel": "Sessions:",
+            "sessions": [
+                {
+                    "line": "None available during construction."
+                }
+            ],
+            "closureLabel": "Closures:",
+            "closures": [
+                {
+                    "line": "Temple Closed During Construction"
+                }
+            ],
             "lat": "47.103521", 
             "lon": "-119.273816"
         },
         {
             "name": "Logan Utah Temple",
             "pic": "images/logan.jpeg",
-            "label1": "Address",
-            "address": "175 N 300 E, Logan, UT 84321",
-            "label2": "Phone Number",
+            "addressLabel": "Address",
+            "address": [
+                {
+                    "line": "175 N 300 E"
+                },
+                {
+                    "line": "Logan, UT"
+                },
+                {
+                    "line": "84321"
+                }
+            ],
+            "location": "Logan, Utah",
+            "phoneLabel": "Phone Number",
             "phone": "(435)-752-3611",
-            "label3": "Email",
+            "emailLabel": "Email",
             "email": "LOGAN-OFF@ChurchofJesusChrist.org",
-            "label4": "Services",
-            "services": "Clothing rental available. No cafeteria available. No patron housing available. No distribution center nearby.",
-            "label5": "History",
-            "history": "Announced on 6 October 1876. Groundbreaking took place 18 May 1877. Dedicated on 17 May 1884. Rededicated 13 March 1979.",
-            "ordinance": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "session": "Closed Sundays and Mondays. Open 7AM - 8PM Tuesdays, Thursdays and Fridays. Open 5:30AM - 8PM Wednesdays and Saturdays.",
-            "closure": "Saturday, 1 October 2022, Monday, 3 October 2022 - Monday, 17 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022 (Limited Operations), Monday, 13 February 2023 - Monday, 27 February 2023, Saturday, 1 April 2023, Tuesday, 4 July 2023, Saturday, 30 September 2023, Monday, 2 October 2023 - Monday, 16 October 2023, Wednesday, 22 November 2023 (Limited Operations), Thursday, 23 November 2023, Saturday, 23 December 2023.",
+            "servicesLabel": "Services",
+            "services": [
+                {
+                    "line": "Clothing rental available."
+                },
+                {
+                    "line": "No cafeteria available."
+                },
+                {
+                    "line": "No patron housing available."
+                },
+                {
+                    "line": "No distribution center nearby."
+                }
+            ],
+            "historyLabel": "History",
+            "history": [
+                {
+                    "historySub": "Announced:",
+                    "historyDate": "6 October 1876"
+                },
+                {
+                    "historySub": "Groundbreaking:",
+                    "historyDate": "18 May 1877"
+                },
+                {
+                    "historySub": "Dedicated:",
+                    "historyDate": "17 May 1884"
+                },
+                {
+                    "historySub": "Rededicated:",
+                    "historyDate": "13 March 1979"
+                }
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "sessionLabel": "Sessions:",
+            "sessions": [
+                {
+                    "day": "Monday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Tuesday",
+                    "time": "7AM - 8PM"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "5:30AM - 8PM"
+                },
+                {
+                    "day": "Thursday",
+                    "time": "7AM - 8PM"
+                },
+                {
+                    "day": "Friday",
+                    "time": "7AM - 8PM"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "5:30AM - 8PM"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "Closed"
+                }
+            ],
+            "closureLabel":"Closures:",
+            "closures": [
+                {
+                    "line": "Saturday, 1 October 2022"
+                },
+                {
+                    "line": "Monday, 3 October 2022 - Monday, 17 October 2022"
+                },
+                {
+                    "line": "Wednesday, 23 November 2022 (Limited Operations)"
+                },
+                {
+                    "line": "Thursday, 24 November 2022"
+                },
+                {
+                    "line": "Saturday, 24 December 2022"
+                },
+                {
+                    "line": "Saturday, 31 December 2022 (Limited Operations)"
+                },
+                {
+                    "line": "Monday, 13 February 2023 - Monday, 27 February 2023"
+                },
+                {
+                    "line": "Saturday, 1 April 2023"
+                },
+                {
+                    "line": "Tuesday, 4 July 2023"
+                },
+                {
+                    "line": "Saturday, 30 September 2023"
+                },
+                {
+                    "line": "Monday, 2 October 2023 - Monday, 16 October 2023"
+                },
+                {
+                    "line": "Wednesday, 22 November 2023 (Limited Operations)"
+                },
+                {
+                    "line": "Thursday, 23 November 2023"
+                },
+                {
+                    "line": "Saturday, 23 December 2023"
+                }
+            ],
             "lat": "41.734082", 
             "lon": "-111.827755"
         },
         {
             "name": "Columbia South Carolina Temple",
             "pic": "images/columbia.jpeg",
-            "label1": "Address",
-            "address": "2905 Trotter Rd, Columbia, SC 29061",
-            "label2": "Phone Number",
+            "address": [
+                {
+                    "line": "2905 Trotter Rd"
+                },
+                {
+                    "line": "Columbia, SC"
+                },
+                {
+                    "line": "29061"
+                }
+            ],
+            "location": "Columbia, South Carolina",
+            "phoneLabel": "Phone Number",
             "phone": "(803)-647-9472",
-            "label3": "Email",
+            "emailLabel": "Email",
             "email": "COLSC-OFF@ChurchofJesusChrist.org",
-            "label4": "Services",
-            "services": "No clothing rental available. No cafeteria available. No patron housing available. Distribution center nearby.",
-            "label5": "History",
-            "history": "Announced on 7 April 2019. Groundbreaking took place 10 October 2020.",
-            "ordinance": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "session": "None available during current closure.",
-            "closure": "Monday, 11 July 2022 - Monday, 25 July 2022, Saturday, 1 October 2022, Wednesday, 23 November 2022, Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022, Monday, 9 January 2023 - Monday, 23 January 2023.",
+            "servicesLabel": "Services",
+            "services": [
+                {
+                    "line": "No clothing rental available."
+                },
+                {
+                    "line": "No cafeteria available."
+                },
+                {
+                    "line": "No patron housing available."
+                },
+                {
+                    "line": "Distribution center nearby."
+                }
+            ],
+            "historyLabel": "History",
+            "history": [
+                {
+                    "historySub": "Announced:",
+                    "historyDate": "11 September 1998"
+                },
+                {
+                    "historySub": "Groundbreaking:",
+                    "historyDate": "5 December 1998"
+                },
+                {
+                    "historySub": "Dedicated:",
+                    "historyDate": "16 October 1999"
+                }
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "sessionLabel": "Sessions:",
+            "sessions": "None available during current closure.",
+            "closureLabel":"Closures:",
+            "closures": [
+                {
+                    "line": "Monday, 11 July 2022 - Monday, 25 July 2022"
+                },
+                {
+                    "line": "Saturday, 1 October 2022"
+                },
+                {
+                    "line": "Wednesday, 23 November 2022"
+                },
+                {
+                    "line": "Thursday, 24 November 2022"
+                },
+                {
+                    "line": "Saturday, 24 December 2022"
+                },
+                {
+                    "line": "Saturday, 31 December 2022"
+                },
+                {
+                    "line": "Monday, 9 January 2023 - Monday, 23 January 2023"
+                }
+            ],
             "lat": "33.959751", 
             "lon": "-80.893836"
         },
         {
             "name": "Freiberg Germany Temple",
             "pic": "images/freiberg.jpeg",
-            "label1": "Address",
-            "address": "Hainichener Strasse 64, 09599 Freiberg, Germany",
-            "label2": "Phone Number",
+            "addressLabel": "Address",
+            "address": [
+                {
+                    "line": "Hainichener Strasse 64"
+                },
+                {
+                    "line": "09599 Freiberg"
+                },
+                {
+                    "line": "Germany"
+                }
+            ],
+            "location": "Frieberg, Germany",
+            "phoneLabel": "Phone Number",
             "phone": "(49) 3731-35960",
-            "label3": "Email",
+            "emailLabel": "Email",
             "email": "FREIB-OFF@ChurchofJesusChrist.org",
-            "label4": "Services",
-            "services": "Clothing rental available. No cafeteria available. Patron housing available. Distribution center nearby.",
-            "label5": "History",
-            "history": "Announced on 9 October 1982. Groundbreaking took place 23 April 1983. Dedicated on 29 June 1985. Rededicated 7 September 2002. Rededicated 4 September 2016.",
-            "ordinance": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "session": "Closed Sundays - Wednesdays. Open 9:30AM - 8:30PM Thursdays and Fridays. Open 9:30AM - 5:30PM Saturdays.",
-            "closure": "Monday, 5 September 2022 - Monday, 19 September 2022, Saturday, 1 October 2022, Saturday, 24 December 2022 - Monday, 26 December 2022, Saturday, 31 December 2022, Monday, 6 March 2023 - Monday, 20 March 2023, Monday, 4 September 2023 - Monday, 18 September 2023.",
+            "servicesLabel": "Services",
+            "services": [
+                {
+                    "line": "Clothing rental available."
+                },
+                {
+                    "line": "No cafeteria available."
+                },
+                {
+                    "line": "Patron housing available."
+                },
+                {
+                    "line": "Distribution center nearby."
+                }
+            ],
+            "historyLabel": "History",
+            "history": [
+                {
+                    "historySub": "Announced:",
+                    "historyDate": "9 October 1982"
+                },
+                {
+                    "historySub": "Groundbreaking:",
+                    "historyDate": "23 April 1983"
+                },
+                {
+                    "historySub": "Dedicated:",
+                    "historyDate": "29 June 1985"
+                },
+                {
+                    "historySub": "Rededicated:",
+                    "historyDate": "7 September 2002"
+                },
+                {
+                    "historySub": "Rededicated:",
+                    "historyDate": "4 September 2016"
+                }
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "sessions": [
+                {
+                    "day": "Monday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Tuesday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Thursday",
+                    "time": "9:30AM - 8:30PM"
+                },
+                {
+                    "day": "Friday",
+                    "time": "9:30AM - 8:30PM"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "9:30AM - 5:30PM"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "Closed"
+                }
+            ],
+            "closures": [
+                {
+                    "line": "Monday, 5 September 2022 - Monday, 19 September 2022"
+                },
+                {
+                    "line": "Saturday, 1 October 2022"
+                },
+                {
+                    "line": "Saturday, 24 December 2022 - Monday, 26 December 2022"
+                },
+                {
+                    "line": "Saturday, 31 December 2022"
+                },
+                {
+                    "line": "Monday, 6 March 2023 - Monday, 20 March 2023"
+                },
+                {
+                    "line": "Monday, 4 September 2023 - Monday, 18 September 2023"
+                }
+            ],
             "lat": "50.922312", 
             "lon": "13.322721"
         },
         {
             "name": "Paris France Temple",
             "pic": "images/paris.jpeg",
-            "label1": "Address",
-            "address": "46 Boulevard Saint Antoine, 78150 Le Chesnay, France",
-            "label2": "Phone Number",
+            "addressLabel": "Address",
+            "address": [
+                {
+                    "line": "46 Boulevard Saint Antoine"
+                },
+                {
+                    "line": "78150 Le Chesnay"
+                },
+                {
+                    "line": "France"
+                }
+            ],
+            "location": "Le Chesnay, France",
+            "phoneLabel": "Phone Number",
             "phone": "(33) 970-73-70-00",
-            "label3": "Email",
+            "emailLabel": "Email",
             "email": "PARIS-OFF@ChurchofJesusChrist.org",
-            "label4": "Services",
-            "services": "Clothing rental available. No cafeteria available. Patron housing available. Distribution center nearby.",
-            "label5": "History",
-            "history": "Announced on 1 October 2011. Groundbreaking took place 24 August 2012. Dedicated on 21 May 2017.",
-            "ordinance": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "session": "Closed Sundays - Wednesdays. Open 9:30AM - 8:30PM Thursdays and Fridays. Open 9:30AM - 5:30PM Saturdays.",
-            "closure": "Monday, 13 June 2022 - Monday, 22 August 2022, Saturday, 1 October 2022 (Limited Operations), Saturday, 24 December 2022, Saturday, 31 December 2022, Monday, 9 January 2023 - Monday, 23 January 2023, Monday, 12 June 2023 - Monday, 26 June 2023, Saturday, 23 December 2023, Saturday, 30 December 2023.",
+            "servicesLabel": "Services",
+            "services": [
+                {
+                    "line": "Clothing rental available."
+                },
+                {
+                    "line": "No cafeteria available."
+                },
+                {
+                    "line": "Patron housing available."
+                },
+                {
+                    "line": "Distribution center nearby."
+                }
+            ],
+            "historyLabel": "History",
+            "history": [
+                {
+                    "historySub": "Announced:",
+                    "historyDate": "1 October 2011"
+                },
+                {
+                    "historySub": "Groundbreaking:",
+                    "historyDate": "24 August 2012"
+                },
+                {
+                    "historySub": "Dedicated:",
+                    "historyDate": "21 May 2017"
+                }
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "sessionLabel": "Sessions:",
+            "sessions": [
+                {
+                    "day": "Monday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Tuesday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Thursday",
+                    "time": "9:30AM - 8:30PM"
+                },
+                {
+                    "day": "Friday",
+                    "time": "9:30AM - 8:30PM"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "9:30AM - 5:30PM"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "Closed"
+                }
+            ],
+            "closures": [
+                {
+                    "line": "Monday, 13 June 2022 - Monday, 22 August 2022"
+                },
+                {
+                    "line": "Saturday, 1 October 2022 (Limited Operations)"
+                },
+                {
+                    "line": "Saturday, 24 December 2022"
+                },
+                {
+                    "line": "Saturday, 31 December 2022"
+                },
+                {
+                    "line": "Monday, 9 January 2023 - Monday, 23 January 2023"
+                },
+                {
+                    "line": "Monday, 12 June 2023 - Monday, 26 June 2023"
+                },
+                {
+                    "line": "Saturday, 23 December 2023"
+                },
+                {
+                    "line": "Saturday, 30 December 2023"
+                }
+            ],
             "lat": "48.817626", 
             "lon": "2.123172"
         },
         {
             "name": "Rome Italy Temple",
             "pic": "images/rome.jpeg",
-            "label1": "Address",
-            "address": "Via di Settebagni 376, Rome RM, Italy",
-            "label2": "Phone Number",
+            "addressLabel": "Address",
+            "address": [
+                {
+                    "line": "Via di Settebagni 376"
+                },
+                {
+                    "line": "Rome RM"
+                },
+                {
+                    "line": "Italy"
+                }
+            ],
+            "location": "Rome, Italy",
+            "phoneLabel": "Phone Number",
             "phone": "(39) 06-9480-5050",
-            "label3": "Email",
+            "emailLabel": "Email",
             "email": "ROME-OFF@ChurchofJesusChrist.org",
-            "label4": "Services",
-            "services": "Clothing rental available. No cafeteria available. Patron housing available. Distribution center nearby.",
-            "label5": "History",
-            "history": "Announced on 9 October 1982. Groundbreaking took place 23 April 1983. Dedicated on 29 June 1985. Rededicated 7 September 2002. Rededicated 4 September 2016.",
-            "ordinance": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "session": "Closed Sundays and Mondays. Open 9AM - 9PM Tuesdays - Saturdays.",
-            "closure": "Monday, 19 September 2022 - Monday, 3 October 2022, Saturday, 24 December 2022 - Monday, 26 December 2022, Saturday, 31 December 2022 - Sunday, 1 January 2023, Monday, 20 March 2023 - Monday, 3 April 2023, Thursday, 29 June 2023, Monday, 18 September 2023 - Monday, 2 October 2023, Sunday, 24 December 2023 - Tuesday, 26 December 2023.",
+            "servicesLabel": "Services",
+            "services": [
+                {
+                    "line": "Clothing rental available."
+                },
+                {
+                    "line": "No cafeteria available."
+                },
+                {
+                    "line": "Patron housing available."
+                },
+                {
+                    "line": "Distribution center nearby."
+                }
+            ],
+            "historyLabel": "History",
+            "history": [
+                {
+                    "historySub": "Announced:",
+                    "historyDate": "4 October 2008"
+                },
+                {
+                    "historySub": "Groundbreaking:",
+                    "historyDate": "23 October 2010"
+                },
+                {
+                    "historySub": "Dedicated:",
+                    "historyDate": "10 March 2019"
+                }
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "sessionLabel": "Sessions:",
+            "sessions": [
+                {
+                    "day": "Monday",
+                    "time": "Closed"
+                },
+                {
+                    "day": "Tuesday",
+                    "time": "9AM - 9PM"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "9AM - 9PM"
+                },
+                {
+                    "day": "Thursday",
+                    "time": "9AM - 9PM"
+                },
+                {
+                    "day": "Friday",
+                    "time": "9AM - 9PM"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "9AM - 9PM"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "Closed"
+                }
+            ],
+            "closureLabel":"Closures:",
+            "closures": [
+                {
+                    "line": "Monday, 19 September 2022 - Monday, 3 October 2022"
+                },
+                {
+                    "line": "Saturday, 24 December 2022 - Monday, 26 December 2022"
+                },
+                {
+                    "line": "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+                },
+                {
+                    "line": "Monday, 20 March 2023 - Monday, 3 April 2023"
+                },
+                {
+                    "line": "Thursday, 29 June 2023"
+                },
+                {
+                    "line": "Monday, 18 September 2023 - Monday, 2 October 2023"
+                },
+                {
+                    "line": "Sunday, 24 December 2023 - Tuesday, 26 December 2023"
+                }
+            ],
             "lat": "41.970528", 
             "lon": "12.544754"
         }
