@@ -358,6 +358,7 @@
                     "time": "Closed"
                 }
             ],
+            "closureLabel":"Closures:",
             "closures": [
                 {
                     "line": "Monday, 5 September 2022 - Monday, 19 September 2022"
@@ -464,6 +465,7 @@
                     "time": "Closed"
                 }
             ],
+            "closureLabel":"Closures:",
             "closures": [
                 {
                     "line": "Monday, 13 June 2022 - Monday, 22 August 2022"
