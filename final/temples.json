@@ -5,7 +5,7 @@
             "name": "Moses Lake Washington Temple",
             "pic": "images/moseslake.jpeg",
             "addressLabel": "Address:",
-            "address": [
+            "addresses": [
                 "To Be Determined",
                 "Moses Lake, WA",
                 "98837"
@@ -50,7 +50,7 @@
             "name": "Logan Utah Temple",
             "pic": "images/logan.jpeg",
             "addressLabel": "Address:",
-            "address": [
+            "addresses": [
                 "175 N 300 E",
                 "Logan, UT",
                 "84321"
@@ -110,7 +110,7 @@
             "name": "Columbia South Carolina Temple",
             "pic": "images/columbia.jpeg",
             "addressLabel": "Address:",
-            "address": [
+            "addresses": [
                 "2905 Trotter Rd",
                 "Columbia, SC",
                 "29061"
@@ -156,7 +156,7 @@
             "name": "Freiberg Germany Temple",
             "pic": "images/freiberg.jpeg",
             "addressLabel": "Address:",
-            "address": [
+            "addresses": [
                 "Hainichener Strasse 64",
                 "09599 Freiberg",
                 "Germany"
@@ -209,7 +209,7 @@
             "name": "Paris France Temple",
             "pic": "images/paris.jpeg",
             "addressLabel": "Address:",
-            "address": [
+            "addresses": [
                 "46 Boulevard Saint Antoine",
                 "78150 Le Chesnay",
                 "France"
@@ -262,7 +262,7 @@
             "name": "Rome Italy Temple",
             "pic": "images/rome.jpeg",
             "addressLabel": "Address:",
-            "address": [
+            "addresses": [
                 "Via di Settebagni 376",
                 "Rome RM",
                 "Italy"
