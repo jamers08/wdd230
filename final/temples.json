@@ -75,7 +75,15 @@
                 "Rededicated: 13 March 1979"
             ],
             "ordinanceLabel": "Ordinances:",
-            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
+            "ordinances":[
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "Baptisms available.",
+                "Confirmations available.",
+                "Iinitiatories available.",
+                "Endowments available.",
+                "Sealings available."
+            ],
             "sessionLabel": "Sessions:",
             "sessions": [
                 "Monday - Closed",
@@ -134,8 +142,15 @@
                 "Dedicated: 16 October 1999"
             ],
             "ordinanceLabel": "Ordinances:",
-            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "sessionLabel": "Sessions:",
+            "ordinances":[
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "Baptisms available.",
+                "Confirmations available.",
+                "Iinitiatories available.",
+                "Endowments available.",
+                "Sealings available."
+            ],            "sessionLabel": "Sessions:",
             "sessions": [
                 "No sessions available during construction."
             ],
@@ -182,8 +197,15 @@
                 "Rededicated: 4 September 2016"
             ],
             "ordinanceLabel": "Ordinances:",
-            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "sessionLabel":"Sessions:",
+            "ordinances":[
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "Baptisms available.",
+                "Confirmations available.",
+                "Iinitiatories available.",
+                "Endowments available.",
+                "Sealings available."
+            ],            "sessionLabel":"Sessions:",
             "sessions": [
                 "Monday - Closed",
                 "Tuesday - Closed",
@@ -233,8 +255,15 @@
                 "Dedicated: 21 May 2017"
             ],
             "ordinanceLabel": "Ordinances:",
-            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "sessionLabel": "Sessions:",
+            "ordinances":[
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "Baptisms available.",
+                "Confirmations available.",
+                "Iinitiatories available.",
+                "Endowments available.",
+                "Sealings available."
+            ],            "sessionLabel": "Sessions:",
             "sessions": [
                 "Monday - Closed",
                 "Tuesday - Closed",
@@ -286,8 +315,15 @@
                 "Dedicated: 10 March 2019"
             ],
             "ordinanceLabel": "Ordinances:",
-            "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
-            "sessionLabel": "Sessions:",
+            "ordinances":[
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "Baptisms available.",
+                "Confirmations available.",
+                "Iinitiatories available.",
+                "Endowments available.",
+                "Sealings available."
+            ],            "sessionLabel": "Sessions:",
             "sessions": [
                 "Monday - Closed",
                 "Tuesday - 9AM - 9PM",
