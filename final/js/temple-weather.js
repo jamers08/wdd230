@@ -92,7 +92,7 @@ function displayCurrent(weatherData) {
 
 const alerts = document.querySelector('.alert');
 let i = 0;
-//if (`${weatherData.alerts}`) {
+if (`${weatherData.alerts}`) {
     function buildAlert(weatherData) {
         weatherData.alerts.forEach(alert => {
             let card = document.createElement('section');
@@ -106,7 +106,7 @@ let i = 0;
             i++
         });
     } 
-//}
+}
 
 
     
