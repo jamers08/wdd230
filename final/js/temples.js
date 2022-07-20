@@ -20,31 +20,30 @@ function buildTempleCards(data) {
         let name = document.createElement('h2');
         let pic = document.createElement('img');
         let addressLabel = document.createElement('h3');
-        let address = document.createElement('section');
-        let addressLine1 = document.createElement('p');
-        let addressLine2 = document.createElement('p');
-        let addressLine3 = document.createElement('p');
         let phoneLabel = document.createElement('h3');
         let phone = document.createElement('p');
         let emailLabel = document.createElement('h3');
         let email = document.createElement('p');
         let servicesLabel = document.createElement('h3');
-        let services = document.createElement('section');
-        let servicesLine = document.createElement('p');
+        let services = document.createElement('p');
         let historyLabel = document.createElement('h3');
-        let history = document.createElement('section');
-        let historyLine = document.createElement('p');
+        let history = document.createElement('p');
         let ordinanceLabel = document.createElement('h3');
         let ordinances = document.createElement('p');
         let sessionLabel = document.createElement('h3');
-        let sessions = document.createElement('section');
-        let sessionLine = document.createElement('p');
+        let sessions = document.createElement('p');
         let closureLabel = document.createElement('h3');
-        let closures = document.createElement('section');
-        let closureLine = document.createElement('p');
+        let closures = document.createElement('p');
 
         name.textContent = `${temple.name}`;
+        
         addressLabel.textContent = `${temple.addressLabel}:`;
+        temple.address.forEach(address => {
+            const addy = document.createElement('p');
+            addy.textContent = fullAddress
+            card.appendChild(fullAddress);
+        })
+        
         phoneLabel.textContent = `${temple.phoneLabel}:`;
         phone.textContent = `${temple.phone}`;
         emailLabel.textContent = `${temple.emailLabel}:`;
@@ -60,15 +59,10 @@ function buildTempleCards(data) {
         pic.setAttribute('alt', `Picture of ${temple.name}`);
         pic.setAttribute("loading", "lazy");
 
-        address.textContent = `${temple.address}`;
-        address.setAttribute('class', 'address');
-        addressLine1.textContent =`${temple.address[0].line}`;
-        addressLine2.textContent =`${temple.address[1].line}`;
-        addressLine3.textContent =`${temple.address[2].line}`;
 
-        services.textContent = `${temple.services}`;
-        services.setAttribute('class', 'services');
-        servicesLine.textContent = `${temple.services[i].line}`;
+        addressLine.textContent =`${temple.address}`;
+
+        servicesLine.textContent = `${temple.services}`;
 
         history.textContent = `${temple.history}`;
         history.setAttribute('class', 'history');
@@ -85,71 +79,28 @@ function buildTempleCards(data) {
         card.append(name);
         card.appendChild(pic);
         card.appendChild(addressLabel);
-        //card.appendChild(address);
-        card.appendChild(addressLine1);
-        card.appendChild(addressLine2);
-        card.appendChild(addressLine3);
+
         card.appendChild(phoneLabel);
         card.appendChild(phone);
         card.appendChild(emailLabel);
         card.appendChild(email);
         card.appendChild(servicesLabel);
-        //card.appendChild(services);
+
         card.appendChild(servicesLine);
         card.appendChild(historyLabel);
-        //card.appendChild(history);
+
         card.appendChild(historyLine);
         card.appendChild(ordinanceLabel);
         card.appendChild(ordinances);
         card.appendChild(sessionLabel);
-        //card.appendChild(sessions);
+
         card.appendChild(sessionLine);
         card.appendChild(closureLabel);
-        //card.appendChild(closures);
         card.appendChild(closureLine);
 
         cards.append(card);
         
     });
 }
-
-/*window.onload = fetch(templeURL)
-.then(response => response.json())
-.then(data => {
-    for(i=0;i<1;i++){
-        document.getElementById(`temple${i}Name`).innerHTML = `${data.temple[i].name}`;
-    }
-    for(i=0;i<1;i++) {
-        document.getElementById(`pic${i}`).src = `https://jamers08.github.io/wdd230/final/${data.temple[i].pic}`;
-        document.getElementById(`pic${i}`).alt = `Picture of ${data.temple[i].name}`;
-    }
-    for(i=0;i<1;i++){
-        document.getElementById(`temple${i}AddressLabel`).innerHTML = `${data.temple[i+1].addressLabel}`;
-    }
-    for(i=0;i<1;i++) {
-        data.temple.address.forEach(address => {
-            let fullAddress = document.createElement('p');
-    
-            fullAddress.textContent = `${data.temple.address[i].line}`;
-            i++
-        });
-    }
-});
-
-/*const address = document.querySelector('.address');
-
-function getAddress() {
-    for(i=0;i<temple.address.length;i++) {
-        let card = document.createElement('section');
-        let fullAddress = document.createElement('p');
-
-        fullAddress.textContent = `${temple.address[i].line}`;
-        i++;
-
-        card.appendChild(fullAddress);
-
-        address.appendChild(card);
-    };
-}*/
 
 getTemples();
