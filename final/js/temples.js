@@ -76,6 +76,20 @@ function buildTempleCards(data) {
             ordinances.appendChild(ordItem);
         })
 
+        sessionLabel.textContent = `${temple.sessionLabel}`;
+        temple.sessions.forEach(session => {
+            const sessionItem = document.createElement('p');
+            sessionItem.textContent = session;
+            sessions.appendChild(sessionItem);
+        })
+
+        closureLabel.textContent = `${temple.closureLabel}`;
+        temple.closures.forEach(closure => {
+            const closureDate = document.createElement('p');
+            closureDate.textContent = closure;
+            closures.appendChild(closureDate);
+        })
+
 
         card.append(name);
         card.appendChild(pic);
@@ -91,6 +105,12 @@ function buildTempleCards(data) {
         card.appendChild(history);
         card.appendChild(ordinanceLabel);
         card.appendChild(ordinances);
+        card.appendChild(sessionLabel);
+        card.appendChild(sessions);
+        card.appendChild(closureLabel);
+        card.appendChild(closures);
+
+
         cards.append(card);
         
     });

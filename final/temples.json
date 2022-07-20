@@ -45,6 +45,56 @@
             "lon": "-119.273816"
         },
         {
+            "name": "Columbia South Carolina Temple",
+            "pic": "images/columbia.jpeg",
+            "addressLabel": "Address:",
+            "addresses": [
+                "2905 Trotter Rd",
+                "Columbia, SC",
+                "29061"
+            ],
+            "location": "Columbia, South Carolina",
+            "phoneLabel": "Phone Number:",
+            "phone": "(803)-647-9472",
+            "emailLabel": "Email:",
+            "email": "COLSC-OFF@ChurchofJesusChrist.org",
+            "servicesLabel": "Services:",
+            "services": [
+                "No clothing rental available.",
+                "No cafeteria available.",
+                "No patron housing available.",
+                "Distribution center nearby."
+            ],
+            "historyLabel": "History:",
+            "history": [
+                "Announced: 11 September 1998",
+                "Groundbreaking: 5 December 1998",
+                "Dedicated: 16 October 1999"
+            ],
+            "ordinanceLabel": "Ordinances:",
+            "ordinances":[
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "No ordinances available during closure."
+            ],
+            "sessionLabel": "Sessions:",
+            "sessions": [
+                "No sessions available during closure."
+            ],
+            "closureLabel":"Closures:",
+            "closures": [
+                "Monday, 11 July 2022 - Monday, 25 July 2022",
+                "Saturday, 1 October 2022",
+                "Wednesday, 23 November 2022",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022",
+                "Monday, 9 January 2023 - Monday, 23 January 2023"
+            ],
+            "lat": "33.959751", 
+            "lon": "-80.893836"
+        },
+        {
             "name": "Logan Utah Temple",
             "pic": "images/logan.jpeg",
             "addressLabel": "Address:",
@@ -107,56 +157,6 @@
             ],
             "lat": "41.734082", 
             "lon": "-111.827755"
-        },
-        {
-            "name": "Columbia South Carolina Temple",
-            "pic": "images/columbia.jpeg",
-            "addressLabel": "Address:",
-            "addresses": [
-                "2905 Trotter Rd",
-                "Columbia, SC",
-                "29061"
-            ],
-            "location": "Columbia, South Carolina",
-            "phoneLabel": "Phone Number:",
-            "phone": "(803)-647-9472",
-            "emailLabel": "Email:",
-            "email": "COLSC-OFF@ChurchofJesusChrist.org",
-            "servicesLabel": "Services:",
-            "services": [
-                "No clothing rental available.",
-                "No cafeteria available.",
-                "No patron housing available.",
-                "Distribution center nearby."
-            ],
-            "historyLabel": "History:",
-            "history": [
-                "Announced: 11 September 1998",
-                "Groundbreaking: 5 December 1998",
-                "Dedicated: 16 October 1999"
-            ],
-            "ordinanceLabel": "Ordinances:",
-            "ordinances":[
-                "Appointments for proxy work are encouraged.",
-                "Appointments for personal initiatory and endowments are required.",
-                "No ordinances available during closure."
-            ],
-            "sessionLabel": "Sessions:",
-            "sessions": [
-                "No sessions available during closure."
-            ],
-            "closureLabel":"Closures:",
-            "closures": [
-                "Monday, 11 July 2022 - Monday, 25 July 2022",
-                "Saturday, 1 October 2022",
-                "Wednesday, 23 November 2022",
-                "Thursday, 24 November 2022",
-                "Saturday, 24 December 2022",
-                "Saturday, 31 December 2022",
-                "Monday, 9 January 2023 - Monday, 23 January 2023"
-            ],
-            "lat": "33.959751", 
-            "lon": "-80.893836"
         },
         {
             "name": "Freiberg Germany Temple",
