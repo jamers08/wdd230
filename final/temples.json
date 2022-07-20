@@ -22,11 +22,11 @@
             "emailLabel": "Email",
             "email": "MOSLK-OFF@ChurchofJesusChrist.org",
             "servicesLabel": "Services",
-            "services": [
-                {
-                    "line": "No services available during construction."
-                }
-            ],
+            //"services": [
+            //    {
+            //        "line": "No services available during construction."
+            //    }
+            //],
             "historyLabel": "History",
             "history": [
                 {
