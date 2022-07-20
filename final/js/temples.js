@@ -69,6 +69,13 @@ function buildTempleCards(data) {
             history.appendChild(historyItem);
         })
 
+        ordinanceLabel.textContent = `${temple.ordinanceLabel}`;
+        temple.ordinances.forEach(ord => {
+            const ordItem = document.createElement('p');
+            ordItem.textContent = ord;
+            ordinances.appendChild(ordItem);
+        })
+
 
         card.append(name);
         card.appendChild(pic);
@@ -82,6 +89,8 @@ function buildTempleCards(data) {
         card.appendChild(services);
         card.appendChild(historyLabel);
         card.appendChild(history);
+        card.appendChild(ordinanceLabel);
+        card.appendChild(ordinances);
         cards.append(card);
         
     });

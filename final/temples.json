@@ -29,11 +29,9 @@
             ],
             "ordinanceLabel": "Ordinances:",
             "ordinances":[
-                "No baptisms available during construction.",
-                "No confirmations available during construction.",
-                "No initiatories available during construction.",
-                "No endowments available during construction.",
-                "No sealings available during construction."
+                "Appointments for proxy work are encouraged.",
+                "Appointments for personal initiatory and endowments are required.",
+                "No ordinances available during construction."
             ],
             "sessionLabel": "Sessions:",
             "sessions": [
@@ -78,11 +76,7 @@
             "ordinances":[
                 "Appointments for proxy work are encouraged.",
                 "Appointments for personal initiatory and endowments are required.",
-                "Baptisms available.",
-                "Confirmations available.",
-                "Iinitiatories available.",
-                "Endowments available.",
-                "Sealings available."
+                "All ordinances available."
             ],
             "sessionLabel": "Sessions:",
             "sessions": [
@@ -145,14 +139,11 @@
             "ordinances":[
                 "Appointments for proxy work are encouraged.",
                 "Appointments for personal initiatory and endowments are required.",
-                "Baptisms available.",
-                "Confirmations available.",
-                "Iinitiatories available.",
-                "Endowments available.",
-                "Sealings available."
-            ],            "sessionLabel": "Sessions:",
+                "No ordinances available during closure."
+            ],
+            "sessionLabel": "Sessions:",
             "sessions": [
-                "No sessions available during construction."
+                "No sessions available during closure."
             ],
             "closureLabel":"Closures:",
             "closures": [
@@ -200,12 +191,9 @@
             "ordinances":[
                 "Appointments for proxy work are encouraged.",
                 "Appointments for personal initiatory and endowments are required.",
-                "Baptisms available.",
-                "Confirmations available.",
-                "Iinitiatories available.",
-                "Endowments available.",
-                "Sealings available."
-            ],            "sessionLabel":"Sessions:",
+                "All ordinances available."
+            ],
+            "sessionLabel":"Sessions:",
             "sessions": [
                 "Monday - Closed",
                 "Tuesday - Closed",
@@ -258,12 +246,9 @@
             "ordinances":[
                 "Appointments for proxy work are encouraged.",
                 "Appointments for personal initiatory and endowments are required.",
-                "Baptisms available.",
-                "Confirmations available.",
-                "Iinitiatories available.",
-                "Endowments available.",
-                "Sealings available."
-            ],            "sessionLabel": "Sessions:",
+                "All ordinances available."
+            ],
+            "sessionLabel": "Sessions:",
             "sessions": [
                 "Monday - Closed",
                 "Tuesday - Closed",
@@ -318,12 +303,9 @@
             "ordinances":[
                 "Appointments for proxy work are encouraged.",
                 "Appointments for personal initiatory and endowments are required.",
-                "Baptisms available.",
-                "Confirmations available.",
-                "Iinitiatories available.",
-                "Endowments available.",
-                "Sealings available."
-            ],            "sessionLabel": "Sessions:",
+                "All ordinances available."
+            ],
+            "sessionLabel": "Sessions:",
             "sessions": [
                 "Monday - Closed",
                 "Tuesday - 9AM - 9PM",
