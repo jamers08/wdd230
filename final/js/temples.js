@@ -21,7 +21,9 @@ function buildTempleCards(data) {
         let pic = document.createElement('img');
         let addressLabel = document.createElement('h3');
         let address = document.createElement('section');
-        let addressLine = document.createElement('p');
+        let addressLine1 = document.createElement('p');
+        let addressLine2 = document.createElement('p');
+        let addressLine3 = document.createElement('p');
         let phoneLabel = document.createElement('h3');
         let phone = document.createElement('p');
         let emailLabel = document.createElement('h3');
@@ -60,8 +62,10 @@ function buildTempleCards(data) {
 
         address.textContent = `${temple.address}`;
         address.setAttribute('class', 'address');
-        addressLine.textContent =`${temple.address[i].line}`;
-        
+        addressLine1.textContent =`${temple.address[0].line}`;
+        addressLine2.textContent =`${temple.address[1].line}`;
+        addressLine3.textContent =`${temple.address[2].line}`;
+
         services.textContent = `${temple.services}`;
         services.setAttribute('class', 'services');
         servicesLine.textContent = `${temple.services[i].line}`;
@@ -82,7 +86,9 @@ function buildTempleCards(data) {
         card.appendChild(pic);
         card.appendChild(addressLabel);
         //card.appendChild(address);
-        
+        card.appendChild(addressLine1);
+        card.appendChild(addressLine2);
+        card.appendChild(addressLine3);
         card.appendChild(phoneLabel);
         card.appendChild(phone);
         card.appendChild(emailLabel);
@@ -107,16 +113,28 @@ function buildTempleCards(data) {
     });
 }
 
-/*fetch(templeURL)
+/*window.onload = fetch(templeURL)
 .then(response => response.json())
 .then(data => {
-    for(i=0;i<6;i++){
-        document.getElementById(`temple${i+1}Name`).innerHTML = `${data.temple[i+1].name}`;
+    for(i=0;i<1;i++){
+        document.getElementById(`temple${i}Name`).innerHTML = `${data.temple[i].name}`;
     }
-    for(i=0;i<6;i++) {
-        document.getElementById(`pic${i+1}`).src = `https://jamers08.github.io/wdd230/final/${data.temple[i+1].pic}.jpeg`;
+    for(i=0;i<1;i++) {
+        document.getElementById(`pic${i}`).src = `https://jamers08.github.io/wdd230/final/${data.temple[i].pic}`;
+        document.getElementById(`pic${i}`).alt = `Picture of ${data.temple[i].name}`;
     }
-});*/
+    for(i=0;i<1;i++){
+        document.getElementById(`temple${i}AddressLabel`).innerHTML = `${data.temple[i+1].addressLabel}`;
+    }
+    for(i=0;i<1;i++) {
+        data.temple.address.forEach(address => {
+            let fullAddress = document.createElement('p');
+    
+            fullAddress.textContent = `${data.temple.address[i].line}`;
+            i++
+        });
+    }
+});
 
 /*const address = document.querySelector('.address');
 

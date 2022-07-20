@@ -24,7 +24,16 @@
             "servicesLabel": "Services",
             "services": [
                 {
-                    "line": "No services available during construction."
+                    "line": "No clothing rental available."
+                },
+                {
+                    "line": "No cafeteria available."
+                },
+                {
+                    "line": "No patron housing available."
+                },
+                {
+                    "line": "No distribution center nearby."
                 }
             ],
             "historyLabel": "History",
@@ -36,6 +45,10 @@
                 {
                     "historySub": "Groundbreaking:",
                     "historyDate": "10 October 2020"
+                },
+                {
+                    "historySub": "Dedicated:",
+                    "historyDate": "To Be Announced"
                 }
             ],
             "ordinanceLabel": "Ordinances:",
