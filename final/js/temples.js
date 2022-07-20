@@ -21,11 +21,7 @@ function buildTempleCards(data) {
         let pic = document.createElement('img');
         let addressLabel = document.createElement('h3');
         let address = document.createElement('section');
-        for(i=0;i<6;i++){
-            let addressLine = document.createElement('p');
-            card.appendChild(addressLine);
-            console.log("test");
-        }
+        let addressLine = document.createElement('p');
         let phoneLabel = document.createElement('h3');
         let phone = document.createElement('p');
         let emailLabel = document.createElement('h3');
