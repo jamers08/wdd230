@@ -21,7 +21,11 @@ function buildTempleCards(data) {
         let pic = document.createElement('img');
         let addressLabel = document.createElement('h3');
         let address = document.createElement('section');
-        let addressLine = document.createElement('p');
+        for(i=0;i<6;i++){
+            let addressLine = document.createElement('p');
+            card.appendChild(addressLine);
+            console.log("test");
+        }
         let phoneLabel = document.createElement('h3');
         let phone = document.createElement('p');
         let emailLabel = document.createElement('h3');
@@ -72,7 +76,7 @@ function buildTempleCards(data) {
 
         sessions.textContent = `${temple.sessions}`;
         sessions.setAttribute('class', 'sessions');
-        sessionLine.textContent = `${temple.sessions[i].day} ${temple.sessions[i].time}`;
+        sessionLine.textContent = `${temple.sessions[i].sessionDay} ${temple.sessions[i].sessionTime}`;
      
         closures.textContent = `${temple.closures}`;
         closures.setAttribute('class', 'closures');
@@ -82,7 +86,7 @@ function buildTempleCards(data) {
         card.appendChild(pic);
         card.appendChild(addressLabel);
         //card.appendChild(address);
-        card.appendChild(addressLine);
+        
         card.appendChild(phoneLabel);
         card.appendChild(phone);
         card.appendChild(emailLabel);
