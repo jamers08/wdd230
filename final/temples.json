@@ -18,11 +18,15 @@
             ],
             "location": "Moses Lake, Washington",
             "phoneLabel": "Phone Number",
-            "phone": "None available during construction.",
+            "phone": "N/A",
             "emailLabel": "Email",
             "email": "MOSLK-OFF@ChurchofJesusChrist.org",
             "servicesLabel": "Services",
-            "services": "None available during construction.",
+            "services": [
+                {
+                    "line": "No services available during construction.",
+                }
+            ],
             "historyLabel": "History",
             "history": [
                 {
@@ -39,7 +43,8 @@
             "sessionLabel": "Sessions:",
             "sessions": [
                 {
-                    "line": "None available during construction."
+                    "sessionDay": "No sessions available ",
+                    "sessionTime": "during construction."
                 }
             ],
             "closureLabel": "Closures:",
@@ -110,32 +115,32 @@
             "sessionLabel": "Sessions:",
             "sessions": [
                 {
-                    "day": "Monday",
-                    "time": "Closed"
+                    "sessionDay": "Monday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Tuesday",
-                    "time": "7AM - 8PM"
+                    "sessionDay": "Tuesday",
+                    "sessionTime": "7AM - 8PM"
                 },
                 {
-                    "day": "Wednesday",
-                    "time": "5:30AM - 8PM"
+                    "sessionDay": "Wednesday",
+                    "sessionTime": "5:30AM - 8PM"
                 },
                 {
-                    "day": "Thursday",
-                    "time": "7AM - 8PM"
+                    "sessionDay": "Thursday",
+                    "sessionTime": "7AM - 8PM"
                 },
                 {
-                    "day": "Friday",
-                    "time": "7AM - 8PM"
+                    "sessionDay": "Friday",
+                    "sessionTime": "7AM - 8PM"
                 },
                 {
-                    "day": "Saturday",
-                    "time": "5:30AM - 8PM"
+                    "sessionDay": "Saturday",
+                    "sessionTime": "5:30AM - 8PM"
                 },
                 {
-                    "day": "Sunday",
-                    "time": "Closed"
+                    "sessionDay": "Sunday",
+                    "sessionTime": "Closed"
                 }
             ],
             "closureLabel":"Closures:",
@@ -239,7 +244,12 @@
             "ordinanceLabel": "Ordinances:",
             "ordinances": "Appointments for proxy ordinances are encouraged. Appointments are required for members to receive their own endowment and sealing ordinances.",
             "sessionLabel": "Sessions:",
-            "sessions": "None available during current closure.",
+            "sessions": [
+                {
+                    "sessionDay": "No sessions available ",
+                    "sessionTime": "during construction."
+                }
+            ],
             "closureLabel":"Closures:",
             "closures": [
                 {
@@ -330,32 +340,32 @@
             "sessionLabel":"Sessions:",
             "sessions": [
                 {
-                    "day": "Monday",
-                    "time": "Closed"
+                    "sessionDay": "Monday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Tuesday",
-                    "time": "Closed"
+                    "sessionDay": "Tuesday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Wednesday",
-                    "time": "Closed"
+                    "sessionDay": "Wednesday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Thursday",
-                    "time": "9:30AM - 8:30PM"
+                    "sessionDay": "Thursday",
+                    "sessionTime": "9:30AM - 8:30PM"
                 },
                 {
-                    "day": "Friday",
-                    "time": "9:30AM - 8:30PM"
+                    "sessionDay": "Friday",
+                    "sessionTime": "9:30AM - 8:30PM"
                 },
                 {
-                    "day": "Saturday",
-                    "time": "9:30AM - 5:30PM"
+                    "sessionDay": "Saturday",
+                    "sessionTime": "9:30AM - 5:30PM"
                 },
                 {
-                    "day": "Sunday",
-                    "time": "Closed"
+                    "sessionDay": "Sunday",
+                    "sessionTime": "Closed"
                 }
             ],
             "closureLabel":"Closures:",
@@ -437,32 +447,32 @@
             "sessionLabel": "Sessions:",
             "sessions": [
                 {
-                    "day": "Monday",
-                    "time": "Closed"
+                    "sessionDay": "Monday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Tuesday",
-                    "time": "Closed"
+                    "sessionDay": "Tuesday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Wednesday",
-                    "time": "Closed"
+                    "sessionDay": "Wednesday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Thursday",
-                    "time": "9:30AM - 8:30PM"
+                    "sessionDay": "Thursday",
+                    "sessionTime": "9:30AM - 8:30PM"
                 },
                 {
-                    "day": "Friday",
-                    "time": "9:30AM - 8:30PM"
+                    "sessionDay": "Friday",
+                    "sessionTime": "9:30AM - 8:30PM"
                 },
                 {
-                    "day": "Saturday",
-                    "time": "9:30AM - 5:30PM"
+                    "sessionDay": "Saturday",
+                    "sessionTime": "9:30AM - 5:30PM"
                 },
                 {
-                    "day": "Sunday",
-                    "time": "Closed"
+                    "sessionDay": "Sunday",
+                    "sessionTime": "Closed"
                 }
             ],
             "closureLabel":"Closures:",
@@ -550,32 +560,32 @@
             "sessionLabel": "Sessions:",
             "sessions": [
                 {
-                    "day": "Monday",
-                    "time": "Closed"
+                    "sessionDay": "Monday",
+                    "sessionTime": "Closed"
                 },
                 {
-                    "day": "Tuesday",
-                    "time": "9AM - 9PM"
+                    "sessionDay": "Tuesday",
+                    "sessionTime": "9AM - 9PM"
                 },
                 {
-                    "day": "Wednesday",
-                    "time": "9AM - 9PM"
+                    "sessionDay": "Wednesday",
+                    "sessionTime": "9AM - 9PM"
                 },
                 {
-                    "day": "Thursday",
-                    "time": "9AM - 9PM"
+                    "sessionDay": "Thursday",
+                    "sessionTime": "9AM - 9PM"
                 },
                 {
-                    "day": "Friday",
-                    "time": "9AM - 9PM"
+                    "sessionDay": "Friday",
+                    "sessionTime": "9AM - 9PM"
                 },
                 {
-                    "day": "Saturday",
-                    "time": "9AM - 9PM"
+                    "sessionDay": "Saturday",
+                    "sessionTime": "9AM - 9PM"
                 },
                 {
-                    "day": "Sunday",
-                    "time": "Closed"
+                    "sessionDay": "Sunday",
+                    "sessionTime": "Closed"
                 }
             ],
             "closureLabel":"Closures:",

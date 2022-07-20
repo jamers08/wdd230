@@ -81,17 +81,17 @@ function buildTempleCards(data) {
         card.append(name);
         card.appendChild(pic);
         card.appendChild(addressLabel);
-        card.appendChild(address);
+        //card.appendChild(address);
         card.appendChild(addressLine);
         card.appendChild(phoneLabel);
         card.appendChild(phone);
         card.appendChild(emailLabel);
         card.appendChild(email);
         card.appendChild(servicesLabel);
-        card.appendChild(services);
+        //card.appendChild(services);
         card.appendChild(servicesLine);
         card.appendChild(historyLabel);
-        card.appendChild(history);
+        //card.appendChild(history);
         card.appendChild(historyLine);
         card.appendChild(ordinanceLabel);
         card.appendChild(ordinances);
@@ -110,11 +110,11 @@ function buildTempleCards(data) {
 /*fetch(templeURL)
 .then(response => response.json())
 .then(data => {
-    for(i=0;i<3;i++){
-        document.getElementById(`temple${i+1}name`).innerHTML = `${data.temple[i+1].name}`;
+    for(i=0;i<6;i++){
+        document.getElementById(`temple${i+1}Name`).innerHTML = `${data.temple[i+1].name}`;
     }
-    for(i=0;i<3;i++) {
-        document.getElementById(`day${i+1}Temp`).innerHTML = `${weatherData.daily[i+1].temp.day.toFixed(1)} &deg;F`;
+    for(i=0;i<6;i++) {
+        document.getElementById(`pic${i+1}`).src = `https://jamers08.github.io/wdd230/final/${data.temple[i+1].pic}.jpeg`;
     }
 });*/
 
