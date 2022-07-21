@@ -311,7 +311,7 @@ form label.top input, form label.top select, form label.top textarea {
 
 /***************SERVICES***********/
 
-.button button {
+.button button, .spotlight button {
     margin: 1rem;
     color: var(--back);
     background-color: var(--accent1);
