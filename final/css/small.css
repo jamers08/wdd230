@@ -88,11 +88,6 @@ button:hover {
     cursor: pointer;
 }
 
-button, form input.submitBtn {
-    color: var(--back);
-    background-color: var(--accent1);
-    padding: 10px;
-}
 
 div {
     padding: .5rem;
@@ -297,6 +292,9 @@ form label.top, form .bedSelect p {
 
 form input.submitBtn {
     margin: 1rem;
+    color: var(--back);
+    background-color: var(--accent1);
+    padding: 10px;
 }
 
 form .bedSelect {
@@ -310,6 +308,16 @@ form label.top input:required {
 form label.top input, form label.top select, form label.top textarea {
     width: 100%;
 }
+
+/***************SERVICES***********/
+
+.button button {
+    margin: 1rem;
+    color: var(--back);
+    background-color: var(--accent1);
+    padding: 10px;
+}
+
 /************FOOTER***************/
 
 footer p, footer a {
