@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">    <title>Home | Temple Inn & Suites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <title>Reservations | Temple Inn & Suites</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -21,7 +22,7 @@
             <p>Elder Gary E. Stevenson</p>
         </div>
     </header>
-    <main>
+    <main class="center">
         <!--Navigation and contact information for hotel-->
         <nav>
             <button id="hamButton"><span>&#9776; Menu</span><span>&#9776; Close</span></button>
@@ -33,6 +34,66 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <h3>Reservations</h3>
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" placeholder="Alex Smith" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="user@email.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Dates and Location of Stay</legend>
+                <label for="stayLocation" class="top">Location
+                    <select id="stayLocation" required>
+                        <option value selected disabled>Select Location</option>
+                        <option value="Columbia">Columbia, South Carolina</option>
+                        <option value="Freiberg">Freiberg, Germany</option>
+                        <option value="Logan">Logan, Utah</option>
+                        <option value="Moses Lake">Moses Lake, Washington</option>
+                        <option value="Paris">Paris, France</option>
+                        <option value="Rome">Rome, Italy</option>
+                    </select>
+                </label>
+                <label for="checkin" class="top">Check-In <input type="date" id="checkin" required></label>
+                <label for="checkout" class="top">Check-Out <input type="date" id="checkout" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Room Selection</legend>
+                <div class="bedSelect">
+                    <label class="radio">
+                        <input type="radio" name="room" value="studio" required> Studio
+                    </label>
+                    <p>1 Queen Bed - Sleeps 2</p>
+                    <label class="radio">
+                        <input type="radio" name="room" value="1bed"> Deluxe
+                    </label>
+                    <p>1 Queen Bed & 1 Sofa Bed - Sleeps 4</p>
+                    <label class="radio">
+                        <input type="radio" name="room" value="2bed"> Luxury
+                    </label>
+                    <p>2 Queen Beds & 1 Sofa Bed - Sleeps 6</p>
+                    <label class="radio">
+                        <input type="radio" name="room" value="3bed"> Suite
+                    </label>
+                    <p>1 King Bed, 2 Queen Beds & 1 Sofa Bed - Sleeps 8</p>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Special Accommodations</legend>
+                <div class="specAcc">
+                    <label class="radio">
+                        <input type="radio" name="pets" value="yes" required> Pets
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="pets" value="no"> No Pets
+                    </label>
+                        <label class="top">Specific Requests <textarea rows="5" name="requests" placeholder="Let us know how we can make your stay more comfortable."></textarea>
+                    </label>
+                </div>
+            </fieldset>
+            <input type="submit" value="Complete Reservation" class="submitBtn">
+        </form>
     </main>
     <footer>
         <div>
@@ -60,6 +121,5 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/weather.js"></script>
 </body>
 </html>
