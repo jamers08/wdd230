@@ -33,12 +33,9 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <div class="warning">
+        <div id="warning">
             <div class="alert"></div>
         </div>
-        <picture>
-
-        </picture>
         <!--Call to action-->
         <div class="cta">
             <h2>Call to Action</h2>
@@ -49,29 +46,25 @@
                 We offer specialized services and accommodations that meet the needs of those visiting or working in the temple.
             </p>
         </div>
-        <div class="temple-summary">
-        <!--Summary Information about a temple of your choosing-->
-            <h2>Temple Summary</h2>
-
+        <div id="temple-summary">
         </div>
         <div class="weather">
-        <!--Current Weather card that summarizes the conditions
-            current temp, curr condition desc, humidity.
-            Weather alerts if available from the govmnt as a closeable message at page top
-            Display and label three day forecast of the Day temps using the current date.-->
-            <h2>Weather Forecast</h2>
             <div id="weatherGrid">
                 <div id="current">
                     <div class="weatherHeader">
                         <h4 id="currentDate"></h4>
                     </div>
-                    <section>
-                        <img src="" alt="" id="current-icon">
-                        <p id="current-desc"></p>
+                    <section id="currentGrid">
+                        <section>
+                            <img src="" alt="" id="current-icon">
+                            <p id="current-desc"></p>    
+                        </section>
+                        <section>
+                            <p class="weather"><span id="current-temp"></span> </p>
+                            <p class="weather"><span id="current-humidity"></span></p>
+                            <p class="weather"><span id="current-feel"></span></p>        
+                        </section>
                     </section>
-                    <p class="weather"><span id="current-temp"></span> </p>
-                    <p class="weather"><span id="current-humidity"></span></p>
-                    <p class="weather"><span id="current-feel"></span></p>
                 </div>
                 <div class="weatherHeader">
                     <h4>3-day Forecast</h4>

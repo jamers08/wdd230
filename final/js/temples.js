@@ -6,9 +6,8 @@ async function getTemples() {
     let response = await fetch(templeURL);
     if (response.ok) {
         let data = await response.json();
-        console.log(data);
+        //console.log(data);
         buildTempleCards(data);
-        //getAddress(data);
     } else {
         throw Error(response.statusText);
     }
@@ -17,8 +16,9 @@ async function getTemples() {
 function buildTempleCards(data) {
     data.temple.forEach(temple => {
         const card = document.createElement('section');
-        const name = document.createElement('h2');
+        const name = document.createElement('h4');
         const pic = document.createElement('img');
+        const like = document.createElement('button');
         const addressLabel = document.createElement('h3');
         const addresses = document.createElement('p');
         const phoneLabel = document.createElement('h3');
@@ -41,8 +41,22 @@ function buildTempleCards(data) {
         pic.setAttribute('src', temple.pic);
         pic.setAttribute('alt', `Picture of ${temple.name}`);
         pic.setAttribute("loading", "lazy");
+
+        like.innerHTML = `&#10084;`;
+        like.classList.add('templeLike');
+        like.setAttribute('id', `${temple[i]}like`);
+        like.addEventListener('click', storeLike);
+
+        if(like.id in window.localStorage) {
+            let item = localStorage.getItem(like.id);
+            if(item == 1) {
+                like.style.color = "var(--warning)";
+            } else {
+                like.style.color = "var(--font)";
+            }
+        }
         
-        addressLabel.textContent = `${temple.addressLabel}:`;
+        addressLabel.textContent = `${temple.addressLabel}`;
         temple.addresses.forEach(line => {
             const addressLine = document.createElement('p');
             addressLine.textContent = line;
@@ -93,6 +107,7 @@ function buildTempleCards(data) {
 
         card.append(name);
         card.appendChild(pic);
+        card.appendChild(like);
         card.appendChild(addressLabel);
         card.appendChild(addresses);
         card.appendChild(phoneLabel);
@@ -117,3 +132,21 @@ function buildTempleCards(data) {
 }
 
 getTemples();
+
+function storeLike(like) {
+    like.preventDefault();
+
+    if(like.target.id in window.localStorage) {
+        let item = localStorage.getItem(like.target.id);
+        if(item == 0) {
+            like.target.style.color = "var(--warning)";
+            localStorage.setItem(like.target.id, 1);
+        } else {
+            like.target.style.color = "var(--font)";
+            localStorage.setItem(like.target.id, 0);
+        }
+    } else {
+        like.target.style.color = "var(--warning)";
+        localStorage.setItem(like.target.id, 1);
+    }
+}

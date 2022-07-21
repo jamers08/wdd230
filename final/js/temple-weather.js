@@ -1,26 +1,3 @@
-//******************************TEMPLE JS */
-const templeURL = 'https://jamers08.github.io/wdd230/final/temples.json';
-const spotlight = document.querySelector('#temple-summary')
-
-getTemples();
-async function getTemples() {
-    let response = await fetch(templeURL);
-    if (response.ok) {
-      let data = await response.json();
-      console.log(data);
-      //buildTempleCards(data);
-      //randomize(data);
-    } else {
-      throw Error(response.statusText);
-    }
-  }
-
-function buildTempleCards(data){
-    data.temples.forEach(temple => {
-
-    })
-};
-
 //*****************************WEATHER JS */
 const currentTemp = document.querySelector('#current-temp');
 const currentIcon = document.querySelector('#current-icon');
@@ -38,7 +15,7 @@ async function apiFetch() {
     const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        //console.log(data); // this is for testing the call
         displayCurrent(data);
         buildAlert(data);
       } else {
@@ -91,9 +68,8 @@ function displayCurrent(weatherData) {
         }
 
 const alerts = document.querySelector('.alert');
-let i = 0;
-if (`${weatherData.alerts}`) {
     function buildAlert(weatherData) {
+        if (weatherData.alerts) {
         weatherData.alerts.forEach(alert => {
             let card = document.createElement('section');
             let event = document.createElement('p');
@@ -105,9 +81,10 @@ if (`${weatherData.alerts}`) {
             alerts.appendChild(card);
             i++
         });
-    } 
-}
-
+    } else {
+        document.getElementById('warning').style.display = "none";
+    }
+    }
 
     
 

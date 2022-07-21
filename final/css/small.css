@@ -4,6 +4,7 @@
     --accent1: #124559; /*Midnight Green Eagle Green*/
     --accent2: #EDE2AB; /*Medium Champagne*/
     --accent3: #DAE3E7; /*Gainsboro*/
+    --warning: #FF7F11; /*Amber SAE ECE*/
 }
 
 * {
@@ -15,7 +16,10 @@
 footer, header {
     background-color: var(--accent1);
     text-align: center;
-    padding: 10px;
+}
+
+header div, footer div {
+    margin: 0;
 }
 
 body {
@@ -46,14 +50,15 @@ h2{
     font-size: 2rem;
     color: var(--font);
     background-color: var(--accent2);
-    opacity: calc(80%);
     font-weight: 400;
     padding: 10px;
 }
 
-/*h3{
-
-}*/
+h3{
+    font-family: 'Roboto Slab', serif;
+    color: var(--font);
+    padding: 10px;
+}
 
 h4{
     font-family: 'Roboto Slab', serif;
@@ -77,8 +82,6 @@ a {
 
 img {
     max-width: 100%;
-    padding: 5px;
-    border: 1px solid var(--accent1);
 }
 
 button:hover {
@@ -89,7 +92,6 @@ div {
     padding: .5rem;
     /*border: 1px solid var(--accent1);*/
     margin: .5rem auto;
-    align-items: center;
     text-align: center;
 }
 
@@ -100,7 +102,7 @@ section {
 
 .alert, .alert section {
     margin: 0;
-    background-color: var(--accent2);
+    background-color: var(--warning);
     border: none;
 }
 /************HEADER************/
@@ -187,7 +189,6 @@ nav ul.open {
     margin: 0 auto;
     padding: 0 auto;
     width: 100%;
-    border: 1px solid var(--accent1);
 }
 
 #forecastContainer {
@@ -200,12 +201,67 @@ nav ul.open {
     min-height: 60px;
 }
 
+.forecast {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.forecast h4 {
+    font-size: .8rem;
+}
+
+#currentGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#currentGrid section {
+    border: none;
+    margin: auto auto;
+}
+
+#current-desc {
+    grid-column: 1;
+}
+
+#current .weather {
+    grid-column: 2;
+}
+
 /*********************DIRECTORY**************/
 
+.templeGrid p{
+    font-size: .75rem;
+    padding: 3px 3px 3px 10px;
+}
 
+.templeGrid h3 {
+    font-size: .9rem;
+    padding: 3px;
+    padding-top: 10px;
+}
+
+.templeGrid h4{
+    text-align: center;
+}
+
+.templeGrid section {
+    margin-top: .5rem;
+    text-align: left;
+}
+
+.templeGrid button {
+    padding: .5rem;
+    float: right;
+    
+}
 /************FOOTER***************/
 
 footer p, footer a {
     color: var(--back);
     font-size: .7rem;
+}
+
+footer img{
+    width: 50px;
 }
