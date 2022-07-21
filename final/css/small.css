@@ -88,10 +88,14 @@ button:hover {
     cursor: pointer;
 }
 
+button {
+    color: var(--back);
+    background-color: var(--accent1);
+    padding: 10px;
+}
+
 div {
     padding: .5rem;
-    /*border: 1px solid var(--accent1);*/
-    margin: .5rem auto;
     text-align: center;
 }
 
@@ -189,6 +193,10 @@ nav ul.open {
     margin: 0 auto;
     padding: 0 auto;
     width: 100%;
+}
+
+.weather div {
+    padding-top: 0;
 }
 
 #forecastContainer {
