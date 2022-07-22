@@ -44,12 +44,6 @@ function buildTempleCards(data) {
         pic.setAttribute("loading", "lazy");
 
         like.innerHTML = `&#10084;`;
-        like.setAttribute('onclick', )
-
-        love.innerHTML = `&#10084;`;
-        love.setAttribute('id', `${temple[i].button}`);
-
-        /*like.innerHTML = `&#10084;`;
         like.classList.add('templeLike');
         like.setAttribute('id', `${temple[i]}like`);
         like.addEventListener('click', storeLike);
@@ -61,7 +55,7 @@ function buildTempleCards(data) {
             } else {
                 like.style.color = "var(--font)";
             }
-        }*/
+        }
         
         addressLabel.textContent = `${temple.addressLabel}`;
         temple.addresses.forEach(line => {
@@ -156,4 +150,20 @@ function storeLike(like) {
         like.target.style.color = "var(--warning)";
         localStorage.setItem(like.target.id, 1);
     }
+
+//BROTHER BLAZZARD, IF YOU ARE READING THIS. I AM SUPER LOST WITH THE LIKE BUTTON.
+//HOW DO I COMBINE THE TWO FUNCTIONS SO THE BUTTON CHANGES COLOR, BUT ONLY THE ONE?
+//GOOGLE IS LETTING ME DOWN AND I CAN'T BRAIN ANYMORE.
+
+/*document.getElementById('likeMoses').innerHTML = localStorage.likeAddMoses;
+function likeCounterMoses() {
+    if(typeof(Storage) !== "undefined") {
+        if(localStorage.likeAddMoses) {
+            localStorage.likeAddMoses = Number(localStorage.likeAddMoses)+1;
+        } else {
+            localStorage.likeAddMoses = 1;
+        }
+    }
+}
+*/
 }
