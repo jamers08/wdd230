@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">    <title>Home | Temple Inn & Suites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <title>Missionaries | Temple Inn & Suites</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -28,9 +29,9 @@
             <ul id="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="reception.html">Reception Accommodations</a></li>
-                <li class="active"><a href="services.html">Services</a></li>
-                <li><a href="missionary.html">Missionary Accommodations</a></li>
+                <li class="active"><a href="missionary.html">Missionary Accommodations</a></li>
                 <li><a href="temples.html">Temples</a></li>
             </ul>
         </nav>
@@ -80,14 +81,18 @@
                         <img src="images/hotel-bed.jpg" alt="Hotel Beds">
                     </picture>            
                 </div>
-            <div>
-            
-            
+            <div>   
         </div>
-        <div>
-            
-            
-        </div>
+        <form action="thankyou2.html" id="smallForm">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" placeholder="Alex Smith" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="user@email.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Inquiries <textarea rows="5" name="requests" placeholder="Let us know if you are interested in staying with us during your service."></textarea>
+            </fieldset>
+            <input type="submit" value="Complete Reservation" class="submitBtn">
+        </form>
     </main>
     <footer>
         <div>
