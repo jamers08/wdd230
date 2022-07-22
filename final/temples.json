@@ -5,6 +5,8 @@
             "name": "Moses Lake Washington Temple",
             "pic": "images/moseslake.jpeg",
             "button": "likeMosesLake",
+            "click": "likeCounterMoses()",
+            "localStorage": "likeAddMoses",
             "addressLabel": "Address:",
             "addresses": [
                 "To Be Determined",
@@ -49,6 +51,8 @@
             "name": "Columbia South Carolina Temple",
             "pic": "images/columbia.jpeg",
             "button": "likeColumbia",
+            "click": "likeCounterColumbia()",
+            "localStorage": "likeAddColumbia",
             "addressLabel": "Address:",
             "addresses": [
                 "2905 Trotter Rd",
@@ -100,6 +104,8 @@
             "name": "Logan Utah Temple",
             "pic": "images/logan.jpeg",
             "button": "likeLogan",
+            "click": "likeCounterLogan()",
+            "localStorage": "likeAddLogan",
             "addressLabel": "Address:",
             "addresses": [
                 "175 N 300 E",
@@ -165,6 +171,8 @@
             "name": "Freiberg Germany Temple",
             "pic": "images/freiberg.jpeg",
             "button": "likeFreiberg",
+            "click": "likeCounterFreiberg()",
+            "localStorage": "likeAddFreiberg",
             "addressLabel": "Address:",
             "addresses": [
                 "Hainichener Strasse 64",
@@ -223,6 +231,8 @@
             "name": "Paris France Temple",
             "pic": "images/paris.jpeg",
             "button": "likeParis",
+            "click": "likeCounterParis()",
+            "localStorage": "likeAddParis",
             "addressLabel": "Address:",
             "addresses": [
                 "46 Boulevard Saint Antoine",
@@ -281,6 +291,8 @@
             "name": "Rome Italy Temple",
             "pic": "images/rome.jpeg",
             "button": "likeRome",
+            "click": "likeCounterRome()",
+            "localStorage": "likeAddRome",
             "addressLabel": "Address:",
             "addresses": [
                 "Via di Settebagni 376",
