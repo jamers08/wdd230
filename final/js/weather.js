@@ -145,7 +145,7 @@ let i = 0;
             let event = document.createElement('p');
             const button = '<button id="close"> X </button>';
     
-            event.innerHTML = `${button} ${weatherData.alerts[i].event}`;
+            event.innerHTML = `${button} ${weatherData.alerts[i].event} in the area.`;
     
             card.appendChild(event);
     
