@@ -1,5 +1,15 @@
 @media only screen and (min-width: 60em) {
-   
+    #home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1500px;
+    }
+    
+    main nav, main #warning, .intro {
+    grid-column: span 5;
+    width: 100%;
+    }
+
     nav button {
         display: none;
     }
@@ -13,5 +23,17 @@
         width: 100%;
     }
 
+    #temple-summary {
+        grid-column: span 3;
+    }
+
+    .spotlight {
+        display: block;
+    }
+
+    #weatherGrid {
+        display: block;
+    }
+    
     
 }
