@@ -40,6 +40,18 @@ main nav, main #warning {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.forecast h4 {
+    width: 100%;
+}
+/******************RESERVATIONS*******************/
 
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form input.submitBtn {
+    grid-column: span 2;
+}
 
 }

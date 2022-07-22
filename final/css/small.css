@@ -225,6 +225,7 @@ nav ul.open {
 
 .forecast h4 {
     font-size: .8rem;
+    max-width: 50%;
 }
 
 #currentGrid{
@@ -277,6 +278,10 @@ nav ul.open {
 form, form div {
     display: block;
     padding: 0 2%;
+    text-align: center;
+}
+
+form label {
     text-align: left;
 }
 
@@ -292,12 +297,26 @@ form legend {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     border: 1px solid var(--accent1);
+    text-align: left;
 }
 
-form label.top, form .bedSelect p {
+form label.top {
     display: block;
     padding: 1rem;
-    font-size: .8rem;
+    font-size: 1rem;
+}
+
+.bedSelect label.radio{
+    font-weight: 600;
+}
+
+.bedSelect p{
+    font-size: .7rem;
+}
+
+form label.top input, form label.top textarea, form label.top select {
+    display: block;
+    font-size: 1.2rem;
 }
 
 form input.submitBtn {
@@ -321,8 +340,7 @@ form label.top input, form label.top select, form label.top textarea {
 
 /***************SERVICES***********/
 
-.button button, .spotlight button {
-    margin: 1rem;
+.buttonDiv a{
     color: var(--back);
     background-color: var(--accent1);
     padding: 10px;
