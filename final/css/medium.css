@@ -1,33 +1,44 @@
 @media only screen and (min-width: 37.5em) {
-    .templeGrid {
+    .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: .5rem;
     }
 /******HOME***********/
 
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+main nav, main #warning {
+    grid-column: span 2;
+    width: 100%;
+}
 
-    main nav, main #warning {
-        grid-column: span 2;
-        width: 100%;
-    }
+.intro, .spotlight button {
+    grid-column: span 2;
+}
 
-    .intro, .spotlight button {
-        grid-column: span 2;
-    }
+#temple-summary {
+    grid-column: span 2;
+}
 
-    #temple-summary {
-        grid-column: span 2;
-    }
+.spotlight {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
 
-    .spotlight {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        align-items: center;
-    }
+.weather {
+    grid-column: span 2;
+}
+
+#weatherGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+#forecastGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }

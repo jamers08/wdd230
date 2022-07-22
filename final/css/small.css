@@ -194,20 +194,25 @@ nav ul.open {
 
 /***********HOME PAGE*********/
 
-.weatherHeader {
+.weatherHeader, #weatherGrid {
     margin: 0 auto;
     padding: 0;
     width: 100%;
 }
 
-.weather div {
-    padding-top: 0;
+#current {
+    padding: 0 0 10px 0;
 }
 
 #forecastContainer {
-    display: flex;
     margin-top: 0;
     padding: 0%;
+    border: 1px solid var(--accent1);
+}
+
+#forecastGrid{
+    border: none;
+    padding: 0;
 }
 
 .forecast p:nth-child(3) {
@@ -215,8 +220,8 @@ nav ul.open {
 }
 
 .forecast {
-    width: 100%;
-    margin: 0 auto;
+    max-width: 96%;
+    margin: 10px 10px;
 }
 
 .forecast h4 {
