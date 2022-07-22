@@ -59,4 +59,8 @@
     .serviceList h4, .amenitiesList h4 {
         max-width: 50%;
     }
+
+    .social {
+        display: block;
+    }
 }

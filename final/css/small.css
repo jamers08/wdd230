@@ -16,6 +16,7 @@
 footer, header {
     background-color: var(--accent1);
     text-align: center;
+    align-items: center;
 }
 
 header div, footer div {
@@ -127,7 +128,7 @@ header p{
     color: var(--back);
     text-shadow: 3px 3px 5px var(--font);
     font-size: .6rem;
-}
+} 
 
 /***********NAVIGATION***********/
 
@@ -368,6 +369,10 @@ form label.top input, form label.top select, form label.top textarea {
 footer p, footer a {
     color: var(--back);
     font-size: .7rem;
+}
+
+footer h3{
+    color: var(--back)
 }
 
 footer img{

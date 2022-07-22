@@ -4,83 +4,110 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: .5rem;
     }
-/******HOME***********/
+    
+    header {
+        padding-bottom: 1rem;
+    }
 
-main nav, main #warning {
-    grid-column: span 2;
-    width: 100%;
-}
+    /******HOME***********/
+    main nav, main #warning {
+        grid-column: span 2;
+        width: 100%;
+    }
+    
+    .intro, .spotlight button {
+        grid-column: span 2;
+    }
+    
+    #temple-summary {
+        grid-column: span 2;
+    }
+    
+    .spotlight {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+    
+    .weather {
+        grid-column: span 2;
+    }
+    
+    #weatherGrid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        grid-gap: 1rem;
+    }
+    
+    #forecastGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .forecast h4 {
+        width: 100%;
+    }
+    /******************RESERVATIONS*******************/
+    
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    form input.submitBtn {
+        grid-column: span 2;
+    }
+    
+    #smallForm {
+        display: block;
+        max-width: 700px;
+    }
+    /**************SERVICES************/
+    
+    .serviceGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .serviceGrid section {
+        border: none;
+    }
+    
+    .services h4 {
+        grid-column: span 2;
+    }
+    
+    .picSect {
+        display: block;
+        border: none
+    }
+    
+    .serviceGrid picture.single {
+        display: none;
+    }
+    
+    /*********FOOTER************/
+    
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
-.intro, .spotlight button {
-    grid-column: span 2;
-}
+    .social {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 3;
+    }
 
-#temple-summary {
-    grid-column: span 2;
-}
+    #last {
+        grid-column: span 3;
+    }
 
-.spotlight {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-}
+    #contact {
+        grid-column: 1;
+        grid-row: 1;
+    }
 
-.weather {
-    grid-column: span 2;
-}
-
-#weatherGrid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    grid-gap: 1rem;
-}
-
-#forecastGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.forecast h4 {
-    width: 100%;
-}
-/******************RESERVATIONS*******************/
-
-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-form input.submitBtn {
-    grid-column: span 2;
-}
-
-#smallForm {
-    display: block;
-    max-width: 700px;
-}
-/**************SERVICES************/
-
-.serviceGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.serviceGrid section {
-    border: none;
-}
-
-.services h4 {
-    grid-column: span 2;
-}
-
-.picSect {
-    display: block;
-    border: none
-}
-
-.serviceGrid picture.single {
-    display: none;
-}
 
 }
