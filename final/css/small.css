@@ -358,7 +358,7 @@ form label.top input, form label.top select, form label.top textarea {
     display: none;
 }
 
-.serviceList, .amenitiesList {
+.serviceList, .amenitiesList, .intro h4 {
     margin-top: 1rem;
 }
 
