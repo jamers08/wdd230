@@ -19,6 +19,7 @@ function buildTempleCards(data) {
         const name = document.createElement('h4');
         const pic = document.createElement('img');
         const like = document.createElement('button');
+        const love = document.createElement('div');
         const addressLabel = document.createElement('h3');
         const addresses = document.createElement('p');
         const phoneLabel = document.createElement('h3');
@@ -43,9 +44,15 @@ function buildTempleCards(data) {
         pic.setAttribute("loading", "lazy");
 
         like.innerHTML = `&#10084;`;
+        like.setAttribute('onclick', )
+
+        love.innerHTML = `&#10084;`;
+        love.setAttribute('id', `${temple[i].button}`);
+
+        /*like.innerHTML = `&#10084;`;
         like.classList.add('templeLike');
         like.setAttribute('id', `${temple[i]}like`);
-        like.addEventListener('click', counter);
+        like.addEventListener('click', storeLike);
 
         if(like.id in window.localStorage) {
             let item = localStorage.getItem(like.id);
@@ -54,7 +61,7 @@ function buildTempleCards(data) {
             } else {
                 like.style.color = "var(--font)";
             }
-        }
+        }*/
         
         addressLabel.textContent = `${temple.addressLabel}`;
         temple.addresses.forEach(line => {
