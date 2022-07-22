@@ -136,14 +136,16 @@ function displayCurrent(weatherData) {
         
         }
 
-const alerts = document.querySelector('.alert');
+const alerts = document.querySelector('#warning');
+let i = 0;
     function buildAlert(weatherData) {
         if (weatherData.alerts) {
         weatherData.alerts.forEach(alert => {
             let card = document.createElement('section');
             let event = document.createElement('p');
+            const button = '<button id="close"> X </button>';
     
-            event.textContent = `${weatherData.alerts[i].event}`;
+            event.innerHTML = `${button} ${weatherData.alerts[i].event}`;
     
             card.appendChild(event);
     
@@ -153,7 +155,9 @@ const alerts = document.querySelector('.alert');
     } else {
         document.getElementById('warning').style.display = "none";
     }
-    }
+    const close = document.querySelector("#close");
 
-    
-
+close.addEventListener('click', () => {
+    document.getElementById('warning').style.display = "none";
+    });
+}

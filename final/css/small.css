@@ -99,10 +99,16 @@ section {
     border: 1px solid var(--accent1);
 }
 
-.alert, .alert section {
+#warning, #warning section {
     margin: 0;
     background-color: var(--warning);
-    border: none;
+}
+
+#warning button {
+    color: var(--back);
+    background-color: var(--accent1);
+    padding: 5px;
+    margin: auto 5px;
 }
 
 .center {
