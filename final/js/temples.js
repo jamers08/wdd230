@@ -45,7 +45,7 @@ function buildTempleCards(data) {
         like.innerHTML = `&#10084;`;
         like.classList.add('templeLike');
         like.setAttribute('id', `${temple[i]}like`);
-        like.addEventListener('click', storeLike);
+        like.addEventListener('click', counter);
 
         if(like.id in window.localStorage) {
             let item = localStorage.getItem(like.id);
