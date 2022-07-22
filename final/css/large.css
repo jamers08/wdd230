@@ -56,7 +56,7 @@
         display: block;
     }
 
-    .serviceList h4, .amenitiesList h4 {
+    .serviceList h4, .amenitiesList h4, .intro h4 {
         max-width: 50%;
     }
 
