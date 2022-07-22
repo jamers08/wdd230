@@ -53,5 +53,29 @@ form {
 form input.submitBtn {
     grid-column: span 2;
 }
+/**************SERVICES************/
+
+.serviceGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.serviceGrid section {
+    border: none;
+}
+
+.services h4 {
+    grid-column: span 2;
+}
+
+.picSect {
+    display: block;
+    border: none
+}
+
+.serviceGrid picture.single {
+    display: none;
+}
 
 }

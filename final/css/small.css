@@ -346,6 +346,23 @@ form label.top input, form label.top select, form label.top textarea {
     padding: 10px;
 }
 
+.servicesBtns div{
+    margin: 1rem;
+}
+
+#services img{
+    padding: 10px;
+}
+
+.picSect {
+    display: none;
+}
+
+.serviceList, .amenitiesList {
+    margin-top: 1rem;
+}
+
+
 /************FOOTER***************/
 
 footer p, footer a {

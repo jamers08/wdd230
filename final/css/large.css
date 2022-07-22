@@ -41,6 +41,22 @@
     form {
         width: 1000px;
     }
+
+    .serviceGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1500px;
+        border: 1px solid var(--accent1);
+    }
     
+    .picSect {
+        display: none;
+    }
     
+    .serviceGrid picture.single {
+        display: block;
+    }
+
+    .serviceList h4, .amenitiesList h4 {
+        max-width: 50%;
+    }
 }
